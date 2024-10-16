@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS/新闻 西浦微系统课题组</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* 整体页面样式 */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* 背景蓝白渐变 */
+        }
+
+        /* 主内容容器，宽度缩小 */
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 40px;
+        }
+
+        /* 时间轴容器 */
+        .timeline {
+            position: relative;
+            padding: 10px 0;
+        }
+
+        /* 时间轴主线 */
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 3px;
+            height: 100%;
+            background-color: #3c8ce7; /* 时间轴主线颜色 */
+            z-index: 0;
+        }
+
+        /* 每年的容器，内边距缩小 */
+        .year-container {
+            position: relative;
+            margin-bottom: 60px;
+            width: 100%;
+            padding: 20px;
+            background-color: #f0f8ff;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 年份框，整体缩小 */
+        .year-box {
+            position: relative;
+            background-color: #3c8ce7;
+            color: white;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 8px;
+            border-radius: 40px;
+            width: 100px;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        /* 时间轴条目的容器 */
+        .timeline-item {
+            position: relative;
+            width: 100%;
+            padding: 15px;
+            background-color: white;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 30px;
+            z-index: 1;
+        }
+
+        /* 时间轴上的时间点 */
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background-color: #3c8ce7;
+            border-radius: 50%;
+            top: 20px;
+            left: -25px;
+            z-index: 2;
+        }
+
+        /* 月份显示，字号减小 */
+        .month {
+            font-size: 1.1rem;
+            color: #007bff;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        /* 分类标签 */
+        .event-category {
+            display: inline-block;
+            background-color: #ff6f61; /* 默认分类标签颜色 */
+            color: white;
+            padding: 5px 8px;
+            font-size: 0.85rem;
+            border-radius: 12px;
+            margin-bottom: 8px;
+            margin-right: 8px;
+        }
+
+        .event-category.research {
+            background-color: #28a745; /* 研究类事件绿色 */
+        }
+
+        .event-category.award {
+            background-color: #ffc107; /* 奖项和资助类事件黄色 */
+        }
+
+        .event-category.activity {
+            background-color: #007bff; /* 活动类事件蓝色 */
+        }
+
+        /* 事件文字 */
+        .timeline-item p {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        /* 调整手机端的布局 */
+        @media (max-width: 768px) {
+            .timeline-item {
+                width: 100%;
+                left: 0;
+            }
+
+            .timeline-item.right {
+                left: 0;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item::before {
+                left: -30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 导航栏 (Header) -->
+    <header>
+        <nav>
+            <h1>西浦微系统课题组</h1>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="news.html" class="active">新闻</a></li>
+                <li><a href="research.html">研究领域</a></li>
+                <li><a href="people.html">团队成员</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 新闻时间轴内容 -->
+    <div class="container">
+        <section class="timeline">
+
+            <!-- 2024年条目 -->
+            <div class="year-container">
+                <div class="year-box">2024</div>
+
+                <div class="timeline-item">
+                    <div class="month">10月</div>
+                    <span class="event-category research">研究成果</span>
+                    <p>团队在《Advanced Materials》上发表关于生物材料的突破性研究，带领领域发展。</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="month">8月</div>
+                    <span class="event-category award">资助与奖项</span>
+                    <p>获得国家自然科学基金资助，推动生物微系统的前沿研究。</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="month">6月</div>
+                    <span class="event-category activity">活动与演讲</span>
+                    <p>课题组组长受邀在国际会议上进行主题演讲。</p>
+                </div>
+            </div>
+
+            <!-- 2023年条目 -->
+            <div class="year-container">
+                <div class="year-box">2023</div>
+
+                <div class="timeline-item">
+                    <div class="month">12月</div>
+                    <span class="event-category research">研究成果</span>
+                    <p>成功开发了一种新型的微流控平台，并申请了相关专利。</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="month">6月</div>
+                    <span class="event-category award">资助与奖项</span>
+                    <p>获得教育部科技创新团队支持，推进课题组的发展。</p>
+                </div>
+            </div>
+
+            <!-- 2022年条目 -->
+            <div class="year-container">
+                <div class="year-box">2022</div>
+
+                <div class="timeline-item">
+                    <div class="month">11月</div>
+                    <span class="event-category research">研究成果</span>
+                    <p>课题组发布了一篇关于机器学习在生物数据分析中的应用的研究论文。</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="month">4月</div>
+                    <span class="event-category activity">活动与演讲</span>
+                    <p>团队参加了多个国际会议，并在其中展示了最新研究成果。</p>
+                </div>
+            </div>
+
+            <!-- 2021年条目 -->
+            <div class="year-container">
+                <div class="year-box">2021</div>
+
+                <div class="timeline-item">
+                    <div class="month">9月</div>
+                    <span class="event-category research">研究成果</span>
+                    <p>课题组在传感器技术方面取得了突破性进展，并发布了相关论文。</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="month">3月</div>
+                    <span class="event-category award">资助与奖项</span>
+                    <p>课题组获得江苏省科技进步奖。</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+</body>
+</html>

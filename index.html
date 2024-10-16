@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME/首页 西浦微系统课题组</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- 导航栏 (Header) -->
+    <header>
+        <nav>
+            <h1>西浦微系统课题组</h1>
+            <ul>
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="news.html">新闻</a></li>
+                <li><a href="research.html">研究领域</a></li>
+                <li><a href="people.html">团队成员</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 轮播区 -->
+    <div id="hero-carousel" class="carousel">
+
+        <!-- 第一张幻灯片: 介绍课题组 -->
+        <div class="carousel-slide active">
+            <div class="hero-image" style="background-image: url('../assets/images/hero-image1.png');"></div>
+            <div class="hero-text">
+                <h2>关于我们</h2>
+                <p>我们是一支专注于生物工程、合成生物学和人工智能交叉领域的研究团队。通过创新的技术和跨学科的研究，我们致力于解决全球健康和环境挑战。</p>
+            </div>
+        </div>
+
+        <!-- 第二张幻灯片: 最新新闻 -->
+        <div class="carousel-slide">
+            <div class="hero-image" style="background-image: url('../assets/images/hero-image2.png');"></div>
+            <div class="hero-text">
+                <h2>最新新闻</h2>
+                <ul>
+                    <li><strong>2024年10月：</strong> 我们刚刚在《Advanced Materials》杂志上发表了关于生物材料的最新论文。</li>
+                    <li><strong>2024年8月：</strong> 热烈欢迎新成员加入我们的团队。</li>
+                    <li><strong>2024年6月：</strong> 课题组组长在生物科技大会上做了主题演讲。</li>
+                </ul>
+                <a href="news.html" class="btn">查看更多新闻</a>
+            </div>
+        </div>
+
+        <!-- 第三张幻灯片: 研究领域 -->
+        <div class="carousel-slide">
+            <div class="hero-image" style="background-image: url('../assets/images/hero-image3.png');"></div>
+            <div class="hero-text">
+                <h2>我们的研究方向</h2>
+                <div class="research-item">
+                    <h3>微流控平台</h3>
+                    <p>我们开发微流控技术来更精确地控制流体，并应用于生物医学领域。</p>
+                </div>
+                <div class="research-item">
+                    <h3>机器学习</h3>
+                    <p>我们使用机器学习技术分析复杂的生物数据，发现新的模式和规律。</p>
+                </div>
+                <div class="research-item">
+                    <h3>生化传感</h3>
+                    <p>我们设计新型的生物传感器，用于检测疾病标志物。</p>
+                </div>
+                <a href="research.html" class="btn">了解更多研究</a>
+            </div>
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- 引入 carousel.js 文件 -->
+    <script src="js/carousel.js"></script>
+
+    <!-- 页脚 (Footer) -->
+    <footer>
+        <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:contact@researchgroup.com">contact@researchgroup.com</a></p>
+    </footer>
+
+</body>
+</html>

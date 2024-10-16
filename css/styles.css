@@ -1,0 +1,258 @@
+/* Reset 一些默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 页面背景蓝白渐变 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* 蓝白渐变，从浅蓝到白色 */
+    background-attachment: fixed; /* 让背景固定，滚动页面时不移动 */
+    background-repeat: no-repeat;
+    background-size: cover; /* 覆盖整个页面 */
+}
+
+
+/* Header 样式进一步优化 */
+header {
+    background: linear-gradient(90deg, #010544, #a3d8f4); /* 深蓝到浅蓝色渐变 */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 阴影加深以提升层次感 */
+    position: relative; /* 使标题和菜单项能进行独立调整 */
+    z-index: 10; /* 确保导航栏在页面其他元素上方 */
+}
+
+/* 标题优化 */
+header h1 {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase; /* 标题字母大写 */
+    font-family: 'Roboto', sans-serif; /* 更具现代感的字体 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 为标题增加轻微阴影 */
+    padding: 30px 30px;
+}
+
+/* 菜单样式 */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* 增大菜单项间距 */
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* 菜单文字保持白色 */
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+    text-transform: uppercase; /* 菜单项字母大写 */
+    font-family: 'Arial', sans-serif;
+}
+
+/* 当前页面菜单项突出显示 */
+nav ul li a.active {
+    background-color: rgba(255, 255, 255, 0.3); /* 当前页面背景色稍微变亮 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 当前页面菜单项有轻微阴影 */
+    color: #e3f2fd; /* 当前页面文字颜色稍微浅一点 */
+}
+
+/* 菜单悬停效果 */
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* 悬停时背景变为轻微透明的白色 */
+    color: #f0f8ff; /* 悬停时文字颜色变浅 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* 增加悬停时的阴影 */
+}
+
+/* 为菜单项添加下划线效果 */
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    left: 50%;
+    bottom: -5px;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+/* 菜单项悬停时下划线展开 */
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* 响应式优化：移动设备 */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+}
+
+
+/* 轮播容器 */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+/* 单张轮播图片 */
+.carousel-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* 初始状态不可见 */
+    transition: opacity 1s ease-in-out; /* 淡入淡出的过渡效果 */
+}
+
+.carousel-slide.active {
+    opacity: 1; /* 当前显示的图片 */
+}
+
+/* 轮播图片背景 */
+.hero-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px); /* 模糊背景 */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 轮播的文本内容 */
+.hero-text {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); /* 黑色半透明背景 */
+    padding: 20px 40px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* 文本的淡入淡出效果 */
+}
+
+.carousel-slide.active .hero-text {
+    opacity: 1; /* 当前显示的文本淡入 */
+}
+
+/* 左右切换按钮 */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明按钮背景 */
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* 悬停时按钮的高亮效果 */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Section 基础样式 */
+section {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    margin: 20px 0;
+}
+
+/* 介绍区块 */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* 新闻列表样式 */
+#news ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#news ul li {
+    margin: 10px 10px;
+    font-size: 1.2rem;
+}
+
+/* 研究领域条目样式 */
+.research-item {
+    margin-bottom: 30px;
+}
+
+.research-item h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.research-item p {
+    font-size: 1.1rem;
+    color: #f7e8e8;
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3c8ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #e74c3c;
+    text-decoration: none;
+}
