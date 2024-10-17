@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究领域 - Publications</title>
+
+    <!-- 引用全局的主 CSS 文件 -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- 引用针对 research.html 的特定 CSS 文件 -->
+    <link rel="stylesheet" href="css/research.css">
+</head>
+<body>
+
+    <!-- 导航栏 (Header) -->
+    <header>
+        <nav>
+            <h1>西浦微系统课题组</h1>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="news.html">新闻</a></li>
+                <li><a href="research.html" class="active">发表</a></li>
+                <li><a href="people.html">团队成员</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- 筛选栏 -->
+        <div class="filter-bar">
+            <select id="yearFilter" onchange="filterPublications()">
+                <option value="all">选择年份</option>
+            </select>
+        
+            <select id="authorFilter" onchange="filterPublications()">
+                <option value="all">选择作者</option>
+            </select>
+        </div>
+        
+
+        <!-- 发表条目 -->
+        <div id="publications">
+
+            <div class="publication-card" data-year="2022" data-authors="张教授, 王同学">
+                <img src="assets/images/publication1.jpg" alt="Publication Image">
+                <div class="publication-info">
+                    <h3><a href="https://link-to-publication.com" target="_blank">无标签电化学传感器的研究</a></h3>
+                    <p class="authors">张教授, 王同学</p>
+                    <p>该研究展示了一种基于石墨烯的无标签电化学传感器，用于食品中的肉类质量检测...</p>
+                </div>
+            </div>
+
+            <div class="publication-card" data-year="2021" data-authors="李同学, 张教授">
+                <img src="assets/images/publication2.jpg" alt="Publication Image">
+                <div class="publication-info">
+                    <h3><a href="https://link-to-publication.com" target="_blank">智能手机传感器平台</a></h3>
+                    <p class="authors">李同学, 张教授</p>
+                    <p>该平台通过智能手机和微型化传感器实现低成本、便捷的生物化学检测...</p>
+                </div>
+            </div>
+
+            <!-- 更多发表条目可以继续添加 -->
+        </div>
+    </div>
+
+    <!-- 引用外部的 JavaScript 文件 -->
+    <script src="js/research.js"></script>
+
+</body>
+</html>
