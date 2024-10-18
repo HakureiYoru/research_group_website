@@ -1,0 +1,180 @@
+/* 主内容容器 */
+.container {
+    width: 85%; /* 宽度稍微增大，增加空间感 */
+    margin: 0 auto;
+    padding-top: 60px; /* 增加顶部内边距 */
+    padding-bottom: 60px; /* 增加底部内边距，保持整体呼吸感 */
+}
+
+/* Mentor Card Styles */
+.mentor-card {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f9fafc;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 1200px; /* 限制最大宽度 */
+    margin-left: 0; /* 确保完全居左 */
+    margin-right: auto; /* 右边自动调节，保证自然居左 */
+}
+
+.mentor-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.mentor-card img {
+    width: 2000px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 30px;
+    object-fit: cover;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mentor-info h2 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: left; /* 强制左对齐 */
+}
+
+.mentor-info p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: left; /* 强制左对齐 */
+}
+
+.mentor-info .position {
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: left; /* 强制左对齐 */
+}
+
+/* Section Block to Separate Different Parts of the Bio */
+.section-block {
+    margin-bottom: 25px;
+    text-align: left; /* 确保整体左对齐 */
+}
+
+.section-block h3 {
+    font-size: 1.8rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: left; /* 确保标题左对齐 */
+}
+
+.section-block ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+    list-style-type: none; /* 移除默认的list样式 */
+}
+
+.section-block ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 8px;
+    position: relative; /* 确保子弹样式的绝对定位 */
+    padding-left: 20px;
+    text-align: left;
+}
+
+.section-block ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #2980b9;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mentor-card {
+        flex-direction: column;
+        text-align: left; /* 保持小屏幕下也是左对齐 */
+        padding: 30px 20px;
+    }
+
+    .mentor-card img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .section-block ul {
+        padding-left: 15px;
+    }
+}
+
+/* 学生卡片网格布局 */
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* 调整最小卡片宽度，保持一致性 */
+    gap: 30px; /* 增加网格间距 */
+    padding-top: 20px; /* 增加顶部内边距 */
+}
+
+/* 学生卡片样式 */
+.student-card {
+    background-color: #ffffff;
+    border-radius: 15px; /* 增大卡片的圆角 */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* 增加卡片的阴影 */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 增加阴影和位移的过渡效果 */
+    cursor: pointer; /* 悬停时鼠标变成手形 */
+}
+
+.student-card:hover {
+    transform: translateY(-8px); /* 悬停时的位移增大 */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12); /* 悬停时增强阴影 */
+}
+
+.student-card img {
+    width: 130px; /* 图片稍微增大 */
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 15px; /* 增加图片与姓名的间距 */
+    object-fit: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* 图片阴影增强 */
+}
+
+.student-card h3 {
+    font-size: 1.6rem; /* 增大学生姓名字体 */
+    color: #34495e;
+    margin-bottom: 10px; /* 增加名字与描述的间距 */
+    font-weight: 600; /* 字体加粗，突出名字 */
+}
+
+.student-card p {
+    font-size: 1.1rem; /* 描述文字稍微增大 */
+    color: #7f8c8d; /* 使用灰色字体，柔和不刺眼 */
+    line-height: 1.6;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+    .mentor-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .mentor-card img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .student-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

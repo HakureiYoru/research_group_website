@@ -1,0 +1,1022 @@
+[
+  {
+    "title": "A microfluidic field-effect transistor biosensor with rolled-up indium nitride microtubes",
+    "year": "2021",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85109456406&doi=10.1016%2fj.bios.2021.113264&partnerID=40&md5=ba5c039a49eb8b74067ce7ac7d3f78ce",
+    "description": "Field-effect-transistor (FET) biosensors capable of rapidly detecting disease-relevant biomarkers have long been considered as a promising tool for point-of-care (POC) diagnosis. Rolled-up nanotechnology, as a batch fabrication strategy for generating three-dimensional (3D) microtubes, has been demonstrated to possess unique advantages for constructing FET biosensors. In this paper, we report a new approach combining the two fascinating technologies, the FET biosensor and the rolled-up microtube, to develop a microfluidic diagnostic biosensor. We integrated an excellent biosensing III-nitride material—indium nitride (InN)—into a rolled-up microtube and used it as the FET channel. The InN possesses strong, intrinsic, and stable electron accumulation (~1013 cm−2) on its surface, thereby providing a high device sensitivity. Multiple rolled-up InN microtube FET biosensors fabricated on the same substrate were integrated with a microfluidic channel for convenient fluids handling, and shared the same external electrode (inserted into the microchannel outlet) for gating voltage modulation. Using human immunodeficiency virus (HIV) antibody as a model disease marker, we characterized the analytical performance of the developed biosensor and achieved a limit of detection (LOD) of 2.5 pM for serum samples spiked with HIV gp41 antibodies. The rolled-up InN microtube FET biosensor represents a new type of III-nitride-based FET biosensor and holds significant potential for practical POC diagnosis. © 2021 Elsevier B.V.",
+    "authors": [
+      "Song, P.",
+      "Fu, H.",
+      "Wang, Y.",
+      "Chen, C.",
+      "Ou, P.",
+      "Rashid, R.T.",
+      "Duan, S.",
+      "Song, J.",
+      "Mi, Z.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "The bifunctional 3D-on-2D FeCo/Ni(OH)2 hierarchical nanocatalyst for industrial-level electrocatalytic water splitting",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85150392157&doi=10.1016%2fj.ijhydene.2023.01.289&partnerID=40&md5=18fcfe6d2476ea6d954e2f6633b83772",
+    "description": "Developing high-performing and cost-effective bifunctional electrocatalysts under the industrial conditions is significant for revolutionizing the hydrogen economy. Herein, we developed a bifunctional 3D-on-2D FeCo/Ni(OH)2 hierarchical nanocatalyst on Ni mesh by a facile and low-cost method that can boost both the two half-reactions of water splitting all at once. The FeCo/Ni(OH)2/Ni mesh showed an outstanding electrocatalytic performance under the industrial conditions (3 M KOH, 90 °C) with applied voltages of 1.47 and 1.91 V to drive the electrolyzer at 10 and 500 mA/cm2, respectively, much better than the Ni(OH)2/Ni mesh, FeCo/Ni mesh, and Raney Ni/Ni mesh samples. Furthermore, it can maintain good stability for more than 192 h under the working condition of 500 mA/cm2. This promotion in electrocatalytic properties can be ascribed to the synergistic effects between 3D FeCo nanoparticles and 2D Ni(OH)2 nanosheets, including the large electrochemically active surface areas, the intense electronic interplay between the two component and the elevated interfacial contact and charge transport. Eventually, this water electrolyzer yields a 14.7% solar-to-hydrogen efficiency when integrated with Si solar cells, which exceeds analogous solar-driven systems reported so far. © 2023 Hydrogen Energy Publications LLC",
+    "authors": [
+      "Xu, S.",
+      "Chen, C.",
+      "Shen, J.",
+      "Xu, Z.",
+      "Lu, Y.",
+      "Song, P.",
+      "Dong, W.",
+      "Fan, R.",
+      "Shen, M."
+    ]
+  },
+  {
+    "title": "An Automated Microfluidic System for Morphological Measurement and Size-Based Sorting of C. Elegans",
+    "year": "2019",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85062968447&doi=10.1109%2fTNB.2019.2904009&partnerID=40&md5=699c981664fe7e1685c5e5c005cadc50",
+    "description": "This paper reports a vision-based automated microfluidic system for morphological measurement and size-based sorting of the nematode worm C. Elegans. Exceeding the capabilities of conventional worm sorting microfluidic devices purely relying on passive sorting mechanisms, our system is capable of accurate measurement of the worm length/width and active sorting of worms with the desired sizes from a mixture of worms with different body sizes. This function is realized based on the combination of real-time, vision-based worm detection and sizing algorithms and automated on-chip worm manipulation. A double-layer microfluidic device with computer-controlled pneumatic valves is developed for sequential loading, trapping, vision-based sizing, and sorting of single worms. To keep the system operation robust, vision-based algorithms on detecting multi-worm loading and worm sizing failure have also been developed. We conducted sorting experiments on 319 worms and achieved an average sorting speed of 10.4 worms per minute (5.8 s/worm) with an operation success rate of 90.3%. This system will facilitate the worm biology studies where body size measurement and size-based sorting of many worms are needed. © 2002-2011 IEEE.",
+    "authors": [
+      "Dong, X.",
+      "Song, P.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "A spiral microfluidic device for rapid sorting, trapping, and long-term live imaging of Caenorhabditis elegans embryos",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85148690162&doi=10.1038%2fs41378-023-00485-4&partnerID=40&md5=01d0fee4cc67352c3dee3d0b17902c6c",
+    "description": "Caenorhabditis elegans embryos have been widely used to study cellular processes and developmental regulation at early stages. However, most existing microfluidic devices focus on the studies of larval or adult worms rather than embryos. To accurately study the real-time dynamics of embryonic development under different conditions, many technical barriers must be overcome; these can include single-embryo sorting and immobilization, precise control of the experimental environment, and long-term live imaging of embryos. This paper reports a spiral microfluidic device for effective sorting, trapping, and long-term live imaging of single C. elegans embryos under precisely controlled experimental conditions. The device successfully sorts embryos from a mixed population of C. elegans at different developmental stages via Dean vortices generated inside a spiral microchannel and traps the sorted embryos at single-cell resolution through hydrodynamic traps on the sidewall of the spiral channel for long-term imaging. Through the well-controlled microenvironment inside the microfluidic device, the response of the trapped C. elegans embryos to mechanical and chemical stimulation can be quantitatively measured. The experimental results show that a gentle hydrodynamic force would induce faster growth of embryos, and embryos developmentally arrested in the high-salinity solution could be rescued by the M9 buffer. The microfluidic device provides new avenues for easy, rapid, high-content screening of C. elegans embryos. [Figure not available: see fulltext.] © 2023, The Author(s).",
+    "authors": [
+      "Pan, P.",
+      "Qin, Z.",
+      "Sun, W.",
+      "Zhou, Y.",
+      "Wang, S.",
+      "Song, P.",
+      "Wang, Y.",
+      "Ru, C.",
+      "Wang, X.",
+      "Calarco, J.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "A microfluidic FET biosensor with rolled-up inn microtubes",
+    "year": "2018",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85079868640&partnerID=40&md5=ba5e6b5f17a2d26dead8aad23aa025c4",
+    "description": "This paper combines two fascinating technologies, the field-effect transistor (FET) biosensor and the rolled-up microtube (RUM), to develop sensitive diagnostic device. We integrated indium nitride (InN) into a rolled-up microtube and use it as the FET channel. Using human immunodeficiency virus (HIV) antibody as a model disease marker, we characterized the analytical performance of the developed biosensor and achieved a limit of detection (LOD) of 100 pg mL-1 for HIV gp41 antibodies detection in buffer solutions. The rolled-up InN microtube FET biosensor represents a new type of III-nitride-based FET biosensor and holds significant potential for practical point of care diagnosis. Copyright © (2018) by Chemical and Biological Microsystems Society. All rights reserved.",
+    "authors": [
+      "Song, P.",
+      "Fu, H.",
+      "Wang, Y.",
+      "Chen, C.",
+      "Mi, Z.",
+      "Song, J.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Enhanced Protein Adsorption in Fibrous Substrates Treated with Zeolitic Imidazolate Framework-8 (ZIF-8) Nanoparticles",
+    "year": "2019",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85076989751&doi=10.1021%2facsanm.9b01717&partnerID=40&md5=7819b9f5607bef345753045c19b22bb5",
+    "description": "Development for new solid substrates for protein adsorption is important, given the massive potential in a number of fields including food production, medicine, biotechnology, and pharmaceutical processing. We developed a zeolitic imidazolate framework 8 (ZIF-8)-nanoparticles based fibrous platform (Platform 1). Its ability in protein adsorption is proven by fluorescence study of Alexa Fluor 647-labeled donkey anti-rabbit IgG adsorbed on Platform 1. Studies reveal that Platform 1 shows much more enhanced protein adsorption compared to a polyethylene terephthalate gauze fibrous platform treated with ZIF-8 nanoparticles. This may be explained by considering that more active sites are enabled on fabric to adsorb a higher amount of ZIF-8 nanoparticles. We show that Platform 1 provides favorable biocompatibility to maintain the bioactivity of enzymes. Furthermore, we prove that a carboxymethylated cotton fabric platform treated with ZIF-8 (Platform 3) can be more capable of immobilizing the Alexa Fluor 647-labeled antibodies than Platform 1. Carboxymethylation helps to enhance protein adsorption in these cotton fabric substrates. Copyright © 2019 American Chemical Society.",
+    "authors": [
+      "Fu, H.",
+      "Ou, P.",
+      "Zhu, J.",
+      "Song, P.",
+      "Yang, J.",
+      "Wu, Y."
+    ]
+  },
+  {
+    "title": "Superior Sensing Properties of Black Phosphorus as Gas Sensors: A Case Study on the Volatile Organic Compounds",
+    "year": "2019",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85088662879&doi=10.1002%2fadts.201800103&partnerID=40&md5=54f9a765cf37c3239231174aabb64269",
+    "description": "The unique structure and prominent properties of black phosphorus (BP) and its monolayer and multilayers in device applications have attracted significant attention to this elemental 2D material. In this study, a comprehensive evaluation of the candidacy of monolayer BP as a channel material for high-performance volatile organic compound (VOC) sensors is conducted combining first-principles density functional theory calculations and non-equilibrium Green's function formalism. The adsorption configurations and energetics of several typical VOCs (ethanol, propionaldehyde, acetone, toluene, and hexane) on monolayer BP are examined and it is demonstrated that VOCs generally exhibit stronger interaction with monolayer BP than with the widely studied monolayer MoS2, indicative of monolayer BP potentially being a more sensitive VOC sensor. Monolayer BP is shown to exhibit highly anisotropic transport behaviors, whereas the absolute modification of current–voltage responses due to VOCs is found to show a trend that is direction independent. Moreover, the adsorption of VOCs on monolayer BP is strong enough to resist thermal disturbance, yet allows fast recovery time. The results suggest that BP is a compelling and feasible candidate for sensing applications of VOCs. © 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim",
+    "authors": [
+      "Ou, P.",
+      "Song, P.",
+      "Liu, X.",
+      "Song, J."
+    ]
+  },
+  {
+    "title": "Reduced graphene oxide grafted on p-Si photocathode as a multifunctional interlayer for enhanced solar hydrogen production",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144055517&doi=10.1063%2f5.0121678&partnerID=40&md5=0edbc66c03866dee05ed9f11e038584d",
+    "description": "Photoelectrochemical (PEC) water splitting has been intensively studied as a sustainable approach to directly convert intermittent solar energy into storable hydrogen fuels. Its practical application, however, has been tethered by the trade-off between photoelectrode efficiency and stability. Herein, this work demonstrates a facile strategy to design highly efficient and stable Si photocathodes by utilizing the reduced graphene oxide (rGO) as a multifunctional interlayer to bridge the Pt catalysts and p-Si. The covalently grafted rGO layer forms a Schottky junction with p-Si allowing effective charge carrier extraction required for high efficiency, and, simultaneously, protects the Si surface and anchors Pt catalysts with enhanced stability. Consequently, the as-fabricated Pt/rGO/p-Si photocathodes exhibit an impressive PEC performance under simulated AM1.5G illumination with a high applied bias photon-to-current efficiency (ABPE) of 4.9% and stability of over 110 hours, outperforming the Pt/p-Si control sample and state-of-the-art p-Si based photocathodes. In summary, this work offers a viable path for developing high-performance solar-to-fuel conversion devices in the future.  © 2022 Author(s).",
+    "authors": [
+      "Shen, J.",
+      "Wang, Y.",
+      "Chen, C.",
+      "Wei, Z.",
+      "Song, P.",
+      "Zou, S.",
+      "Dong, W.",
+      "Su, X.",
+      "Peng, Y.",
+      "Fan, R.",
+      "Shen, M."
+    ]
+  },
+  {
+    "title": "A novel design of the device for measuring draw and plug forces",
+    "year": "2012",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84868342368&doi=10.4028%2fwww.scientific.net%2fAMR.542-543.1029&partnerID=40&md5=4a3c92bc466fa1c0f33a598abda0953e",
+    "description": "The purpose of this paper is to present a novel device for measuring draw and plug forces, which is composed chiefly of a pull stud, a top modified tool shank, a middle modified tool shank, a down modified tool shank, and an end cover. The modified tool shank structure is proposed, and the working principle of the device for measuring draw and plug forces is demonstrated. Also, the data conversion and memory module and the circuit principle are investigated. © (2012) Trans Tech Publications, Switzerland.",
+    "authors": [
+      "Hu, Y.",
+      "Yang, Z.",
+      "Xiang, M.",
+      "Qiu, Z.",
+      "Yang, C.",
+      "Song, P.",
+      "Qiu, X."
+    ]
+  },
+  {
+    "title": "A Paper-Based Microfluidic Analytical Device with A Highly Integrated On-Chip Valve for Autonomous ELISA",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85126394524&doi=10.1109%2fMEMS51670.2022.9699652&partnerID=40&md5=c66d7985632498936715df7eba25402c",
+    "description": "This paper reports a microfluidic paper-based analytical device (PAD), featuring a novel, highly integrated on-chip rotary valve, for autonomous enzyme-linked immunosorbent assay (ELISA). Unlike existing valving methods on PADs, this rotary valve allows regulation of multiple flows with a single valve, leading to ease of assembly and small footprint with a high integration level. The micromotor-controlled valve is also programmable and highly reliable, and has a fast response (76 ± 0.6ms, n=20, 500 times faster than previous smart material-enabled valves on PADs). Using this design, we performed autonomous ELISA, demonstrating a limit of detection (LOD) of 20 pM for rabbit IgG antibody detection with 100% valving reliability.  © 2022 IEEE.",
+    "authors": [
+      "Cai, T.",
+      "Duan, S.",
+      "Fu, H.",
+      "Zhu, J.",
+      "Lim, E.G.",
+      "Huang, K.",
+      "Hoettges, K.",
+      "Liu, X.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "A microfluidic device for Caenorhabditis elegans based chemical testing",
+    "year": "2014",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84926372332&doi=10.1115%2fIMECE2014-39126&partnerID=40&md5=c54c3ed20111f8b7d588110da53d9b19",
+    "description": "The nematode worm Caenorhabditis elegans has been employed as a popular model organism in many fields of biological research. In this paper, we present an easy-to-use microfluidic device for facilitating C. elegans based chemical testing. The device is capable of housing single worms in microfluidic chambers and precisely adjusting the chamber's chemical environment during experiments. Eight worms can be readily loaded into the chambers through separate loading channels in a quick and gentle manner. In addition, a custom-made software with a graphic user interface is also created for quantitative analysis of locomotion parameters (swimming frequency and bend amplitude) of the worms in response to chemical stimuli, thus greatly enhancing the efficiency of data collection. We perform proof-ofconcept experiments using two chemicals, zinc ion (Zn2+) and glucose, which demonstrate the capability and effectiveness of the microfluidic device. Copyright © 2014 by ASME.",
+    "authors": [
+      "Song, P.",
+      "Zhang, W.",
+      "Sobolevski, A.",
+      "Bernard, K.",
+      "Hekimi, S.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Coaxial Dual-wavelength Interferometric Method for a Thermal Infrared Focal-plane-array with Integrated Gratings",
+    "year": "2016",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84969959700&doi=10.1038%2fsrep25993&partnerID=40&md5=d9097638c39323089334527f016a4dc2",
+    "description": "Uncooled infrared (IR) focal-plane-array (FPA) with both large sensing range and high sensitivity is a great challenge due to the limited dynamic range of the detected signals. A coaxial dual-wavelength interferometric system was proposed here to detect thermal-induced displacements of an ultrasensitive FPA based on polyvinyl-chloride(PVC)/gold bimorph cantilevers and carbon nanotube (CNT)-based IR absorbing films. By alternately selecting the two displacement measurements performed by λ1 (=640 nm) and λ2 (=660 nm), the temperature measuring range with greater than 50% maximum sensitivity can be extended by eight-fold in comparison with the traditional single-wavelength mode. Meanwhile, the relative measurement error over the full measuring range is below 0.4%. In addition, it offers a feasible approach for on-line and on-wafer FPA characterization with great convenience and high efficiency.",
+    "authors": [
+      "Shang, Y.",
+      "Ye, X.",
+      "Cao, L.",
+      "Song, P.",
+      "Feng, J."
+    ]
+  },
+  {
+    "title": "An automated robotic system for high-speed microinjection of Caenorhabditis elegans",
+    "year": "2015",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84938279293&doi=10.1109%2fICRA.2015.7139298&partnerID=40&md5=be35099e0341b43b165e6c194692b065",
+    "description": "The tiny nematode worm Caenorhabditis elegans has long been a popular model organism for genetic, developmental, and biochemical studies in which worm microinjection plays a critical role. This paper presents an automated robotic system for high-speed injection of C. elegans with an efficiency more than 10 times faster than that of a proficient injection technician. To facilitate the injection process, a multilayer, hydraulically-controlled polydimethylsiloxane (PDMS) microfluidic device is developed to rapidly load, immobilize, flush, sort and collect individual worms. In addition, a newly proposed contact detection algorithm is adopted to find the optimal injection position along the z axis within the microscope view field. The direction and location of the needle tip are identified online based on an effective image processing algorithm. According to continuous injection of 40 worms, our system is able to perform worm injection at a speed of 6.6 worms per minute with a pre-sorting success rate of 77.5% (post sorting: 100%). The superior performance provided by the system will significantly facilitate large-scale transgenic studies and biomolecule screening on C. elegans. © 2015 IEEE.",
+    "authors": [
+      "Dong, X.",
+      "Song, P.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Automatic offline-capable smartphone paper-based microfluidic device for efficient biomarker detection of Alzheimer's disease",
+    "year": "2024",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85191436597&doi=10.1016%2fj.aca.2024.342575&partnerID=40&md5=33b6a491085fd65314f9fca4fb0c070a",
+    "description": "Background: Alzheimer's disease (AD) is a prevalent neurodegenerative disease with no effective treatment. Efficient and rapid detection plays a crucial role in mitigating and managing AD progression. Deep learning-assisted smartphone-based microfluidic paper analysis devices (μPADs) offer the advantages of low cost, good sensitivity, and rapid detection, providing a strategic pathway to address large-scale disease screening in resource-limited areas. However, existing smartphone-based detection platforms usually rely on large devices or cloud servers for data transfer and processing. Additionally, the implementation of automated colorimetric enzyme-linked immunoassay (c-ELISA) on μPADs can further facilitate the realization of smartphone μPADs platforms for efficient disease detection. Results: This paper introduces a new deep learning-assisted offline smartphone platform for early AD screening, offering rapid disease detection in low-resource areas. The proposed platform features a simple mechanical rotating structure controlled by a smartphone, enabling fully automated c-ELISA on μPADs. Our platform successfully applied sandwich c-ELISA for detecting the β-amyloid peptide 1–42 (Aβ 1–42, a crucial AD biomarker) and demonstrated its efficacy in 38 artificial plasma samples (healthy: 19, unhealthy: 19, N = 6). Moreover, we employed the YOLOv5 deep learning model and achieved an impressive 97 % accuracy on a dataset of 1824 images, which is 10.16 % higher than the traditional method of curve-fitting results. The trained YOLOv5 model was seamlessly integrated into the smartphone using the NCNN (Tencent's Neural Network Inference Framework), enabling deep learning-assisted offline detection. A user-friendly smartphone application was developed to control the entire process, realizing a streamlined “samples in, answers out” approach. Significance: This deep learning-assisted, low-cost, user-friendly, highly stable, and rapid-response automated offline smartphone-based detection platform represents a good advancement in point-of-care testing (POCT). Moreover, our platform provides a feasible approach for efficient AD detection by examining the level of Aβ 1–42, particularly in areas with low resources and limited communication infrastructure. © 2024 Elsevier B.V.",
+    "authors": [
+      "Duan, S.",
+      "Cai, T.",
+      "Liu, F.",
+      "Li, Y.",
+      "Yuan, H.",
+      "Yuan, W.",
+      "Huang, K.",
+      "Hoettges, K.",
+      "Chen, M.",
+      "Lim, E.G.",
+      "Zhao, C.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Hybrid mixed-dimensional perovskite/metal-oxide heterojunction for all-in-one opto-electric artificial synapse and retinal-neuromorphic system",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85142214002&doi=10.1016%2fj.nanoen.2022.107686&partnerID=40&md5=27a07a2bdd56e2fbc181389fc9735ee6",
+    "description": "Human central nervous system and the peripheral nervous system have played significant roles in mediating the interactions with the outside world. Inspired by the human nervous systems, artificial sensory and neuromorphic innovations have been developed to mimic nervous functions. A hybrid mixed-dimensional perovskite/metal-oxide heterojunction has been demonstrated in this work for three-terminal all-in-one opto-electric artificial synapse to integrate opto-electric synaptic emulations and optical perception functions. Based on the well-designed layer configuration, an all-in-one device, consisting of the ion-electrolyte layer, ion-permeable metal-oxide semiconductor channel layer, the mixed-dimensional perovskite optical perception layer, and the amorphous ZnO passivation layer, has been demonstrated with superior electrical performance. Utilizing an ion-electrolyte and ion-permeable metal-oxide semiconductor structure, the synaptic emulation modulated by electrical gate-stimulus could be effectively achieved. The optical perception and synaptic plasticity modulated by the optical stimulus have been integrated into the all-in-one device. Furthermore, the electrolyte gated device enables artificial visual adaptation with adaptive behavior of environmental lightness under dim and bright conditions. Addition, artificial visual persistence has been emulated by the device utilizing the optical synaptic behavior. Based on those properties, a cascaded near-sensor face recognition access control retinal-neuromorphic computing system has been developed based on the all-in-one device. The retinal-neuromorphic system based on all-in-one devices could recognize the face of a requester with an accuracy rate over 90 %, and ignore the passers with the lingering phenomenal trace as the result of the artificial visible persistence. © 2022 Elsevier Ltd",
+    "authors": [
+      "Liu, Q.",
+      "Yin, L.",
+      "Zhao, C.",
+      "Wang, J.",
+      "Wu, Z.",
+      "Lei, H.",
+      "Liu, Y.",
+      "Tian, B.",
+      "Zhang, Z.",
+      "Zhao, Z.",
+      "Liu, R.",
+      "Ding, C.",
+      "Han, Y.",
+      "Ma, C.-Q.",
+      "Song, P.",
+      "Mitrovic, I.Z.",
+      "Lim, E.G.",
+      "Wen, Z."
+    ]
+  },
+  {
+    "title": "The impact of short videos on student performance in an online-flipped college engineering course",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85138665235&doi=10.1057%2fs41599-022-01355-6&partnerID=40&md5=618d014f1bfc4163e2833298feafb3e6",
+    "description": "The 2020 COVID-19 pandemic has greatly accelerated the adoption of online learning and teaching in many colleges and universities. Video, as a key integral part of online education, largely influences student learning experiences. Though many guidelines on designing educational videos have been reported, the quantitative data showing the impacts of video length on students’ academic performance in a credit-bearing course is limited, particularly for an online-flipped college engineering course. The forced pandemic lockdown enables a suitable environment to address this research gap. In this paper, we present the first step to examine the impact of short videos on students’ academic performance in such circumstances. Our results indicate that short videos can greatly improve student engagement by 24.7% in terms of video viewing time, and the final exam score by 9.0%, both compared to the long-video group. The quantitative Likert questionnaire also indicates students’ preference for short videos over long videos. We believe this study has important implications for course design for future online-flipped engineering courses. © 2022, The Author(s).",
+    "authors": [
+      "Zhu, J.",
+      "Yuan, H.",
+      "Zhang, Q.",
+      "Huang, P.-H.",
+      "Wang, Y.",
+      "Duan, S.",
+      "Lei, M.",
+      "Lim, E.G.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Rapid prototyping of paper-based electronics by robotic printing and micromanipulation",
+    "year": "2017",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85044964437&doi=10.1109%2fCOASE.2017.8256168&partnerID=40&md5=1f30748784b254c9a81c3f096bfe3631",
+    "description": "The fabrication techniques of paper-based electronics have been widely explored in the past two decades, contributing to the wide application of these promising devices in a variety of fields. In this paper, we report a new rapid prototyping technique for constructing paper-based field-effect transistor (FET) biosensors integrating rolled-up semiconductor microtubes. Leveraging robotic printing and micromanipulation techniques, silver ink electrodes are printed on paper and pre-synthesized microtubes are transferred onto a pair of printed electrodes to form a complete FET. Compared with existing fabrication techniques of paper-based electronics that purely rely on printing, the proposed technique is more versatile in that it can rapidly integrate high-performance semiconductor microtubes onto paper substrates. To improve the printing uniformity, a time-shift mechanism is proposed to compensate the ink under-and over-dispersion at the beginning and end of the printing process, repsectively. To realize automated microtube pick-up and transfer, image processing and motion control algorithms are developed to detect positions of the end-effector (a glass needle) and the microtube, and to control motions of the glass needle with minimized human intervention. We demonstrate the effectiveness of the technique by fabricating the designed paper-based devices using bimetallic microtubes and measure their current-voltage characteristics. © 2017 IEEE.",
+    "authors": [
+      "Dong, X.",
+      "Song, P.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Microfluidic-Assisted Caenorhabditis elegans Sorting: Current Status and Future Prospects",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85156114166&doi=10.34133%2fcbsystems.0011&partnerID=40&md5=933897251674857dc4477261659a1157",
+    "description": "Caenorhabditis elegans (C. elegans) has been a popular model organism for several decades since its first discovery of the huge research potential for modeling human diseases and genetics. Sorting is an important means of providing stage- or age-synchronized worm populations for many worm-based bioassays. However, conventional manual techniques for C. elegans sorting are tedious and inefficient, and commercial complex object parametric analyzer and sorter is too expensive and bulky for most laboratories. Recently, the development of lab-on-a-chip (microfluidics) technology has greatly facilitated C. elegans studies where large numbers of synchronized worm populations are required and advances of new designs, mechanisms, and automation algorithms. Most previous reviews have focused on the development of microfluidic devices but lacked the summaries and discussion of the biological research demands of C. elegans, and are hard to read for worm researchers. We aim to comprehensively review the up-to-date microfluidic-assisted C. elegans sorting developments from several angles to suit different background researchers, i.e., biologists and engineers. First, we highlighted the microfluidic C. elegans sorting devices' advantages and limitations compared to the conventional commercialized worm sorting tools. Second, to benefit the engineers, we reviewed the current devices from the perspectives of active or passive sorting, sorting strategies, target populations, and sorting criteria. Third, to benefit the biologists, we reviewed the contributions of sorting to biological research. We expect, by providing this comprehensive review, that each researcher from this multidisciplinary community can effectively find the needed information and, in turn, facilitate future research.  © 2023 Hang Yuan et al.",
+    "authors": [
+      "Yuan, H.",
+      "Yuan, W.",
+      "Duan, S.",
+      "Jiao, K.",
+      "Zhang, Q.",
+      "Lim, E.G.",
+      "Chen, M.",
+      "Zhao, C.",
+      "Pan, P.",
+      "Liu, X.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "An improved design of inserted tooth finishing hob for involute gears",
+    "year": "2014",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84906230416&doi=10.1007%2fs12206-014-0121-7&partnerID=40&md5=c69567e8afa672803bfacdb58625a8e2",
+    "description": "Gear hobs are widely used to machine involute gears. However, using Archimedes worm as a base worm of the gear hob, which is common used in industry, leads to the generating of theoretical error of the gears. Even though this error can be eliminated by using the accurate involute base worm or be greatly reduced by complicated modification of the shape of cutting edges, the manufacturing cost is very high. Reported in this paper is an improved design of inserted tooth finishing hob for involute gears on a conventional hobbing machine aiming to eliminate this error in an economical way. For that purpose, both descriptive-geometry-based method and mathematical analyzing are employed to illustrate the major parameters of the base worm and the formation and parameters of the inserted tooth finishing hob. In addition, an approximating formation of the flank for the convenience of grinding the inserted tooth finishing hob is proposed and the errors that this substitution arc surface is discussed. Ultimately, the other advantages of this inserted finishing hob are demonstrated. © 2014 The Korean Society of Mechanical Engineers and Springer-Verlag Berlin Heidelberg.",
+    "authors": [
+      "Yong, H.",
+      "Mingjun, X.",
+      "Xing, Q.",
+      "Pengfei, S.",
+      "Jingan, S.",
+      "Fuhua, P."
+    ]
+  },
+  {
+    "title": "Enhanced sensitivity in acute myocardial infarction diagnosis through optimized multiplex biomarker detection on a paper-based microfluidic platform with individual control capabilities",
+    "year": "2025",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85204911901&doi=10.1016%2fj.snb.2024.136616&partnerID=40&md5=a9e79a3a6717e72397e91497cb98ef66",
+    "description": "Acute myocardial infarction (AMI) is a severe condition with high mortality, requiring timely diagnosis, especially in low-resource settings where centralized testing is unavailable. Leveraging our previously developed, reliable, highly integrated on-chip rotary valving system on the microfluidic paper-based analytical device (µPAD), we propose a novel multiplex paper-based microfluidics immunoassay platform for the onsite detection of key cardiac biomarkers—Myoglobin (Myo), cardiac troponin I (cTnI), and creatine kinase-MB (CKMB)—in artificial serum. It enhances assay performance through individually controlled assay conditions, facilitating rapid AMI diagnosis. Compared to existing paper-based multiplex microfluidic ELISA systems, our µPAD uniquely enables the assay of each biomarker under separate, optimally controlled incubation conditions within a single test through the valving system, which leads to optimized signal-to-noise ratio (SNR) performance and introduces more flexibility in multiplex testing. The valving system in the µPAD is driven by a single servo motor, which is controlled via a microcontroller and an interactive touchscreen. These components are integrated into a highly programmable, easy-to-assemble platform that offers fast, low-cost, and user-friendly operation. Utilizing our platform, autonomous ELISA assays were performed on Myo, cTnI, and CKMB for calibration, achieving limits of detection (LOD) of 1.43 ng/mL for Myo, 0.2 ng/mL for cTnI, and 0.735 ng/mL for CKMB. Subsequent spike-and-recovery experiments also confirmed the platform's accuracy and precision in obtaining the test results within 30 minutes and 20 μL serum sample. These results highlight the platform's transformative potential for clinical AMI diagnosis and commercialization, providing a cost-effective and accessible solution for point-of-care testing in diverse settings. © 2024 Elsevier B.V.",
+    "authors": [
+      "Chen, L.",
+      "Duan, S.",
+      "Cai, T.",
+      "Xu, D.",
+      "Hu, Y.",
+      "Zhang, C.",
+      "Lim, E.G.",
+      "Wei, X.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Design, Fabrication, and Characterization of a Polymer-Based MEMS Uncooled Infrared Focal Plane Array",
+    "year": "2015",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85027916852&doi=10.1109%2fJMEMS.2014.2386871&partnerID=40&md5=05a32ceaca1a29b0aed5f41ba95222f0",
+    "description": "This paper presents the design, fabrication, and characterization of a polymer-based uncooled infrared (IR) focal-plane-array (FPA). In order to achieve high-temperature resolution, a thin-film IR absorber made of multiwalled carbon nanotubes (MWNTs) was adopted to absorb more than 90% of incident IR radiation. Furthermore, novel bimaterial microbeams composed of polyvinyl chloride and gold (Au), whose thermal expansion coefficient mismatch is up to 140 ppm/K, were utilized to convert the IR absorption-induced temperature rise to a thermal deflection with an ultrahigh sensitivity. The FPA was successfully fabricated with a low residual stress based on polymer surface micromachining techniques, and the MWNTs were integrated onto suspended microstructures in the FPA using a method combining screen printing with liftoff. To obtain a thermal image, an optical readout system utilizing an interferometric displacement detection based on integrated gratings was designed and implemented, which simultaneously measured the displacements of all pixels. Thermomechanical sensitivity of the fabricated FPA was measured to be 230 nm/K. Experimental results reveal that the current FPA is capable of detecting IR radiation power and temperature change in a target object with 27-nW and 14-K resolutions, respectively. [2014-0348] © 1992-2012 IEEE.",
+    "authors": [
+      "Shang, Y.",
+      "Ye, X.",
+      "Wang, M.",
+      "Song, P.",
+      "Feng, J."
+    ]
+  },
+  {
+    "title": "A Review of Carbon Nanotubes, Graphene and Nanodiamond Based Strain Sensor in Harsh Environments",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85180725679&doi=10.3390%2fc9040108&partnerID=40&md5=ad3377d81102c5c9bd32782d39b580bf",
+    "description": "Flexible and wearable electronics have attracted significant attention for their potential applications in wearable human health monitoring, care systems, and various industrial sectors. The exploration of wearable strain sensors in diverse application scenarios is a global issue, shaping the future of our intelligent community. However, current state-of-the-art strain sensors still encounter challenges, such as susceptibility to interference under humid conditions and vulnerability to chemical and mechanical fragility. Carbon materials offer a promising solution due to their unique advantages, including excellent electrical conductivity, intrinsic and structural flexibility, lightweight nature, high chemical and thermal stability, ease of chemical functionalization, and potential for mass production. Carbon-based materials, such as carbon nanotubes, graphene, and nanodiamond, have been introduced as strain sensors with mechanical and chemical robustness, as well as water repellency functionality. This review reviewed the ability of carbon nanotubes-, graphene-, and nanodiamond-based strain sensors to withstand extreme conditions, their sensitivity, durability, response time, and diverse applications, including strain/pressure sensors, temperature/humidity sensors, and power devices. The discussion highlights the promising features and potential advantages offered by these carbon materials in strain sensing applications. Additionally, this review outlines the existing challenges in the field and identifies future opportunities for further advancement and innovation. © 2023 by the authors.",
+    "authors": [
+      "Wang, X.",
+      "Lim, E.G.",
+      "Hoettges, K.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "A Ti3C2Tx MXene - carbon nanocage - sulfur cathode with high conductivity for improving the performance of Li-S batteries",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85118828877&doi=10.1016%2fj.jallcom.2021.162586&partnerID=40&md5=f1c5e4ce7e28bc42da6a99d6d9f72332",
+    "description": "Lithium-sulfur (Li-S) batteries hold their promise in renewable next-generation energy storage technologies due to low cost and high theoretical energy. Herein, a Ti3C2Tx MXene-carbon nanocage-sulfur (MXene/CNC/S) cathode is synthesized by a simple process with high conductivity and outstanding performance in Li-S batteries. The cathode with an unusually high sulfur content of 80% demonstrates an eminent initial specific capacity of 1275.5 mAh·g−1 at 0.1 C and retains 823.8 mAh·g−1 after 100 cycles, showing a high retention rate of 64.6%. Besides, it exhibits a great conductive feature for rate performance, delivering 630.5 mAh·g−1 capacity when the current rises to 4 C. In this composition electrode, the excellent electrochemical performance indicates that MXene can effectively adsorb polysulfides to help batteries achieve long-term cyclic performance. On the other hand, the introduction of CNC strongly improves the specific surface area of the cathode and constructs a high conductive network to reduce the stacking of MXene, thus exhibiting better rate performance and increasing utilization of sulfur. Our work holds future technological significance as it could accelerate progress towards lithium-sulfur batteries with high sulfur content and less pricy conductive materials. © 2021 Elsevier B.V.",
+    "authors": [
+      "Geng, X.",
+      "Liu, C.",
+      "Sun, Y.",
+      "Zhao, Y.",
+      "Yi, R.",
+      "Song, P.",
+      "Zhao, C.",
+      "Mitrovic, I.",
+      "Yang, L.",
+      "Zhao, C."
+    ]
+  },
+  {
+    "title": "Paper-Based All-in-One Origami Nanobiosensor for Point-of-Care Detection of Cardiac Protein Markers in Whole Blood",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85172033825&doi=10.1021%2facssensors.3c01221&partnerID=40&md5=279918f110c808ee2da3a333c632fd68",
+    "description": "Rapid and accurate diagnosis of cardiovascular diseases (CVDs) at the earliest stage is of paramount importance to improve the treatment outcomes and avoid irreversible damage to a patient’s cardiovascular system. Microfluidic paper-based devices (μPADs) represent a promising platform for rapid CVD diagnosis at the point of care (POC). This paper presents an electrochemical μPAD (E-μPAD) with an all-in-one origami design for rapid and POC testing of cardiac protein markers in whole blood. Based on the label-free, electrochemical impedance spectroscopy (EIS) immunoassay, the E-μPAD integrates all essential components on a single chip, including three electrochemical cells, a plasma separation membrane, and a buffer absorption pad, enabling easy and streamlined operations for multiplexed detection of three cardiac protein markers [cardiac troponin I (cTnI), brain natriuretic peptide (BNP)-32, and D-Dimer] on a finger-prick whole blood sample within 46 min. Superior analytical performance is achieved through sensitive EIS measurement on carbon electrodes decorated with semiconductor zinc oxide nanowires (ZnO NWs). Using spiked human plasma samples, ultralow limits of detection (LODs) of E-μPAD are achieved at 4.6 pg/mL (190 fM) for cTnI, 1.2 pg/mL (40 fM) for BNP-32, and 146 pg/mL (730 fM) for D-Dimer. Real human blood samples spiked with purified proteins are also tested, and the device’s analytical performance was proven to be comparable to commercial ELISA kits. The all-in-one E-μPAD will allow rapid and sensitive testing of cardiac protein markers through easy operations, which holds great potential for on-site screening of acute CVDs in nonlaboratory settings such as emergency rooms, doctor’s offices, or patient homes. © 2023 American Chemical Society.",
+    "authors": [
+      "Fu, H.",
+      "Qin, Z.",
+      "Li, X.",
+      "Pan, Y.",
+      "Xu, H.",
+      "Pan, P.",
+      "Song, P.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Biochar-derived material decorated by MXene/reduced graphene oxide using one-step hydrothermal treatment as high-performance supercapacitor electrodes",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85135845070&doi=10.1016%2fj.carbon.2022.07.058&partnerID=40&md5=05fca6db061e75fc4d7b565e1537fb8a",
+    "description": "A simple hydrothermal reaction of Ti3C2Tx and reduced graphene oxide (rGO) nanosheets to adjust the pore size of activated biomass materials (pleurotus eryngii) is presented. The unique structure produced is favourable for the ion transmission and reducing the restacking of Ti3C2Tx and rGO nanosheets. The effect of the addition quantities of Ti3C2Tx/rGO hydrogel on the specific capacitance is investigated. Under the optimal condition, the best specific capacitance of 403 F g−1 is observed at 2 mV s−1, which is approximately 1.5 times higher than that of the pure activated pleurotus eryngii. Our work possesses a technological strategy to reuse the commercial activated biochar as it can lead to broad industrial applications. © 2022 Elsevier Ltd",
+    "authors": [
+      "Sun, Y.",
+      "Yuan, Y.",
+      "Geng, X.",
+      "Han, C.",
+      "Lu, S.",
+      "Mitrovic, I.",
+      "Yang, L.",
+      "Song, P.",
+      "Zhao, C."
+    ]
+  },
+  {
+    "title": "Role of perceived self-efficacy in automated project allocation: Measuring university students’ perceptions of justice in interdisciplinary project-based learning",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85133953128&doi=10.1016%2fj.chb.2022.107381&partnerID=40&md5=7958f6369f7fbb789a3a0a05a2f2a3d3",
+    "description": "Universities have implemented digital-technology-assisted automated project-allocation solutions to solve perceived injustices raised by students during manual project allocation for project-based learning (PBL). However, perceived injustices still occur. Grounded in social cognitive theory and organizational justice theory, this mixed-method case study explored the proposition that self-efficacy predicts perceived justice. First, we developed and evaluated an integrated scale that assessed self-efficacy and perceived justice by incorporating the educational context into PBL project allocation. Second, we tested three hypotheses regarding the relationship between self-efficacy and the dimensions of perceived justice, using structural equation modelling. Third, we conducted focus group interviews and qualitative analysis to explain the quantitative findings. The questionnaire was administered to two undergraduate cohorts (N1 = 226, N2 = 537) in an interdisciplinary PBL course at an international university. Perceived self-efficacy, procedural justice, distributive justice, and learning equity were the most relevant factors for perceived justice in PBL project allocation. Moreover, students' self-efficacy significantly predicted perceived justice, confirming human agency's critical role in automated project-allocation decision-making. Three themes were extracted to explain underlying mechanisms. This study provides a context-specific justice measurement tool and a conceptual model highlighting the importance of student self-efficacy for perceived justice in sustainable PBL in higher education. © 2022 Elsevier Ltd",
+    "authors": [
+      "Li, N.",
+      "Lim, E.G.",
+      "Leach, M.",
+      "Zhang, X.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "A nanopaper device for highly sensitive and homogeneous surface-enhanced Raman spectroscopy",
+    "year": "2020",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85079674397&partnerID=40&md5=4c73543fc4cfcf4ed7999b0dcac3a980",
+    "description": "In this paper, a successive ionic layer absorption and reaction (SILAR) process was reported for the first time to fabricate a low-cost, highly-sensitive and uniformed nanofibrillated cellulose paper (nanopaper) SERS device, through in situ growing silver nanoparticles (AgNPs) on nanopaper. The device demonstrates a picomolar-level limit of detection and an enhancement factor of 1.46 x 109. Raman mapping results show a superior spatial homogeneity of the device with a small standard deviation of ~14%. This nanopaper SERS device is a new SERS platform with high flexibility, excellent biodegradability, low cost, and ease of operation. © 17CBMS-0001.",
+    "authors": [
+      "Chen, L.",
+      "Ying, B.",
+      "Song, P.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "A Nanocellulose-Paper-Based SERS Multiwell Plate with High Sensitivity and High Signal Homogeneity",
+    "year": "2019",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85074971103&doi=10.1002%2fadmi.201901346&partnerID=40&md5=e63602f9baa661eb80fef1580868de63",
+    "description": "Paper-based surface-enhanced Raman scattering (SERS) substrates have gained growing interest as an eco-friendly and low-cost tool for chemical and biosensing. However, paper-based SERS substrates often suffer relatively low signal spatial homogeneity because of their nonuniform hot-spot distribution. In this paper, a nanofibrillated cellulose paper (nanopaper) based SERS multiwell plate is developed for trace chemical detection with high sensitivity and high signal homogeneity. The SERS plate is fabricated from ultrasmooth (2,2,6,6-tetramethylpiperidin-1-yl)oxyl-oxidized NFC paper (TO-nanopaper) through wax-printing-based multiwell patterning followed by silver nanoparticle (AgNP) growth based on a successive ionic layer adsorption and reaction (SILAR) process. Taking advantage of the abundance of carboxyl groups on the TO-nanopaper, uniformly distributed and densely arranged AgNPs are successfully synthesized through the SILAR process on the NFC multiwell surface under ambient conditions. The SERS performance of the device is evaluated for testing two Raman marker chemicals, rhodamine B and 2-naphthalenethiol, and picomolar detection limit and high Raman enhancement factor (up to 1.46 × 109) are achieved. The Raman signal mapping results show superior signal spatial homogeneity of the device with low variations (≤11%). The nanopaper-based SERS device represents a promising SERS platform for chemical and biomolecule detections with high sensitivity and high repeatability. © 2019 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim",
+    "authors": [
+      "Chen, L.",
+      "Ying, B.",
+      "Song, P.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Rolled-up SiOx/SiNx microtubes made by PECVD for sensitive solvent detection",
+    "year": "2018",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85079847703&partnerID=40&md5=ba2652cffcd0716c26c703bc0c889063",
+    "description": "This paper reports a highly-sensitive, whispering gallery mode (WGM)-based chemical sensor based on rolled-up microtube optical microcavity (RUM-OM). For the first time, such microcavities were batch-fabricated through rolling up of plasma-enhanced chemical vapor deposition (PECVD)-synthesized SiOx/SiNx bilayer nanomembranes. Benefiting from the high refractive index (RI) of PECVD-deposited SiNx, our RUM-OM showed a significantly improved quality factor (Q-factor: ~880) over that (~50) of SiO/SiO2 RUM-OM with similar geometries. The developed RUM-OM was demonstrated for solvent sensing, providing a limit of detection (LOD) of 1.7 × 10-4 RIU (refractive index unit), 10 times lower than that of the SiO/SiO2 RUM-OMs (2 × 10-3 RIU). Copyright © (2018) by Chemical and Biological Microsystems Society. All rights reserved.",
+    "authors": [
+      "Song, P.",
+      "Chen, C.",
+      "Qu, J.",
+      "Ou, P.",
+      "Dastjerdi, M.H.T.",
+      "Fu, H.",
+      "Mi, Z.",
+      "Song, J.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "An automated microfluidic system for high-speed, high accuracy size synchronization of caenorhabditis elegans",
+    "year": "2015",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84983242546&partnerID=40&md5=91ff3965fedbccf2b9719d172b21b9f8",
+    "description": "This paper reports a novel microfluidic system that enables, for the first time, automated, high-speed and high-accuracy size synchronization of the nematode worm Caenorhabditis elegans. The microfluidic device, integrated with a real-time image processing algorithm, is capable of sequentially loading, realtime size measurement, and size-based sorting of C. elegans. Using this device, we demonstrate a sorting speed of 11 worm/min with a zero false positive rate and a 3.1% (1/32) false negative rate. The superior performance provided by the microfluidic system will significantly facilitate large-scale size synchronization of C. elegans. © 15CBMS-0001.",
+    "authors": [
+      "Song, P.F.",
+      "Dong, X.K.",
+      "Liu, X.Y."
+    ]
+  },
+  {
+    "title": "Fault detection system and reliability analysis for chain-type tool magazine",
+    "year": "2012",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84868354693&doi=10.4028%2fwww.scientific.net%2fAMR.542-543.941&partnerID=40&md5=c6eccbcbdb9dd84cae86bb3b5bc36373",
+    "description": "By analyzing the structure features and tool changing process of a large-scale national Automatic Tool Changer (ATC) with a chain-type tool magazine, a chain-type tool magazine reliability test bench is designed with a new fault detection system, where a new failure data collecting method is applied for taking failure data statistics and reliability analysis. This set of fault detecting and reliability analyzing system not only provides a way for ATC to predict system faults, but also creates good conditions for further ATC reliability research. © (2012) Trans Tech Publications, Switzerland.",
+    "authors": [
+      "Hu, Y.",
+      "Yang, Z.",
+      "Zeng, X.",
+      "Song, P.",
+      "Ma, Y.",
+      "Wang, Y.",
+      "Lou, Q."
+    ]
+  },
+  {
+    "title": "Facile Microembossing Process for Microchannel Fabrication for Nanocellulose-Paper-Based Microfluidics",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85147113408&doi=10.1021%2facsami.2c19354&partnerID=40&md5=c1562a52b3974a25861a9ff863dbbeb2",
+    "description": "Nanofibrillated cellulose paper (nanopaper) has gained growing interest as one promising substrate material for paper-based microfluidics, thanks to its ultrasmooth surface, high optical transparency, uniform nanofiber matrix with nanoscale porosity, and tunable chemical properties. Recently, research on nanopaper-based microfluidics has quickly advanced; however, the current technique of patterning microchannels on nanopaper (i.e., 3D printing, spray coating, or manual cutting and sticking), that is fundamental for application development, still has some limitations, such as ease-of-contamination, and more importantly, only enabling millimeter-scale channels. This paper reports a facile process that leverages the simple operations of microembossing with the convenient plastic micro-molds, for the first time, patterning nanopaper microchannels downing to 200 μm, which is 4 times better than the existing methods and is time-saving (<45 mins). We also optimized the patterning parameters and provided one quick look-up table as the guideline for application developments. As proof-of-concept, we first demonstrated two fundamental microfluidic devices on nanopaper, the laminar-mixer and droplet generator, and two functional nanopaper-based analytical devices (NanoPADs) for glucose and Rhodamine B (RhB) sensing based on optical colorimetry and surface-enhanced Raman spectroscopy, respectively. The two NanoPADs showed outstanding performance with low limits of detection (2 mM for glucose and 19fM for RhB), which are 1.25× and 500× fold improvement compared to the previously reported values. This can be attributed to our newly developed highly accurate microchannel patterning process that enables high integration and fine-tunability of the NanoPADs along with the superior optical properties of nanopaper. © 2023 American Chemical Society.",
+    "authors": [
+      "Yuan, W.",
+      "Yuan, H.",
+      "Jiao, K.",
+      "Zhu, J.",
+      "Lim, E.G.",
+      "Mitrovic, I.",
+      "Duan, S.",
+      "Wang, Y.",
+      "Cong, S.",
+      "Zhao, C.",
+      "Sun, J.",
+      "Liu, X.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Automated Robotic Microinjection of the Nematode Worm Caenorhabditis elegans",
+    "year": "2021",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85104060898&doi=10.1109%2fTASE.2020.2990995&partnerID=40&md5=3483553e352ef1d307cf941a54e1675c",
+    "description": "The nematode worm Caenorhabditis elegans is a model organism widely used in biological research on genetics, development, neuroscience, and aging. Microinjection is an effective and widely adopted method to create transgenetic worms, perform ribonucleic acid (RNA) interference of certain genes, and introduce different types of molecules into specific locations inside a worm body. Based on microfluidics and robotic micromanipulation techniques, we develop a robotic system for automated microinjection of C. elegans with greatly improved injection speed and success rate over traditional manual microinjection. A double-layer microfluidic device with computer-controlled pneumatic valves is developed for automated on-chip loading, immobilization, injection, and downstream sorting of single worms. A new autofocusing-based contact detection algorithm is proposed to find the optimal injection position along the depth direction of the microscope field of view. The direction and location of the needle tip are reliably identified using an image processing algorithm. Through experiments on 240 worms, the system demonstrates automated injection at a speed of 6 worms/min (9.97 s/worm) with a presorting operation success rate of 78.8% (postsorting operation success rate: 100%), which are more than 23 times faster and 1.6 times higher than the speed (0.25 worm/min) and success rate (30%) of a proficient human operator, respectively. With the superior performance, this system will enable new large-scale gene-and molecule-screening studies on C. elegans that cannot be fulfilled by the conventional microinjection technique. Note to Practitioners-In the worm biology community, there are thousands of research laboratories worldwide that routinely cope with worm microinjection experiments. This article aims to present the functionality and performance of our automated robotic system for high-speed worm injection. Using the robotic system, a large number of C. elegans can be loaded into the microfluidic device for continuous worm immobilization and injection. A user-friendly graphical user interface (GUI) is developed to allow an operator to monitor the injection process on a computer screen, select the injection location inside the worm body (through computer mouse clicking), and direct the system (through keyboard input) for downstream sorting of the successfully injected worms for further culture. Given its unique features, such as high injection speed, high level of automation, and high success/survival rates, this system holds great potential to liberate worm researchers from the tedious manual injection process and provide unparalleled injection throughput and consistency.  © 2004-2012 IEEE.",
+    "authors": [
+      "Dong, X.",
+      "Song, P.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Cellulose Nanostructures as Tunable Substrates for Nanocellulose-Metal Hybrid Flexible Composites",
+    "year": "2024",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85185102304&doi=10.1002%2fcplu.202300704&partnerID=40&md5=a715ead7c71bc12082d8a919d1223aba",
+    "description": "Nanocomposite represents the backbone of many industrial fabrication applications and exerts a substantial social impact. Among these composites, metal nanostructures are often employed as the active constituents, thanks to their various chemical and physical properties, which offer the ability to tune the application scenarios in thermal management, energy storage, and biostable materials, respectively. Nanocellulose, as an emerging polymer substrate, possesses unique properties of abundance, mechanical flexibility, environmental friendliness, and biocompatibility. Based on the combination of flexible nanocellulose with specific metal fillers, the essential parameters involving mechanical strength, flexibility, anisotropic thermal resistance, and conductivity can be enhanced. Nowadays, the approach has found extensive applications in thermal management, energy storage, biostable electronic materials, and piezoelectric devices. Therefore, it is essential to thoroughly correlate cellulose nanocomposites’ properties with different metallic fillers. This review summarizes the extraction of nanocellulose and preparation of metal modified cellulose nanocomposites, including their wide and particular applications in modern advanced devices. Moreover, we also discuss the challenges in the synthesis, the emerging designs, and unique structures, promising directions for future research. We wish this review can give a valuable overview of the unique combination and inspire the research directions of the multifunctional nanocomposites using proper cellulose and metallic fillers. © 2024 Wiley-VCH GmbH.",
+    "authors": [
+      "Jiao, K.",
+      "Cao, W.",
+      "Yuan, W.",
+      "Yuan, H.",
+      "Zhu, J.",
+      "Gao, X.",
+      "Duan, S.",
+      "Yong, R.",
+      "Zhao, Z.",
+      "Song, P.",
+      "Jiang, Z.-J.",
+      "Wang, Y.",
+      "Zhu, J."
+    ]
+  },
+  {
+    "title": "A microfluidic device for automated, high-speed microinjection of Caenorhabditis elegans",
+    "year": "2015",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84955479267&doi=10.1109%2fTRANSDUCERS.2015.7181009&partnerID=40&md5=dba0b48eaa365e4b13102ff92457c1e4",
+    "description": "This paper reports a novel microfluidic worm immobilization device that enables, for the first time, automated, high-speed microinjection of the nematode worm Caenorhabditis elegans. The microfluidic device, integrated with an automated robotic system, is capable of sequentially loading, immobilizing, injecting, and sorting C. elegans with minimal human intervention. Using the device, we demonstrate an injection speed of 6.6 worm/min and a pre-sorting success rate of 77.5% (post-sorting: 100%), both much higher than the performance of manual operation (speed: 1 worm per 4 min; success rate: ∼30%). © 2015 IEEE.",
+    "authors": [
+      "Song, P.",
+      "Dong, X.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "A microfluidic device for efficient chemical testing using Caenorhabditis elegans",
+    "year": "2015",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84924371233&doi=10.1007%2fs10544-015-9939-8&partnerID=40&md5=2e01c58cd9d27e3f3f2771a05def310e",
+    "description": "The nematode worm Caenorhabditis elegans has been employed as a popular model organism in many fields of biological research. In this paper, we present a microfluidic device for facilitating chemical testing using C. elegans. For testing chemicals on chip, the device houses single nematodes in microfluidic chambers and precisely adjusts the chamber’s chemical environment during experiments. Eight nematodes can be readily loaded into the chambers through separate loading channels in a quick and gentle manner. In addition, a custom-made software with a graphic user interface is also created for quantitative analysis of locomotion parameters (swimming frequency and bend amplitude) of the nematodes in response to chemical stimuli, thus greatly enhancing the efficiency of data collection. We perform proof-of-concept experiments using two chemicals, zinc ion (Zn2+) and glucose, to demonstrate the effectiveness of the microfluidic device. © 2015, Springer Science+Business Media New York.",
+    "authors": [
+      "Song, P.",
+      "Zhang, W.",
+      "Sobolevski, A.",
+      "Bernard, K.",
+      "Hekimi, S.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Facile one-pot synthesis of 3D graphite-SiO2 composite foam for negative resistance devices",
+    "year": "2017",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85028752417&doi=10.1039%2fc7ra07465d&partnerID=40&md5=4c136ebcadb4b463a9d9d211c97ef9eb",
+    "description": "In this study, we successfully prepare a porous graphite-SiO2 composite foam via a facile glucose-foaming-based method. The foam was characterized by XRD, XPS, SEM, Raman, and soft X-ray absorption spectroscopy of the carbon and oxygen K-edges and by silicon K-edge X-ray absorption near edge structure (XANES) spectroscopy. The electrical properties of the sample were evaluated using current-voltage measurements. The synthesized graphite-SiO2 composite foam showed negative resistance effect, i.e. an increase in the applied voltage led to a decrease in current. This negative resistance effect can be explained by two possible mechanisms: (1) the existence of defect states and (2) a change in the charge shifting amount. © 2017 The Royal Society of Chemistry.",
+    "authors": [
+      "Wu, Y.",
+      "Fu, H.",
+      "Roy, A.",
+      "Song, P.",
+      "Lin, Y.",
+      "Kizilkaya, O.",
+      "Xu, J."
+    ]
+  },
+  {
+    "title": "Metal-Organic Frameworks/Heterojunction Structures for Surface-Enhanced Raman Scattering with Enhanced Sensitivity and Tailorability",
+    "year": "2024",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85192861728&doi=10.1021%2facsami.4c01588&partnerID=40&md5=0b028cf014d10d3deaf29032272ac66e",
+    "description": "Metal-organic frameworks (MOFs), which are composed of crystalline microporous materials with metal ions, have gained considerable interest as promising substrate materials for surface-enhanced Raman scattering (SERS) detection via charge transfer. Research on MOF-based SERS substrates has advanced rapidly because of the MOFs’ excellent structural tunability, functionalizable pore interiors, and ultrahigh surface-to-volume ratios. Compared with traditional noble metal SERS plasmons, MOFs exhibit better biocompatibility, ease of operation, and tailorability. However, MOFs cannot produce a sufficient limit of detection (LOD) for ultrasensitive detection, and therefore, developing an ultrasensitive MOF-based SERS substrate is imperative. To the best of our knowledge, this is the first study to develop an MOFs/heterojunction structure as an SERS enhancing material. We report an in situ ZIF-67/Co(OH)2 heterojunction-based nanocellulose paper (nanopaper) plate (in situ ZIF-67 nanoplate) as a device with an LOD of 0.98 nmol/L for Rhodamine 6G and a Raman enhancement of 1.43 × 107, which is 100 times better than that of the pure ZIF-67-based SERS substrate. Further, we extend this structure to other types of MOFs and develop an in situ HKUST-1 nanoplate (with HKUST-1/Cu(OH)2). In addition, we demonstrate that the formation of heterojunctions facilitates efficient photoinduced charge transfer for SERS detection by applying the Mx(OH)y-assisted (where M = Co, Cu, or other metals) MOFs/heterojunction structure. Finally, we successfully demonstrate the application of medicine screening on our nanoplates, specifically for omeprazole. The nanoplates we developed still maintain the tailorability of MOFs and perform high anti-interference ability. Our approach provides customizing options for MOF-based SERS detection, catering to diverse possibilities in future research and applications. © 2024 The Authors. Published by American Chemical Society.",
+    "authors": [
+      "Yuan, W.",
+      "Jiao, K.",
+      "Yuan, H.",
+      "Sun, H.",
+      "Lim, E.G.",
+      "Mitrovic, I.",
+      "Duan, S.",
+      "Cong, S.",
+      "Yong, R.",
+      "Li, F.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Nanodiamond: a promising metal-free nanoscale material in photocatalysis and electrocatalysis",
+    "year": "2024",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85191748374&doi=10.1007%2fs12598-023-02513-8&partnerID=40&md5=24e2c7c632f2a615e37a00cee0cc4484",
+    "description": "Benefiting from its surface-rich functional groups, eco-friendliness, impressive electrochemical properties, excellent light absorption, structural tunability at the atomic/morphological level, and ultra-high stability under harsh conditions, nanodiamond has emerged as a promising carbon-based non-metallic material in the field of energy conversion such as electrocatalysis and photocatalysis. Furthermore, nanodiamond, as a new generation of green catalysts, can overcome the poisoning of catalysts by complex pollutants in advanced oxidation processes, thus effectively removing organic matter from water, which is unparalleled in reducing the cost of water purification and avoiding secondary cross-contamination of water by traditional heavy metal-based catalysts. Here, we review the research and development of nanodiamonds as major electrocatalysts and photocatalysts for energy conversion and for air/water treatment for environmental remediation. The relevant properties, trimming strategy, mechanistic understanding, and design principles of nanodiamond as a catalyst are described, as well as the challenges and prospects of this emerging field. © Youke Publishing Co.,Ltd 2024.",
+    "authors": [
+      "Gao, X.-W.",
+      "Zhao, Z.-W.",
+      "He, Y.",
+      "Fan, S.-F.",
+      "Jiao, K.-R.",
+      "Lou, S.-Y.",
+      "Han, X.-Y.",
+      "Song, P.-F.",
+      "Cai, R.",
+      "Hu, Z.",
+      "Jiang, Z.-J.",
+      "Wang, Y.-J.",
+      "Zhu, J.-Q."
+    ]
+  },
+  {
+    "title": "Correction: A spiral microfluidic device for rapid sorting, trapping, and long-term live imaging of Caenorhabditis elegans embryos (Microsystems & Nanoengineering, (2023), 9, 1, (17), 10.1038/s41378-023-00485-4)",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85177548433&doi=10.1038%2fs41378-023-00626-9&partnerID=40&md5=40cc942bb2ed4fbc3f1d1e7db6add5df",
+    "description": "Correction to: Microsystems & Nanoengineering (2023) 9:17 published online 21 February 2023 After the publication of this article1, it was brought to our attention that a fund number in the acknowledgements needs to be updated: This work was supported by the Natural Sciences and Engineering Research Council of Canada (grant numbers: RGPIN-2017-06374, RGPAS-2017-507980, and RGPIN-2022-05039), the Canadian Institutes of Health Research (grant number: PJT-180365), the Canada Foundation for Innovation (grant number: JELF-38428). The financial support from the National Natural Science Foundation of China (62273247) and the Natural Science Foundation of the Jiangsu Higher Education Institutions of China (20KJA460008) to C. Ru is acknowledged. P. Song also acknowledges the support from the Natural Science Foundation of the Jiangsu Higher Education Institutions of China (20KJB460024) and the Young Scholar Program of Jiangsu Science and Technology (BK20200251). © 2023, The Author(s).",
+    "authors": [
+      "Pan, P.",
+      "Qin, Z.",
+      "Sun, W.",
+      "Zhou, Y.",
+      "Wang, S.",
+      "Song, P.",
+      "Wang, Y.",
+      "Ru, C.",
+      "Wang, X.",
+      "Calarco, J.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Synthesis of praseodymium-and molybdenum- sulfide nanoparticles for dye-photodegradation and near-infrared deep-tissue imaging",
+    "year": "2020",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083506484&doi=10.1088%2f2053-1591%2fab8160&partnerID=40&md5=01d560c8ad8780eece684e63949d1732",
+    "description": "Development of nanoparticles with multi-functionalities is of great importance. In this study, praseodymium sulfide (Pr2S3) and molybdenum sulfide (MoS2) nanoparticles were synthesized. The structural, morphological and optical properties of the as-obtained products were investigated by XRD, XPS, TEM, UV-vis-NIR spectroscopy, and photoluminescence spectroscopy. Pr2S3 is found to be used in selective photodegradation of fluorescein sodium salt. MoS2 can be utilized for selective photodegradation of rhodamine B. In the mixture of rhodamine B, fluorescein sodium salt and rhodamine 6 G, most of rhodamine B and part of fluorescein sodium salt are optically degraded by Pr2S3. In the mixture of rhodamine B, fluorescein sodium salt and rhodamine 6 G, part of fluorescein sodium salt and most of rhodamine B is degraded by MoS2. Moreover, they emit near-infrared fluorescence (800-1100 nm) when excited by the 785 nm light. Deep tissues imaging with high-contrast is shown, utilizing a nanoparticle-filled centrifuge tube covered with animal tissues (pig Bacon meat). Maximum imaging depth below the tissue surface of 1 cm is achieved. Our work provides a rapid yet efficient procedure to make nanoparticles for dual-application-potential in dye-photodegradation and near-infrared deep tissue imaging. © 2020 The Author(s). Published by IOP Publishing Ltd.",
+    "authors": [
+      "Wu, Y.",
+      "Ou, P.",
+      "Song, J.",
+      "Zhang, L.",
+      "Lin, Y.",
+      "Song, P.",
+      "Xu, J."
+    ]
+  },
+  {
+    "title": "Sulfydryl-modified MXene as a sulfur host for highly stable Li-S batteries",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85146299070&doi=10.1016%2fj.electacta.2023.141877&partnerID=40&md5=1e8da2621a6902feb9caa1c9ce9ac115",
+    "description": "As a novel two-dimensional (2D) layered material, Ti3C2Tx MXene has excellent electronic conductivity and strong polysulfides adsorption. Its potential for Li-S batteries has been well recoginised since it can compensate conductivity of sulfur and improve cycling stability simultaneously. However, like other 2D materials, the stacking feature of the MXene nanosheet greatly limits its advantages and applications. Herein, a sulfydryl-modified MXene - sulfur cathode is synthesized via simple hydrothermal and copolymerization reactions. Compared to the conventional physical absorption between MXene and polysulfide, it was found that a chemical modification of MXene offers a much robust structure with little stacking on MXene. During the discharge process high-order Li2S4 intermediates were first formed but consumed immediately. The remaining polysulfides are only short chains of Li2S, Li2S2 and Li2S3. This type of cathode can greatly suppress the “shuttle effect” by reducing the generation of soluble high-order polysulfides in the electrolyte, which is attributed to rapid capacity fading. As a result, the cathode achieves an excellent initial specific capacity of 1367 mAh·g−1 at 0.1 C. It also has a high first capacity of 880 mAh·g−1 and remains 715 mAh·g−1 after 500 cycles at 1 C, with a retention rate of 81.3%. Our work provides a new strategy for applying MXene in the Li-S battery field. © 2023 Elsevier Ltd",
+    "authors": [
+      "Geng, X.",
+      "Liu, C.",
+      "Zhao, C.",
+      "Jiang, Z.",
+      "Lim, E.G.",
+      "Wang, Y.",
+      "Mitrovic, I.",
+      "Yang, L.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Flexible physical sensors made from Paper substrates integrated with zinc oxide nanostructures",
+    "year": "2017",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85040230973&doi=10.1088%2f2058-8585%2faa765d&partnerID=40&md5=37cd22a029c9409f504331f4a15acfa7",
+    "description": "Paper-based physical sensors represent an emerging research direction in the field of flexible sensors, which offers a low-cost alternative to current silicon-based sensors. The ultralow cost and excellent biodegradability of paper substrates contribute to the major advantages of paper-based sensors. To enhance the sensor performance, a variety of functional nanomaterials have been utilized for developing paper-based physical sensors, among which zinc oxide (ZnO) nanostructures (e.g. nanoparticles, nanowires, and nanotrees) are popular choices because of their multiple physical sensing modalities and ease of synthesis on paper. This article reviews the recent advances of paperbased physical sensors integrating zinc oxide nanostructures. First, we summarize the methods for synthesizing ZnO nanostructures on paper, with a focus on the low-cost facile hydrothermal approach. We then discuss the physical properties (e.g. piezoelectricity, piezotronics, and ultraviolet (UV) sensitivity) of ZnO nanostructures that have been used for physical sensing applications. We review the representative designs of paper-based ZnO physical sensors and their applications such as nanogenerators, strain sensors, touch pads, and UV sensors. Finally, we conclude the current progress, and envision the future trends and research opportunities. © 2017 IOP Publishing Ltd.",
+    "authors": [
+      "Song, P.",
+      "Wang, Y.-H.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Predictive modeling of misfit dislocation induced strain relaxation effect on self-rolling of strain-engineered nanomembranes",
+    "year": "2018",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85053523732&doi=10.1063%2f1.5046314&partnerID=40&md5=2e071cdb444c5fea255db81edebc659f",
+    "description": "Combining atomistic simulations and continuum modeling, the effects of misfit dislocations on strain relaxation and subsequently self-rolling of strain-engineered nanomembranes have been investigated. Two representative material systems including (GaN/In0.5Ga0.5N) of wurtzite lattice and II-VI materials (CdTe/CdTe0.5S0.5) of zinc-blend lattice were considered. The atomistic characteristics of dislocation and the resulting lattice distorting were first determined by generalized-stacking-fault energy profile and disregistry function obtained through Peierls-Nabarro model. Those properties were then used to calculate the accurate mismatch strain of those nanomembranes with the presence of dislocations, and as inputs into von-Karman shell theory to quantitatively evaluate the effects on self-rolling curvature and anisotropy. The theoretical results were further confirmed by atomistic simulations of different crystal geometries and dislocation configurations. Our results provide essential theoretical insights towards prediction and design of rollup configurations for strain-engineered nanomembranes containing crystalline defects. © 2018 Author(s).",
+    "authors": [
+      "Chen, C.",
+      "Song, P.",
+      "Meng, F.",
+      "Ou, P.",
+      "Liu, X.",
+      "Song, J."
+    ]
+  },
+  {
+    "title": "An ultrasensitive FET biosensor based on vertically aligned MoS2 nanolayers with abundant surface active sites",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85150172142&doi=10.1016%2fj.aca.2023.341036&partnerID=40&md5=5f28a09e89efbbe2a313b9eda4904247",
+    "description": "Molybdenum disulfide (MoS2) nanolayers are one of the most promising two-dimensional (2D) nanomaterials for constructing next-generation field-effect transistor (FET) biosensors. In this article, we report an ultrasensitive FET biosensor that integrates a novel format of 2D MoS2, vertically-aligned MoS2 nanolayers (VAMNs), as the channel material for label-free detection of the prostate-specific antigen (PSA). The developed VAMNs-based FET biosensor shows two distinctive advantages. First, the VAMNs can be facilely grown using the conventional chemical vapor deposition (CVD) method, permitting easy fabrication and potential mass device production. Second, the unique advantage of the VAMNs for biosensor development lies in its abundant surface-exposed active edge sites that possess a high binding affinity with thiol-based linkers, which overcomes the challenge of molecule functionalization on the conventional planar MoS2 nanolayers. The high binding affinity between 11-mercaptoundecanoic acid and the VAMNs was demonstrated through experimental surface characterization and theoretical calculations via density functional theory. The FET biosensor allows rapid (within 20 min) and ultrasensitive PSA detection in human serum with simple operations (limit of detection: 800 fg mL−1). This FET biosensor offers excellent features such as ultrahigh sensitivity, ease of fabrication, and short assay time, and thereby possesses significant potential for early-stage diagnosis of life-threatening diseases. © 2023 Elsevier B.V.",
+    "authors": [
+      "Song, P.",
+      "Ou, P.",
+      "Wang, Y.",
+      "Yuan, H.",
+      "Duan, S.",
+      "Chen, L.",
+      "Fu, H.",
+      "Song, J.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "A paper-based microfluidic platform with shape-memory-polymer-actuated fluid valves for automated multi-step immunoassays",
+    "year": "2019",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85073231075&doi=10.1038%2fs41378-019-0091-0&partnerID=40&md5=86d67a8ecd5c2c315c6977301ff9448d",
+    "description": "Smart fluid manipulation with automatically controlled paper valves will enable automated and multi-step immunoassays on paper-based microfluidic devices. In this work, we present an integrated paper-based microfluidic platform with shape-memory polymer (SMP)-actuated fluid valves capable of automated colorimetric enzyme-linked immunosorbent assays (ELISAs). A single-layer microfluidic paper-based analytical device (μPAD) was designed to store all the reagents on the chip, and sequentially transfer reagents to a paper test zone following a specific ELISA protocol through automatic fluidic flow control by the multiple SMP-actuated valves. The actuation of a paper valve was based on the thermally responsive, duel-state shape transformation of a SMP sheet attached to the root of a paper cantilever beam for driving a hydrophilic paper bridge to connect and disconnect two paper channels. A portable colorimetric reader was developed to control the on-chip valve operations, quantify the colorimetric signal output, display the assay result, and wirelessly transmit the data to a smart phone for the application of telemedicine. Reliable operations of the paper valve and the entire μPAD were demonstrated with success rates of 97% and 93%, respectively. A detection mechanism for valve malfunction was designed and confirmed effective to identify any mal-operation of individual valves, thus rendering our platform reliable in real assays. For device calibration, we conducted direct ELISAs of rabbit IgG in phosphate-buffered saline (PBS), and achieved a low limit of detection (LOD) of 27 pM (comparable to that of standard and paper-based ELISAs). In order to demonstrate the clinical application of our multi-step immunoassay platform, we also conducted sandwich ELISAs to quantify the protein level of an inflammatory cytokine, namely tumor necrosis factor (TNF)-α, in surgically injured laryngeal tissues of rats. The protein levels of TNF-α were shown similar between the conventional and μPAD ELISAs. © 2019, The Author(s).",
+    "authors": [
+      "Fu, H.",
+      "Song, P.",
+      "Wu, Q.",
+      "Zhao, C.",
+      "Pan, P.",
+      "Li, X.",
+      "Li-Jessen, N.Y.K.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Effects of material heterogeneity on self-rolling of strained membranes",
+    "year": "2019",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85063755191&doi=10.1016%2fj.eml.2019.100451&partnerID=40&md5=7394275c2ff16e6c0741b6561cf8823c",
+    "description": "The present work studies the effects of strained membranes. An analytical framework has been established to predict self-rolling curvatures of strained bilayer membranes containing heterogeneous material elements. The accuracy of the framework is validated through molecular dynamics (MD) simulations on the heterogeneous CdTe                             x                             S                             1−x                             /CdTe bilayer system. Moreover, numerical simulations using finite-element modeling (FEM) have been performed to examine the role of heterogeneous elements in the complex helical rolling. It has been demonstrated that both the rolling direction and rollup curvature can be predictively controlled by modulating the material heterogeneity and layer thickness. The present study points to a new pathway towards predictive design and tuning of complex 3D structures based on strained membranes through incorporation of heterogeneous elements.                          © 2019",
+    "authors": [
+      "Chen, C.",
+      "Song, P.",
+      "Meng, F.",
+      "Ou, P.",
+      "Lan, G.",
+      "Liu, X.",
+      "Song, J."
+    ]
+  },
+  {
+    "title": "Dynamic residual deep learning with photoelectrically regulated neurons for immunological classification",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85165076039&doi=10.1016%2fj.xcrp.2023.101481&partnerID=40&md5=e377da839204f221a335ea43830ef767",
+    "description": "Dynamic deep learning is considered to simulate the nonlinear memory process of the human brain during long-term potentiation and long-term depression. Here, we propose a photoelectrically modulated synaptic transistor based on MXenes that adjusts the nonlinearity and asymmetry by mixing controllable pulses. According to the advantage of residual deep learning, the rule of dynamic learning is thus elaborately developed to improve the accuracy of a highly homologous database (colorimetric enzyme-linked immunosorbent assay [c-ELISA]) from 80.9% to 87.2% and realize the fast convergence. Besides, mixed stimulation also remarkably shortens the iterative update time to 11.6 s as a result of the photoelectric effect accelerating the relaxation of ion migration. Finally, we extend the dynamic learning strategy to long short-term memory (LSTM) and standard datasets (Cifar10 and Cifar100), which well proves the strong robustness of dynamic learning. This work paves the way toward potential synaptic bionic retina for computer-aided detection in immunology. © 2023 The Authors",
+    "authors": [
+      "Wang, Q.",
+      "Duan, S.",
+      "Qin, J.",
+      "Sun, Y.",
+      "Wei, S.",
+      "Song, P.",
+      "Liu, W.",
+      "Gu, J.",
+      "Yang, L.",
+      "Tu, X.",
+      "Gao, H.",
+      "Zhao, C."
+    ]
+  },
+  {
+    "title": "Application of MXene-Based Materials for Cathode in Lithium-Sulfur Batteries",
+    "year": "2024",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85181932195&doi=10.1002%2fchem.202303451&partnerID=40&md5=bec9a5f4ea737f62f6f331761a755658",
+    "description": "The lithium-sulfur (Li−S) batteries have a high theoretical specific capacity of 1675 mAh ⋅ g−1 and have become the most promising high-energy storage system for the next generation batteries technology. However, their applications are hindered by insulated feature and volume expansion of sulfur, as well as the “shuttle effect” of polysulfides. MXenes own metallic conductivity and strong ability of polysulfides adsorption. Besides, their unique two-dimensional (2D) structure, large specific surface area, abundant functional groups, and adjustability are beneficial to overcome the drawbacks of the sulfur cathode. In this review, different mainstream preparation methods and excellent properties of MXenes are summarized. Significant achievements and recent progress of MXene-based cathodes and interlayers applied to Li−S cathodes are concluded later. Finally, the challenges, possible solutions and potential applications of MXenes for Li−S batteries are also presented. © 2023 Wiley-VCH GmbH.",
+    "authors": [
+      "Geng, X.",
+      "Yang, L.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Vision-based automated sorting of C. Elegans on a microfluidic device",
+    "year": "2019",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85071428315&doi=10.1109%2fICRA.2019.8793689&partnerID=40&md5=210c90c717809749e699d0ab184a9361",
+    "description": "This paper reports a vision-based microfluidic system for automated, high-speed sorting of the nematode worm C. elegans. Exceeding the capabilities of conventional worm sorting microfluidic devices purely relying on passive sorting mechanisms, our system is capable of accurate measurement of the worm body length/width and active sorting of worms with the desired sizes from a mixture of worms at different developmental stages. This feature is enabled by the combination of vision-based worm detection and sizing algorithms and automated on-chip worm manipulation. A double-layer microfluidic device with computer-controlled pneumatic valves is developed for sequential loading, trapping, imaging, and sorting of single worms based on vision-based worm size measurement results. To keep the system operation robust, vision-based algorithms for detecting multi-worm loading and worm size measurement failure have also been developed. We conducted sorting experiments on 319 worms and achieve an average sorting speed of 10.4 worms per minute (5.8 s/worm) with an operation success rate of 90.3%. This system will facilitate worm biology studies where body size measurement and size-based sorting of many worms are needed. © 2019 IEEE.",
+    "authors": [
+      "Dong, X.",
+      "Song, P.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Rolled-up SiOx/SiNx microtubes with an enhanced quality factor for sensitive solvent sensing",
+    "year": "2018",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85051632708&doi=10.1088%2f1361-6528%2faad0b1&partnerID=40&md5=0f98e775f718d1f623bc6edf64f5899f",
+    "description": "The microtubes made through rolling-up of strain-engineered nanomembranes have received growing research attention after their first invention due to the technology's high flexibility, integrability, and versatility. These rolled-up microtubes have been used for a variety of device applications including sensors, batteries and transistors, among others. This paper reports the development of highly sensitive whispering-gallery mode (WGM) chemical sensors based on rolled-up microtube optical microcavities (RUM-OCs). For the first time, such microcavities were batch fabricated through rolling-up of plasma-enhanced chemical vapor deposition (PECVD)-synthesized SiOx/SiNx bilayer nanomembranes, which have better optical properties than the conventional electron-beam-deposited SiO/SiO2 bilayers. Benefiting from the high refractive index (RI) of PECVD-deposited SiNx, our RUM-OC shows an enhanced quality factor of 880 that is much higher than that (50) of a SiO/SiO2 RUM-OC with the same dimensions. The developed RUM-OC is used for sensitive WGM solvent sensing, and demonstrate a limit of detection of 10-4 refractive index unit (RIU), which is 10 times lower than that (10-3 RIU) of a SiO/SiO2 RUM-OC. © 2018 IOP Publishing Ltd.",
+    "authors": [
+      "Song, P.",
+      "Chen, C.",
+      "Qu, J.",
+      "Ou, P.",
+      "Dastjerdi, M.H.T.",
+      "Mi, Z.",
+      "Song, J.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Deep Learning for Microfluidic-Assisted Caenorhabditis elegans Multi-Parameter Identification Using YOLOv7",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85166179663&doi=10.3390%2fmi14071339&partnerID=40&md5=3b693d59b3bf08adae2e0848a7247f76",
+    "description": "The Caenorhabditis elegans (C. elegans) is an ideal model organism for studying human diseases and genetics due to its transparency and suitability for optical imaging. However, manually sorting a large population of C. elegans for experiments is tedious and inefficient. The microfluidic-assisted C. elegans sorting chip is considered a promising platform to address this issue due to its automation and ease of operation. Nevertheless, automated C. elegans sorting with multiple parameters requires efficient identification technology due to the different research demands for worm phenotypes. To improve the efficiency and accuracy of multi-parameter sorting, we developed a deep learning model using You Only Look Once (YOLO)v7 to detect and recognize C. elegans automatically. We used a dataset of 3931 annotated worms in microfluidic chips from various studies. Our model showed higher precision in automated C. elegans identification than YOLOv5 and Faster R-CNN, achieving a mean average precision (mAP) at a 0.5 intersection over a union (mAP@0.5) threshold of 99.56%. Additionally, our model demonstrated good generalization ability, achieving an mAP@0.5 of 94.21% on an external validation set. Our model can efficiently and accurately identify and calculate multiple phenotypes of worms, including size, movement speed, and fluorescence. The multi-parameter identification model can improve sorting efficiency and potentially promote the development of automated and integrated microfluidic platforms. © 2023 by the authors.",
+    "authors": [
+      "Zhang, J.",
+      "Liu, S.",
+      "Yuan, H.",
+      "Yong, R.",
+      "Duan, S.",
+      "Li, Y.",
+      "Spencer, J.",
+      "Lim, E.G.",
+      "Yu, L.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Advanced artificial synaptic thin-film transistor based on doped potassium ions for neuromorphic computing via third-generation neural network",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85125740162&doi=10.1039%2fd1tc04827a&partnerID=40&md5=f3b00024b52ff749962ed425ff10318e",
+    "description": "As the basic and essential unit of neuromorphic computing systems, artificial synaptic devices have great potential to accelerate high-performance parallel computation, artificial intelligence, and adaptive learning. Among the proposed artificial synaptic devices, the synaptic transistors are well considered to be one of the most suitable devices for simulating artificial intelligence. So far, synaptic transistors based on iontronic have been proposed and proved to demonstrate great potential in artificial intelligence applications. However, little research specifically focused on improving the device's ability to mimic synaptic behaviour. Here, we proposed the enhancement of synaptic properties of the solution-based thin-film transistors based on potassium ion conduction in the dielectric layer for the first time. Due to the formation of a gated electrical double-layer, the transistor exhibited an enlarged memory window. Based on this, the excitatory postsynaptic current in the synaptic thin-film transistor was modified accordingly, which further enhanced the suitability of the proposed synaptic thin-film transistor for simulating biological synapses. In addition, considerable synaptic properties were evaluated elaborately, including paired-pulse facilitation, short-term memory, long-term memory, and spike-time-dependent-plasticity. Most importantly, according to the impressive results of the Artificial Neural Network algorithm's image recognition simulation, the simulation image recognition rate based on the mentioned artificial synaptic devices reached as high as 92%. Last but not least, in order to simulate biological neurobehavior more closely, the Spiking Neural Network algorithm was also successfully implemented to complete the specified machine learning task, which further proved the great potential of the synaptic devices in advanced low-power neural network systems. © The Royal Society of Chemistry.",
+    "authors": [
+      "Cao, Y.",
+      "Zhao, T.",
+      "Zhao, C.",
+      "Liu, Y.",
+      "Song, P.",
+      "Gao, H.",
+      "Zhao, C.Z."
+    ]
+  },
+  {
+    "title": "Super-strong, self-healable and conductive nanofibrillated cellulose threads",
+    "year": "2018",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85079865381&partnerID=40&md5=0936e685bc9ee84ea9c319a4909d2dca",
+    "description": "In this paper, we reported the fabrication of super-strong, self-healing, and conductive nanofibrillated cellulose (NFC) threads. The NFC-based thread demonstrated a unique water-driven self-healable characteristic based on a healing assisted by rehydrating and drying (HARD) process. The results showed that super-strong NFC thread could recover 80% of its original mechanical strength of 331 MPa after healing. The NFC-based conductive thread displayed excellent flexibility and fully restoring of conductivity after healing. This super-strong and self-healable NFC thread could be a promising material for wearable electronic applications. Copyright© (2018) by Chemical and Biological Microsystems Society.All rights reserved.",
+    "authors": [
+      "Chen, L.",
+      "Song, P.",
+      "Dong, X.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "A SERS nanocellulose-paper-based analytical device for ultrasensitive detection of Alzheimer's disease",
+    "year": "2024",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85188430257&doi=10.1016%2fj.aca.2024.342447&partnerID=40&md5=626b7fad4df803da1467aa84660e6f86",
+    "description": "Background: Alzheimer's disease (AD), one of the most prevalent neurodegenerative diseases, results in severe cognitive decline and irreversible memory loss. Early detection of AD is significant to patients for personalized intervention since effective cure and treatment methods for AD are still lacking. Despite the severity of the disease, existing highly sensitive AD detection methods, including neuroimaging and brain deposit-positive lesion tests, are not suitable for screening purposes due to their high cost and complicated operation. Therefore, these methods are unsuitable for early detection, especially in low-resource settings. Although regular paper-based microfluidics are cost-efficient for AD detection, they are restricted by a poor limit of detection (LOD). Results: To address the above limitations, we report the ultrasensitive and low-cost nanocellulose paper (nanopaper)-based analytical microfluidic devices (NanoPADs) for detecting one of the promising AD blood biomarkers (glial fibrillary acidic protein, GFAP) using Surface-enhanced Raman scattering (SERS) immunoassay. Nanopaper offers advantages as a SERS substrate, such as an ultrasmooth surface, high optical transparency, and tunable chemical properties. We detected the target GFAP in artificial serum, achieving a LOD of 150 fg mL-1. Significance: The developed NanoPADs are distinguished by their cost-efficiency and ease of implementation, presenting a promising avenue for effective early detection of AD's GFAP biomarker with ultrahigh sensitivity. More importantly, our work provides the experimental routes for SERS-based immunoassay of biomarkers on NanoPADs for various diseases in the future. © 2024 Elsevier B.V.",
+    "authors": [
+      "Yuan, W.",
+      "Yuan, H.",
+      "Li, R.",
+      "Yong, R.",
+      "Mitrovic, I.",
+      "Lim, E.G.",
+      "Duan, S.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Lewis functional nanodiamonds for efficient metal-free photocatalytic CO2 reduction",
+    "year": "2024",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85197868406&doi=10.1039%2fd4ta02877e&partnerID=40&md5=26907d00a6f26714d1cc9ebf5f060225",
+    "description": "Artificial photosynthesis of fuels and valuable compounds from CO2 and H2O, as a flawless method, has aroused universal interest. Metal-free catalytic materials with balanced efficiency and stability have rarely been demonstrated. To date, emerging carbon-based photocatalysts promise to break the ordeal of extreme environments for catalysts, leading to practical industrial applications. Among them, surface functional group-modified nanodiamonds offer additional possibilities in terms of long-term stability and tunable catalytic activity. In this work, the nature of distinctions in photocatalytic efficacy induced by two varieties of NDs modified with distinct Lewis acid-base functional groups was also systematically investigated. Furthermore, by using a bottom-up approach, the three-dimensional g-C3N4 (3D CN) loaded with nanodiamond (ND) functionalized with amino and carboxyl groups, has been demonstrated as an impressive metal-free photocatalyst for photosynthetic production of CO. Combining in situ photoelectrochemical analysis and density functional theory, the mechanism of heterojunction formation between 3D CN and NDs modified with different functional groups was elucidated from kinetic and thermodynamic perspectives. The synergistic CO production rate of amino-modified NDs was found to be roughly 1.97 times higher than that of carboxyl-modified NDs. This pioneering work introduces promising sp3-hybridized ND materials into photoreduction CO2 systems in terms of surface chemistry, helping to establish an improved understanding of this emerging carbon material. © 2024 The Royal Society of Chemistry.",
+    "authors": [
+      "Gao, X.",
+      "Han, X.",
+      "Zhao, Z.",
+      "Huang, N.-Y.",
+      "Jiao, K.",
+      "Song, P.",
+      "Zhu, J.",
+      "Wang, Y."
+    ]
+  },
+  {
+    "title": "Microembossing: A Convenient Process for Fabricating Microchannels on Nanocellulose Paper-Based Microfluidics",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85174722792&doi=10.3791%2f65965&partnerID=40&md5=25fd4f56b709279be9a9d411f587e414",
+    "description": "Nanopaper, derived from nanofibrillated cellulose, has generated considerable interest as a promising material for microfluidic applications. Its appeal lies in a range of excellent qualities, including an exceptionally smooth surface, outstanding optical transparency, a uniform nanofiber matrix with nanoscale porosity, and customizable chemical properties. Despite the rapid growth of nanopaper-based microfluidics, the current techniques used to create microchannels on nanopaper, such as 3D printing, spray coating, or manual cutting and assembly, which are crucial for practical applications, still possess certain limitations, notably susceptibility to contamination. Furthermore, these methods are restricted to the production of millimeter-sized channels. This study introduces a straightforward process that utilizes convenient plastic micro-molds for simple microembossing operations to fabricate microchannels on nanopaper, achieving a minimum width of 200 µm. The developed microchannel outperforms existing approaches, achieving a fourfold improvement, and can be fabricated within 45 min. Furthermore, fabrication parameters have been optimized, and a convenient quick-reference table is provided for application developers. The proof-of-concept for a laminar mixer, droplet generator, and functional nanopaper-based analytical devices (NanoPADs) designed for Rhodamine B sensing using surface-enhanced Raman spectroscopy was demonstrated. Notably, the NanoPADs exhibited exceptional performance with improved limits of detection. These outstanding results can be attributed to the superior optical properties of nanopaper and the recently developed accurate microembossing method, enabling the integration and fine-tuning of the NanoPADs. © 2023 JoVE Journal of Visualized Experiments.",
+    "authors": [
+      "Yuan, W.",
+      "Yuan, H.",
+      "Duan, S.",
+      "Yong, R.",
+      "Zhu, J.",
+      "Lim, E.G.",
+      "Mitrovic, I.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Quantitative analysis and predictive engineering of self-rolling of nanomembranes under anisotropic mismatch strain",
+    "year": "2017",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85033728121&doi=10.1088%2f1361-6528%2faa94aa&partnerID=40&md5=e4915a2f035f0ea78f5dd0246dd3ccac",
+    "description": "The present work presents a quantitative modeling framework for investigating the self-rolling of nanomembranes under different lattice mismatch strain anisotropy. The effect of transverse mismatch strain on the roll-up direction and curvature has been systematically studied employing both analytical modeling and numerical simulations. The bidirectional nature of the self-rolling of nanomembranes and the critical role of transverse strain in affecting the rolling behaviors have been demonstrated. Two fabrication strategies, i.e., third-layer deposition and corner geometry engineering, have been proposed to predictively manipulate the bidirectional rolling competition of strained nanomembranes, so as to achieve controlled, unidirectional roll-up. In particular for the strategy of corner engineering, microfabrication experiments have been performed to showcase its practical application and effectiveness. Our study offers new mechanistic knowledge towards understanding and predictive engineering of self-rolling of nanomembranes with improved roll-up yield. © 2017 IOP Publishing Ltd.",
+    "authors": [
+      "Chen, C.",
+      "Song, P.",
+      "Meng, F.",
+      "Li, X.",
+      "Liu, X.",
+      "Song, J."
+    ]
+  },
+  {
+    "title": "A microfluidic device for automated, high-speed microinjection of Caenorhabditis elegans",
+    "year": "2016",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84959449209&doi=10.1063%2f1.4941984&partnerID=40&md5=0ecca55e282e3c82b64bb55e05740382",
+    "description": "The nematode worm Caenorhabditis elegans has been widely used as a model organism in biological studies because of its short and prolific life cycle, relatively simple body structure, significant genetic overlap with human, and facile/inexpensive cultivation. Microinjection, as an established and versatile tool for delivering liquid substances into cellular/organismal objects, plays an important role in C. elegans research. However, the conventional manual procedure of C. elegans microinjection is labor-intensive and time-consuming and thus hinders large-scale C. elegans studies involving microinjection of a large number of C. elegans on a daily basis. In this paper, we report a novel microfluidic device that enables, for the first time, fully automated, high-speed microinjection of C. elegans. The device is automatically regulated by on-chip pneumatic valves and allows rapid loading, immobilization, injection, and downstream sorting of single C. elegans. For demonstration, we performed microinjection experiments on 200 C. elegans worms and demonstrated an average injection speed of 6.6 worm/min (average worm handling time: 9.45 s/worm) and a success rate of 77.5% (post-sorting success rate: 100%), both much higher than the performance of manual operation (speed: 1 worm/4 min and success rate: 30%). We conducted typical viability tests on the injected C. elegans and confirmed that the automated injection system does not impose significant adverse effect on the physiological condition of the injected C. elegans. We believe that the developed microfluidic device holds great potential to become a useful tool for facilitating high-throughput, large-scale worm biology research. © 2016 AIP Publishing LLC.",
+    "authors": [
+      "Song, P.",
+      "Dong, X.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Robotic Prototyping of Paper-Based Field-Effect Transistors with Rolled-Up Semiconductor Microtubes",
+    "year": "2021",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85101272198&doi=10.1109%2fTMECH.2020.3024996&partnerID=40&md5=ce316560cc7c77de7907c21140212727",
+    "description": "In this article, we propose a robotic rapid prototyping technology for fabricating a new type of paper-based field-effect transistors (FETs). Unlike the existing paper-based electronics developed primarily based on the printing of conductive and semiconductive inks on paper substrates, this new prototyping technology integrates single rolled-up semiconductive microtubes into a device with robotically printed electrodes as the semiconductive channel, through robotic micromanipulation techniques. To improve the uniformity of the printed silver (Ag) ink electrodes, we designed a time-shift mechanism to compensate for the nonuniform ink dispersion at the beginning and ending phases of the robotic printing process. In addition, image processing and motion control algorithms were developed to enable automatic transfer of the prefabricated microtube from its hosting silicon wafer to the printed electrodes on a paper substrate. The effectiveness of the proposed technology was verified by fabricating the paper-based FETs with semiconductive zinc oxide (ZnO) microtubes. Preliminary tests on the mobility of the fabricated ZnO FET demonstrated improved performance over the conventional paper-based FETs with printed semiconductive channels. © 1996-2012 IEEE.",
+    "authors": [
+      "Dong, X.",
+      "Song, P.",
+      "Wang, X.",
+      "Fan, Q.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Effect of topological patterning on self-rolling of nanomembranes",
+    "year": "2018",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85049332311&doi=10.1088%2f1361-6528%2faac8fe&partnerID=40&md5=5399fb89817539c6b24a1855f1e5a7e4",
+    "description": "The effects of topological patterning (i.e., grating and rectangular patterns) on the self-rolling behaviors of heteroepitaxial strained nanomembranes have been systematically studied. An analytical modeling framework, validated through finite-element simulations, has been formulated to predict the resultant curvature of the patterned nanomembrane as the pattern thickness and density vary. The effectiveness of the grating pattern in regulating the rolling direction of the nanomembrane has been demonstrated and quantitatively assessed. Further to the rolling of nanomembranes, a route to achieve predictive design of helical structures has been proposed and showcased. The present study provides new knowledge and mechanistic guidance towards predictive control and tuning of roll-up nanostructures via topological patterning. © 2018 IOP Publishing Ltd.",
+    "authors": [
+      "Chen, C.",
+      "Song, P.",
+      "Meng, F.",
+      "Ou, P.",
+      "Liu, X.",
+      "Song, J."
+    ]
+  },
+  {
+    "title": "Deep learning-assisted ultra-accurate smartphone testing of paper-based colorimetric ELISA assays",
+    "year": "2023",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85147189737&doi=10.1016%2fj.aca.2023.340868&partnerID=40&md5=5120a7c30c6f00e2f15b35879558b7a2",
+    "description": "Smartphone has long been considered as one excellent platform for disease screening and diagnosis, especially when combined with microfluidic paper-based analytical devices (μPADs) that feature low cost, ease of use, and pump-free operations. In this paper, we report a deep learning-assisted smartphone platform for ultra-accurate testing of paper-based microfluidic colorimetric enzyme-linked immunosorbent assay (c-ELISA). Different from existing smartphone-based μPAD platforms, whose sensing reliability is suffered from uncontrolled ambient lighting conditions, our platform is able to eliminate those random lighting influences for enhanced sensing accuracy. We first constructed a dataset that contains c-ELISA results (n = 2048) of rabbit IgG as the model target on μPADs under eight controlled lighting conditions. Those images are then used to train four different mainstream deep learning algorithms. By training with these images, the deep learning algorithms can well eliminate the influences of lighting conditions. Among them, the GoogLeNet algorithm gives the highest accuracy (>97%) in quantitative rabbit IgG concentration classification/prediction, which also provides 4% higher area under curve (AUC) value than that of the traditional curve fitting results analysis method. In addition, we fully automate the whole sensing process and achieve the “image in, answer out” to maximize the convenience of the smartphone. A simple and user-friendly smartphone application has been developed that controls the whole process. This newly developed platform further enhances the sensing performance of μPADs for use by laypersons in low-resource areas and can be facilely adapted to the real disease protein biomarkers detection by c-ELISA on μPADs. © 2023 Elsevier B.V.",
+    "authors": [
+      "Duan, S.",
+      "Cai, T.",
+      "Zhu, J.",
+      "Yang, X.",
+      "Lim, E.G.",
+      "Huang, K.",
+      "Hoettges, K.",
+      "Zhang, Q.",
+      "Fu, H.",
+      "Guo, Q.",
+      "Liu, X.",
+      "Yang, Z.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "Microfluidic devices for immobilization and micromanipulation of single cells and small organisms",
+    "year": "2021",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85126810023&doi=10.1016%2fB978-0-12-819971-8.00016-0&partnerID=40&md5=69207dd29b00987f52cbdb8e2a3bf010",
+    "description": "Micromanipulation and immobilization of single cells and small organisms (e.g., Caenorhabditis elegans and Drosophila larva) are important experimental techniques in biological and biomedical research. Because of the micrometer sizes and highly fragile structures of cells and small organisms, conventional manipulation and immobilization techniques are not accurate and/or efficient enough to meet certain demanding needs in cellular and organismal studies. To this end, different types of microfluidic device have been developed to improve the accuracy, efficiency, and consistency of cell/organism immobilization and manipulation, which enables high-throughput single cell/organism analysis. In this chapter, we will discuss three microfluidic devices we previously developed for immobilization and robotic micromanipulation of single cells and small organisms. In closing, a conclusion and outlook into future trends is also provided. © 2021 Elsevier Ltd All rights reserved.",
+    "authors": [
+      "Pan, P.",
+      "Song, P.",
+      "Dong, X.",
+      "Zhang, W.",
+      "Sun, Y.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "Navigating the uncertainty: the impact of a student-centered final year project allocation mechanism on student performance",
+    "year": "2024",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85196166661&doi=10.1057%2fs41599-024-03324-7&partnerID=40&md5=e44b2d1aaf7a309c61e16edfa3473f42",
+    "description": "The Final Year Project (FYP) is one of the most important courses for every undergraduate student, and the effective operation of the FYPs in higher education still faces challenges, such as uneven resource distribution and limited efficiency. This study reports a mixed-methods approach to study the impact of a student-centered FYP allocation mechanism on student performance. This research aims to investigate how aligning students’ FYP choices with their interests can inspire motivation and enhance academic performance. More importantly, this mechanism improves students’ academic resilience, enabling them to navigate unexpected contextual factors. The study’s findings take into account various aspects, including student satisfaction with the allocation process, future improvement methods, and the relationship between interest and context. The outcomes observed in this study support our hypotheses, indicating the improvements in students’ academic performance as well as the pass and completion rates. Moreover, this research contributes to ‘resilience theory’ by exploring students’ adaptability to contextual changes and their enhancement of academic resilience. This study proposes recommendations for cultivating a dynamic student-centered classroom environment. Future work could pay attention to addressing the limitations of this study, exploring other factors influencing FYP allocation, and integrating more quantitative measures for a comprehensive assessment of its impact. © The Author(s) 2024.",
+    "authors": [
+      "Yuan, H.",
+      "Yuan, W.",
+      "Duan, S.",
+      "Yong, R.",
+      "Jiao, K.",
+      "Wei, Y.",
+      "Leach, M.",
+      "Li, N.",
+      "Zhang, X.",
+      "Lim, E.G.",
+      "Song, P."
+    ]
+  },
+  {
+    "title": "A paper-based piezoelectric accelerometer",
+    "year": "2018",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85040229723&doi=10.3390%2fmi9010019&partnerID=40&md5=3bf3ee5cda0fd30ac608620552ca7e48",
+    "description": "This paper presents the design and testing of a one-axis piezoelectric accelerometer made from cellulose paper and piezoelectric zinc oxide nanowires (ZnO NWs) hydrothermally grown on paper. The accelerometer adopts a cantilever-based configuration with two parallel cantilever beams attached with a paper proof mass. A piece of U-shaped, ZnO-NW-coated paper is attached on top of the parallel beams, serving as the strain sensing element for acceleration measurement. The electric charges produced from the ZnO-NW-coated paper are converted into a voltage output using a custom-made charge amplifier circuit. The device fabrication only involves cutting of paper and hydrothermal growth of ZnO NWs, and does not require the access to expensive and sophisticated equipment. The performance of the devices with different weight growth percentages of the ZnO NWs was characterized. © 2017 by the author.",
+    "authors": [
+      "Wang, Y.-H.",
+      "Song, P.",
+      "Li, X.",
+      "Ru, C.",
+      "Ferrari, G.",
+      "Balasubramanian, P.",
+      "Amabili, M.",
+      "Sun, Y.",
+      "Liu, X."
+    ]
+  },
+  {
+    "title": "MICROPATTERN EMBOSSING: A FACILE PROCESS FOR MICROCHANNEL FABRICATION ON NANOCELLULOSE-PAPER-BASED MICROFLUIDICS",
+    "year": "2022",
+    "link": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85175694153&partnerID=40&md5=0194357ce29fb73237491fa72081b0ab",
+    "description": "This paper reports a facile process for fabricating microchannels on nanocellulose-paper (nanopaper), which is one of the most promising substrate materials for paper microfluidic devices, thanks to its ultrasmooth surface, optical transparency, and tunable chemical properties. Unlike the existing methods that use customized 3D printing or manual cutting and sticking, our approach leveraged the simple operations of hot embossing with the convenient plastic micro-molds, for the first time, patterning microchannel on nanopaper downing to 200 µm (4 times improvement compared to existing methods) in a rapid manner (<45 minutes). © 2022 MicroTAS 2022 - 26th International Conference on Miniaturized Systems for Chemistry and Life Sciences. All rights reserved.",
+    "authors": [
+      "Yuan, W.",
+      "Zhang, L.",
+      "Wang, Y.",
+      "Sun, Y.",
+      "Liu, X.",
+      "Song, P."
+    ]
+  }
+]

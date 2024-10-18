@@ -1,106 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>团队成员 西浦微系统课题组</title>
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-        /* 主内容容器 */
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding-top: 40px;
-        }
 
-        /* 导师介绍区块 */
-        .mentor-card {
-            display: flex;
-            align-items: center;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            margin-bottom: 40px;
-        }
+    <!-- 引用针对 research.html 的特定 CSS 文件 -->
+    <link rel="stylesheet" href="css/people.css">
 
-        .mentor-card img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-right: 20px;
-            object-fit: cover;
-        }
-
-        .mentor-info h2 {
-            font-size: 1.8rem;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .mentor-info p {
-            font-size: 1.1rem;
-            color: #555;
-        }
-
-        /* 学生卡片网格布局 */
-        .student-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 自适应列数 */
-            gap: 20px;
-        }
-
-        /* 学生卡片样式 */
-        .student-card {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 15px;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .student-card:hover {
-            transform: translateY(-5px); /* 悬停效果 */
-        }
-
-        .student-card img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-            object-fit: cover;
-        }
-
-        .student-card h3 {
-            font-size: 1.2rem;
-            color: #333;
-            margin-bottom: 5px;
-        }
-
-        .student-card p {
-            font-size: 0.9rem;
-            color: #777;
-        }
-
-        /* 响应式优化 */
-        @media (max-width: 768px) {
-            .mentor-card {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .mentor-card img {
-                margin-right: 0;
-                margin-bottom: 20px;
-            }
-
-            .student-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-    </style>
 </head>
+
 <body>
 
     <!-- 导航栏 (Header) -->
@@ -120,10 +31,52 @@
         <!-- 导师介绍 -->
         <section>
             <div class="mentor-card">
-                <img src="assets/images/mentor.jpg" alt="导师照片">
+                <img src="assets/images/PengfeiSong.jpg" alt="Pengfei Song">
                 <div class="mentor-info">
-                    <h2>professor</h2>
-                    <p>1是西浦微系统课题组的负责人，专注于生物微系统、传感器技术及合成生物学领域的研究，发表了多篇高影响力论文。</p>
+                    <h2>Pengfei Song</h2>
+                    <p class="position">Assistant Professor</p>
+                    <p>Pengfei Song is currently an Assistant Professor in the Department of Mechatronics and Robotics
+                        at Xi'an Jiaotong-Liverpool University (XJTLU). He received his B.Eng. in Mechanical Engineering
+                        from Jilin University, China, in 2013, and his Ph.D. from McGill University, Canada, in 2018.
+                        Pengfei has extensive research experience, having visited Tsinghua University and the University
+                        of Toronto.</p>
+
+                    <div class="section-block">
+                        <h3>Research Focus</h3>
+                        <p>His primary research focuses on microsystems, including:</p>
+                        <ul>
+                            <li>Microfluidic biosensors and platforms</li>
+                            <li>Automation and robotics at micro/nanoscale</li>
+                        </ul>
+                    </div>
+
+                    <div class="section-block">
+                        <h3>Publications & Awards</h3>
+                        <p>Pengfei has published 22 SCI journal papers in prestigious journals such as <em>Biosensors
+                                and Bioelectronics</em> and <em>Microsystems & Nanoengineering</em>. His contributions
+                            have been recognized through multiple awards, including:</p>
+                        <ul>
+                            <li>Best Paper Award in Microfluidics Symposium at ASME 2014</li>
+                            <li>Finalist for Best Automation Paper at IEEE ICRA 2015</li>
+                            <li>Editor’s Pick Article Award from AIP's Biomicrofluidics</li>
+                        </ul>
+                    </div>
+
+                    <div class="section-block">
+                        <h3>Honors & Roles</h3>
+                        <p>He has received several prestigious honors, including the China Scholarship Council (CSC)
+                            Award and McGill's fellowships. Pengfei also serves as the Associate Editor of <em>IEEE
+                                Robotics and Automation Letters</em> and is involved in numerous program committees for
+                            conferences like IEEE-MARSS.</p>
+                    </div>
+
+                    <div class="section-block">
+                        <h3>Join Our Team</h3>
+                        <p>Pengfei is actively recruiting students and researchers interested in microfluidics,
+                            biosensors, and automation technologies. The group has a strong record of mentoring
+                            undergraduates who have gone on to prestigious universities such as Berkeley, Columbia, and
+                            UPenn.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -135,30 +88,36 @@
                 <!-- 学生卡片 -->
                 <div class="student-card">
                     <img src="assets/images/student1.jpg" alt="学生照片">
-                    <h3>1同学</h3>
-                    <p>研究方向：微流控系统</p>
+                    <h3>A</h3>
+                    <p>研究方向：Microfluidic Systems</p>
                 </div>
 
                 <div class="student-card">
                     <img src="assets/images/student2.jpg" alt="学生照片">
-                    <h3>2同学</h3>
-                    <p>研究方向：生物传感器</p>
+                    <h3>B</h3>
+                    <p>研究方向：Biosensors</p>
                 </div>
 
                 <div class="student-card">
                     <img src="assets/images/student3.jpg" alt="学生照片">
-                    <h3>3同学</h3>
-                    <p>研究方向：合成生物学</p>
+                    <h3>C</h3>
+                    <p>研究方向：Synthetic Biology</p>
                 </div>
 
                 <div class="student-card">
                     <img src="assets/images/student4.jpg" alt="学生照片">
-                    <h3>4同学</h3>
-                    <p>研究方向：机器学习在生物数据中的应用</p>
+                    <h3>D</h3>
+                    <p>研究方向：Machine Learning in Biological Data</p>
                 </div>
             </div>
         </section>
     </div>
 
+    <!-- 页脚 (Footer) -->
+    <footer>
+        <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:Pengfei.Song@xjtlu.edu.cn">Pengfei.Song@xjtlu.edu.cn</a></p>
+    </footer>
+
 </body>
+
 </html>

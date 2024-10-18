@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,8 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* 背景蓝白渐变 */
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            /* 背景蓝白渐变 */
         }
 
         /* 主内容容器，宽度缩小 */
@@ -34,7 +36,8 @@
             left: 50%;
             width: 3px;
             height: 100%;
-            background-color: #3c8ce7; /* 时间轴主线颜色 */
+            background-color: #3c8ce7;
+            /* 时间轴主线颜色 */
             z-index: 0;
         }
 
@@ -100,7 +103,8 @@
         /* 分类标签 */
         .event-category {
             display: inline-block;
-            background-color: #ff6f61; /* 默认分类标签颜色 */
+            background-color: #ff6f61;
+            /* 默认分类标签颜色 */
             color: white;
             padding: 5px 8px;
             font-size: 0.85rem;
@@ -110,15 +114,18 @@
         }
 
         .event-category.research {
-            background-color: #28a745; /* 研究类事件绿色 */
+            background-color: #28a745;
+            /* 研究类事件绿色 */
         }
 
         .event-category.award {
-            background-color: #ffc107; /* 奖项和资助类事件黄色 */
+            background-color: #ffc107;
+            /* 奖项和资助类事件黄色 */
         }
 
         .event-category.activity {
-            background-color: #007bff; /* 活动类事件蓝色 */
+            background-color: #007bff;
+            /* 活动类事件蓝色 */
         }
 
         /* 事件文字 */
@@ -147,8 +154,26 @@
                 left: -30px;
             }
         }
+
+
+        /* 分类标签颜色 */
+        .event-category.research {
+            background-color: #28a745;
+            /* 研究类事件绿色 */
+        }
+
+        .event-category.award {
+            background-color: #ffc107;
+            /* 奖项类事件黄色 */
+        }
+
+        .event-category.activity {
+            background-color: #007bff;
+            /* 活动类事件蓝色 */
+        }
     </style>
 </head>
+
 <body>
 
     <!-- 导航栏 (Header) -->
@@ -166,84 +191,19 @@
 
     <!-- 新闻时间轴内容 -->
     <div class="container">
-        <section class="timeline">
-
-            <!-- 2024年条目 -->
-            <div class="year-container">
-                <div class="year-box">2024</div>
-
-                <div class="timeline-item">
-                    <div class="month">10月</div>
-                    <span class="event-category research">研究成果</span>
-                    <p>团队在《Advanced Materials》上发表关于生物材料的突破性研究，带领领域发展。</p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="month">8月</div>
-                    <span class="event-category award">资助与奖项</span>
-                    <p>获得国家自然科学基金资助，推动生物微系统的前沿研究。</p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="month">6月</div>
-                    <span class="event-category activity">活动与演讲</span>
-                    <p>课题组组长受邀在国际会议上进行主题演讲。</p>
-                </div>
-            </div>
-
-            <!-- 2023年条目 -->
-            <div class="year-container">
-                <div class="year-box">2023</div>
-
-                <div class="timeline-item">
-                    <div class="month">12月</div>
-                    <span class="event-category research">研究成果</span>
-                    <p>成功开发了一种新型的微流控平台，并申请了相关专利。</p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="month">6月</div>
-                    <span class="event-category award">资助与奖项</span>
-                    <p>获得教育部科技创新团队支持，推进课题组的发展。</p>
-                </div>
-            </div>
-
-            <!-- 2022年条目 -->
-            <div class="year-container">
-                <div class="year-box">2022</div>
-
-                <div class="timeline-item">
-                    <div class="month">11月</div>
-                    <span class="event-category research">研究成果</span>
-                    <p>课题组发布了一篇关于机器学习在生物数据分析中的应用的研究论文。</p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="month">4月</div>
-                    <span class="event-category activity">活动与演讲</span>
-                    <p>团队参加了多个国际会议，并在其中展示了最新研究成果。</p>
-                </div>
-            </div>
-
-            <!-- 2021年条目 -->
-            <div class="year-container">
-                <div class="year-box">2021</div>
-
-                <div class="timeline-item">
-                    <div class="month">9月</div>
-                    <span class="event-category research">研究成果</span>
-                    <p>课题组在传感器技术方面取得了突破性进展，并发布了相关论文。</p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="month">3月</div>
-                    <span class="event-category award">资助与奖项</span>
-                    <p>课题组获得江苏省科技进步奖。</p>
-                </div>
-            </div>
-
-        </section>
+        <section class="timeline"></section>
     </div>
 
+
+    <!-- JavaScript 用于动态生成内容 -->
+    <script src="js/news.js"></script>
+      <!-- 页脚 (Footer) -->
+      <!-- 页脚 (Footer) -->
+    <footer>
+        <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:Pengfei.Song@xjtlu.edu.cn">Pengfei.Song@xjtlu.edu.cn</a></p>
+    </footer>
+
 </body>
+
+
 </html>
