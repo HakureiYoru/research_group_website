@@ -8,10 +8,10 @@ function changeSlide(n) {
 }
 
 // 自动轮播
-let autoSlideInterval = setInterval(() => changeSlide(1), 5000); // 每5秒切换一次
+let autoSlideInterval = setInterval(() => changeSlide(1), 30000); // 每5秒切换一次
 
 // 停止轮播时，重置自动轮播
 function resetAutoSlide() {
     clearInterval(autoSlideInterval);
-    autoSlideInterval = setInterval(() => changeSlide(1), 5000);
+    autoSlideInterval = setInterval(() => changeSlide(1), 30000);
 }

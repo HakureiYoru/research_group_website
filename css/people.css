@@ -19,6 +19,7 @@
     max-width: 1200px; /* 限制最大宽度 */
     margin-left: 0; /* 确保完全居左 */
     margin-right: auto; /* 右边自动调节，保证自然居左 */
+    justify-content: center;
 }
 
 .mentor-card:hover {
@@ -125,41 +126,44 @@
 
 /* 学生卡片样式 */
 .student-card {
-    background-color: #ffffff;
+    background-color: #f4f6f9; /* 柔和的浅灰色背景，减少视觉疲劳 */
     border-radius: 15px; /* 增大卡片的圆角 */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* 增加卡片的阴影 */
-    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* 增加卡片的阴影，使其有立体感 */
+    padding: 30px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* 增加阴影和位移的过渡效果 */
     cursor: pointer; /* 悬停时鼠标变成手形 */
 }
 
 .student-card:hover {
-    transform: translateY(-8px); /* 悬停时的位移增大 */
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12); /* 悬停时增强阴影 */
+    transform: translateY(-10px); /* 悬停时的位移增大 */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* 悬停时增强阴影 */
 }
 
 .student-card img {
-    width: 130px; /* 图片稍微增大 */
-    height: 130px;
+    width: 140px; /* 增大图片尺寸 */
+    height: 140px;
     border-radius: 50%;
-    margin-bottom: 15px; /* 增加图片与姓名的间距 */
+    margin-bottom: 20px; /* 增加图片与姓名的间距 */
     object-fit: cover;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* 图片阴影增强 */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* 图片阴影增强 */
+    background-color: #fff; /* 图片没有时展示默认的白色背景 */
 }
 
 .student-card h3 {
-    font-size: 1.6rem; /* 增大学生姓名字体 */
-    color: #34495e;
-    margin-bottom: 10px; /* 增加名字与描述的间距 */
+    font-size: 1.8rem; /* 增大学生姓名字体 */
+    color: #2c3e50; /* 深色字体，更易于阅读 */
+    margin-bottom: 15px; /* 增加名字与描述的间距 */
     font-weight: 600; /* 字体加粗，突出名字 */
 }
 
 .student-card p {
-    font-size: 1.1rem; /* 描述文字稍微增大 */
+    font-size: 1.2rem; /* 描述文字稍微增大 */
     color: #7f8c8d; /* 使用灰色字体，柔和不刺眼 */
-    line-height: 1.6;
+    line-height: 1.7;
+    margin-bottom: 15px;
 }
+
 
 /* 响应式优化 */
 @media (max-width: 768px) {
