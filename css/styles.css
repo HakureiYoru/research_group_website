@@ -22,7 +22,7 @@ body {
 
 /* Header 样式进一步优化 */
 header {
-    background: linear-gradient(90deg, #010544, #a3d8f4);
+    background: linear-gradient(90deg, #5e0053, #CE57C1);
     /* 深蓝到浅蓝色渐变 */
     padding: 20px 50px;
     display: flex;
