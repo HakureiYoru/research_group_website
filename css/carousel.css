@@ -1,0 +1,350 @@
+/**
+ * 轮播组件样式
+ */
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    background-color: var(--black);
+}
+
+.carousel-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity var(--transition-slow);
+    padding: var(--spacing-lg) var(--spacing-xl);
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+/* 轮播背景图片 */
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: 0;
+}
+
+/* 轮播文本内容 */
+.hero-text {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1000px;
+    max-height: 80vh;
+    overflow-y: auto;
+    color: var(--white);
+    background-color: var(--bg-overlay);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-xl);
+    text-align: center;
+    opacity: 0;
+    transition: opacity var(--transition-slow);
+}
+
+.carousel-slide.active .hero-text {
+    opacity: 1;
+}
+
+/* 自定义滚动条 */
+.hero-text::-webkit-scrollbar {
+    width: 8px;
+}
+
+.hero-text::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-md);
+}
+
+.hero-text::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius-md);
+}
+
+.hero-text::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* 标题样式 */
+.hero-text h2 {
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-heading);
+    background: linear-gradient(90deg, #00c6ff, var(--white));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: var(--spacing-lg);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in forwards 0.5s;
+}
+
+/* 介绍文本样式 */
+.intro-text {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-lg);
+    color: var(--text-light);
+    line-height: var(--line-height-relaxed);
+    margin-bottom: var(--spacing-lg);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background-color: var(--bg-overlay-light);
+    border-left: 5px solid var(--secondary-light);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-base);
+    text-align: left;
+}
+
+.intro-text:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow-md);
+}
+
+.hero-text p {
+    font-size: var(--font-size-lg);
+    color: var(--text-light);
+    line-height: var(--line-height-relaxed);
+    margin-top: var(--spacing-md);
+    opacity: 0;
+    animation: fadeInUp 1s ease-in forwards 1s;
+}
+
+/* 新闻时间轴样式 */
+.news-timeline {
+    position: relative;
+    padding: var(--spacing-lg) 0;
+    margin: var(--spacing-lg) 0;
+    border-left: 3px solid var(--secondary-color);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: var(--spacing-2xl);
+    padding-left: var(--spacing-xl);
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 15px;
+    height: 15px;
+    background-color: var(--secondary-color);
+    border-radius: var(--radius-full);
+}
+
+.timeline-date {
+    font-size: var(--font-size-xl);
+    color: var(--warning-color);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-xs);
+    font-family: var(--font-heading);
+}
+
+.timeline-content p {
+    font-size: var(--font-size-lg);
+    color: var(--white);
+    line-height: var(--line-height-relaxed);
+    text-align: center;
+    font-family: var(--font-primary);
+}
+
+/* 研究领域条目 */
+.research-item {
+    background-color: var(--bg-overlay-light);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-base);
+}
+
+.research-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+}
+
+.research-item h3 {
+    font-size: var(--font-size-2xl);
+    color: var(--white);
+    margin-bottom: var(--spacing-md);
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.research-item p {
+    font-size: var(--font-size-lg);
+    color: var(--text-light);
+    line-height: var(--line-height-relaxed);
+    text-align: left;
+}
+
+/* 切换按钮 */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: var(--font-size-4xl);
+    color: var(--white);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: var(--radius-full);
+    user-select: none;
+    z-index: 10;
+    transition: all var(--transition-base);
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.prev {
+    left: var(--spacing-lg);
+}
+
+.next {
+    right: var(--spacing-lg);
+}
+
+/* 指示器 */
+.carousel-indicators {
+    position: absolute;
+    bottom: var(--spacing-lg);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: var(--spacing-md);
+    z-index: 10;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: var(--radius-full);
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+.indicator.active,
+.indicator:hover {
+    background-color: var(--white);
+    transform: scale(1.2);
+}
+
+/* 淡入向上动画 */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .carousel {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .carousel-slide {
+        padding: var(--spacing-md);
+    }
+
+    .hero-text {
+        width: 95%;
+        padding: var(--spacing-lg);
+    }
+
+    .hero-text h2 {
+        font-size: var(--font-size-3xl);
+        letter-spacing: 1px;
+    }
+
+    .intro-text {
+        font-size: var(--font-size-base);
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .research-item {
+        padding: var(--spacing-md);
+    }
+
+    .research-item h3 {
+        font-size: var(--font-size-xl);
+    }
+
+    .research-item p {
+        font-size: var(--font-size-base);
+    }
+
+    .carousel-control {
+        width: 40px;
+        height: 40px;
+        font-size: var(--font-size-2xl);
+    }
+
+    .prev {
+        left: var(--spacing-sm);
+    }
+
+    .next {
+        right: var(--spacing-sm);
+    }
+
+    .news-timeline {
+        padding-left: var(--spacing-sm);
+    }
+
+    .timeline-item {
+        padding-left: var(--spacing-lg);
+    }
+
+    .timeline-item::before {
+        left: -5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text h2 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .timeline-date {
+        font-size: var(--font-size-base);
+    }
+
+    .timeline-content p {
+        font-size: var(--font-size-base);
+    }
+}
+

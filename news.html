@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEWS/新闻 西浦微系统课题组</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="西浦微系统课题组最新动态、研究成果和活动新闻">
+    <meta name="keywords" content="课题组新闻,研究动态,学术活动">
+    <title>新闻 - 西浦微系统课题组</title>
+    
+    <!-- CSS样式 -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    
     <style>
-        /* 整体页面样式 */
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
-            /* 背景蓝白渐变 */
-        }
-
-        /* 主内容容器，宽度缩小 */
+        /* 主内容容器 */
         .container {
             width: 70%;
+            max-width: 1000px;
             margin: 0 auto;
-            padding-top: 40px;
+            padding-top: var(--spacing-3xl);
+            padding-bottom: var(--spacing-3xl);
         }
 
         /* 时间轴容器 */
         .timeline {
             position: relative;
-            padding: 10px 0;
+            padding: var(--spacing-md) 0;
         }
 
         /* 时间轴主线 */
@@ -36,47 +36,52 @@
             left: 50%;
             width: 3px;
             height: 100%;
-            background-color: #3c8ce7;
-            /* 时间轴主线颜色 */
+            background-color: var(--secondary-color);
             z-index: 0;
         }
 
-        /* 每年的容器，内边距缩小 */
+        /* 每年的容器 */
         .year-container {
             position: relative;
-            margin-bottom: 60px;
+            margin-bottom: var(--spacing-3xl);
             width: 100%;
-            padding: 20px;
-            background-color: #f0f8ff;
-            border-radius: 10px;
-            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            padding: var(--spacing-lg);
+            background-color: rgba(240, 248, 255, 0.5);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
         }
 
-        /* 年份框，整体缩小 */
+        /* 年份框 */
         .year-box {
             position: relative;
-            background-color: #3c8ce7;
-            color: white;
-            font-size: 1.6rem;
-            font-weight: bold;
+            background-color: var(--secondary-color);
+            color: var(--white);
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-bold);
             text-align: center;
-            padding: 8px;
-            border-radius: 40px;
+            padding: var(--spacing-sm);
+            border-radius: var(--radius-full);
             width: 100px;
-            margin: 0 auto 20px auto;
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+            margin: 0 auto var(--spacing-lg) auto;
+            box-shadow: var(--shadow-sm);
         }
 
         /* 时间轴条目的容器 */
         .timeline-item {
             position: relative;
             width: 100%;
-            padding: 15px;
-            background-color: white;
-            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-bottom: 30px;
+            padding: var(--spacing-md);
+            background-color: var(--white);
+            box-shadow: var(--shadow-md);
+            border-radius: var(--radius-md);
+            margin-bottom: var(--spacing-xl);
             z-index: 1;
+            transition: all var(--transition-base);
+        }
+
+        .timeline-item:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
         }
 
         /* 时间轴上的时间点 */
@@ -85,98 +90,74 @@
             position: absolute;
             width: 15px;
             height: 15px;
-            background-color: #3c8ce7;
-            border-radius: 50%;
-            top: 20px;
-            left: -25px;
+            background-color: var(--secondary-color);
+            border-radius: var(--radius-full);
+            top: var(--spacing-lg);
+            left: calc(-1 * var(--spacing-lg) - 7.5px);
             z-index: 2;
         }
 
-        /* 月份显示，字号减小 */
+        /* 月份显示 */
         .month {
-            font-size: 1.1rem;
-            color: #007bff;
-            margin-bottom: 8px;
-            font-weight: bold;
+            font-size: var(--font-size-lg);
+            color: var(--info-color);
+            margin-bottom: var(--spacing-sm);
+            font-weight: var(--font-weight-bold);
         }
 
         /* 分类标签 */
         .event-category {
             display: inline-block;
-            background-color: #ff6f61;
-            /* 默认分类标签颜色 */
-            color: white;
-            padding: 5px 8px;
-            font-size: 0.85rem;
-            border-radius: 12px;
-            margin-bottom: 8px;
-            margin-right: 8px;
+            color: var(--white);
+            padding: var(--spacing-xs) var(--spacing-sm);
+            font-size: var(--font-size-sm);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--spacing-sm);
+            margin-right: var(--spacing-sm);
+            font-weight: var(--font-weight-medium);
         }
 
         .event-category.research {
-            background-color: #28a745;
-            /* 研究类事件绿色 */
+            background-color: var(--success-color);
         }
 
         .event-category.award {
-            background-color: #ffc107;
-            /* 奖项和资助类事件黄色 */
+            background-color: var(--warning-color);
+            color: var(--text-primary);
         }
 
         .event-category.activity {
-            background-color: #007bff;
-            /* 活动类事件蓝色 */
+            background-color: var(--info-color);
         }
 
         /* 事件文字 */
         .timeline-item p {
-            font-size: 1rem;
-            color: #333;
-            margin-bottom: 8px;
+            font-size: var(--font-size-base);
+            color: var(--text-primary);
+            margin-bottom: var(--spacing-sm);
+            line-height: var(--line-height-relaxed);
         }
 
-        /* 调整手机端的布局 */
+        /* 响应式设计 */
         @media (max-width: 768px) {
-            .timeline-item {
-                width: 100%;
-                left: 0;
-            }
-
-            .timeline-item.right {
-                left: 0;
+            .container {
+                width: 90%;
+                padding-top: var(--spacing-xl);
             }
 
             .timeline::before {
-                left: 20px;
+                left: var(--spacing-lg);
             }
 
             .timeline-item::before {
-                left: -30px;
+                left: calc(-1 * var(--spacing-xl) - 7.5px);
             }
-        }
-
-
-        /* 分类标签颜色 */
-        .event-category.research {
-            background-color: #28a745;
-            /* 研究类事件绿色 */
-        }
-
-        .event-category.award {
-            background-color: #ffc107;
-            /* 奖项类事件黄色 */
-        }
-
-        .event-category.activity {
-            background-color: #007bff;
-            /* 活动类事件蓝色 */
         }
     </style>
 </head>
 
 <body>
-
-    <!-- 导航栏 (Header) -->
+    <!-- 导航栏 -->
     <header>
         <nav>
             <h1>西浦微系统课题组</h1>
@@ -194,16 +175,18 @@
         <section class="timeline"></section>
     </div>
 
-
-    <!-- JavaScript 用于动态生成内容 -->
-    <script src="js/news.js"></script>
-      <!-- 页脚 (Footer) -->
-      <!-- 页脚 (Footer) -->
+    <!-- 页脚 -->
     <footer>
-        <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:Pengfei.Song@xjtlu.edu.cn">Pengfei.Song@xjtlu.edu.cn</a></p>
+        <div class="footer-content">
+            <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:Pengfei.Song@xjtlu.edu.cn">Pengfei.Song@xjtlu.edu.cn</a></p>
+        </div>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/news.js"></script>
 </body>
-
 
 </html>

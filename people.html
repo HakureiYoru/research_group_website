@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>团队成员 西浦微系统课题组</title>
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- 引用针对 research.html 的特定 CSS 文件 -->
+    <meta name="description" content="西浦微系统课题组团队成员介绍">
+    <meta name="keywords" content="课题组成员,导师介绍,学生团队">
+    <title>团队成员 - 西浦微系统课题组</title>
+    
+    <!-- CSS样式 -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/people.css">
-
 </head>
 
 <body>
-
-    <!-- 导航栏 (Header) -->
+    <!-- 导航栏 -->
     <header>
         <nav>
             <h1>西浦微系统课题组</h1>
@@ -31,9 +32,9 @@
         <!-- 导师介绍 -->
         <section>
             <div class="mentor-card">
-                <img src="assets/images/PengfeiSong.jpg" alt="Pengfei Song">
+                <img src="assets/images/pengfeisong.jpg" alt="Pengfei Song" onerror="this.src='assets/images/default-avatar.jpg'">
                 <div class="mentor-info">
-                    <h2>Pengfei Song</h2>
+                    <h2>Pengfei Song (宋鹏飞)</h2>
                     <p class="position">Assistant Professor</p>
                     <p>Pengfei Song is currently an Assistant Professor in the Department of Mechatronics and Robotics
                         at Xi'an Jiaotong-Liverpool University (XJTLU). He received his B.Eng. in Mechanical Engineering
@@ -58,7 +59,7 @@
                         <ul>
                             <li>Best Paper Award in Microfluidics Symposium at ASME 2014</li>
                             <li>Finalist for Best Automation Paper at IEEE ICRA 2015</li>
-                            <li>Editor’s Pick Article Award from AIP's Biomicrofluidics</li>
+                            <li>Editor's Pick Article Award from AIP's Biomicrofluidics</li>
                         </ul>
                     </div>
 
@@ -81,43 +82,49 @@
             </div>
         </section>
 
+        <!-- 学生团队 -->
         <section>
             <h2>学生团队</h2>
             <div class="student-grid">
-                <!-- 学生卡片 -->
                 <div class="student-card">
-                    <img src="assets/images/student1.jpg" alt="学生照片">
-                    <h3>A</h3>
+                    <img src="assets/images/student1.jpg" alt="学生照片" onerror="this.src='assets/images/default-avatar.jpg'">
+                    <h3>Student A</h3>
                     <p>研究方向：Microfluidic Systems</p>
                 </div>
         
                 <div class="student-card">
-                    <img src="assets/images/student2.jpg" alt="学生照片">
-                    <h3>B</h3>
+                    <img src="assets/images/student2.jpg" alt="学生照片" onerror="this.src='assets/images/default-avatar.jpg'">
+                    <h3>Student B</h3>
                     <p>研究方向：Biosensors</p>
                 </div>
         
                 <div class="student-card">
-                    <img src="assets/images/student3.jpg" alt="学生照片">
-                    <h3>C</h3>
+                    <img src="assets/images/student3.jpg" alt="学生照片" onerror="this.src='assets/images/default-avatar.jpg'">
+                    <h3>Student C</h3>
                     <p>研究方向：Synthetic Biology</p>
                 </div>
         
                 <div class="student-card">
-                    <img src="assets/images/student4.jpg" alt="学生照片">
-                    <h3>D</h3>
+                    <img src="assets/images/student4.jpg" alt="学生照片" onerror="this.src='assets/images/default-avatar.jpg'">
+                    <h3>Student D</h3>
                     <p>研究方向：Machine Learning in Biological Data</p>
                 </div>
             </div>
         </section>
-        
     </div>
 
-    <!-- 页脚 (Footer) -->
+    <!-- 页脚 -->
     <footer>
-        <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:Pengfei.Song@xjtlu.edu.cn">Pengfei.Song@xjtlu.edu.cn</a></p>
+        <div class="footer-content">
+            <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:Pengfei.Song@xjtlu.edu.cn">Pengfei.Song@xjtlu.edu.cn</a></p>
+        </div>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/people.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,153 @@
+/**
+ * CSS变量定义
+ * 统一管理颜色、字体、间距等设计系统
+ */
+
+:root {
+    /* ========== 颜色系统 ========== */
+    
+    /* 主色调 */
+    --primary-color: #5e0053;
+    --primary-light: #CE57C1;
+    --primary-dark: #3d0035;
+    
+    /* 辅助色 */
+    --secondary-color: #3c8ce7;
+    --secondary-light: #6ba4f0;
+    --secondary-dark: #2a6ab0;
+    
+    /* 功能色 */
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #f44336;
+    --info-color: #007bff;
+    
+    /* 中性色 */
+    --white: #ffffff;
+    --black: #000000;
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    
+    /* 文本颜色 */
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --text-muted: #999999;
+    --text-light: #f1f1f1;
+    --text-white: #ffffff;
+    
+    /* 背景色 */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-gradient-start: #e0f7fa;
+    --bg-gradient-end: #ffffff;
+    --bg-overlay: rgba(0, 0, 0, 0.6);
+    --bg-overlay-light: rgba(255, 255, 255, 0.1);
+    
+    /* ========== 字体系统 ========== */
+    
+    /* 字体家族 */
+    --font-primary: 'Arial', 'Microsoft YaHei', '微软雅黑', sans-serif;
+    --font-heading: 'Roboto', 'Arial', sans-serif;
+    --font-serif: 'Lora', 'Georgia', serif;
+    --font-mono: 'Consolas', 'Monaco', monospace;
+    
+    /* 字体大小 */
+    --font-size-xs: 0.75rem;      /* 12px */
+    --font-size-sm: 0.875rem;     /* 14px */
+    --font-size-base: 1rem;       /* 16px */
+    --font-size-lg: 1.125rem;     /* 18px */
+    --font-size-xl: 1.25rem;      /* 20px */
+    --font-size-2xl: 1.5rem;      /* 24px */
+    --font-size-3xl: 1.875rem;    /* 30px */
+    --font-size-4xl: 2.25rem;     /* 36px */
+    --font-size-5xl: 3rem;        /* 48px */
+    
+    /* 字体粗细 */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* 行高 */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.6;
+    --line-height-relaxed: 1.8;
+    --line-height-loose: 2;
+    
+    /* ========== 间距系统 ========== */
+    
+    --spacing-xs: 0.25rem;    /* 4px */
+    --spacing-sm: 0.5rem;     /* 8px */
+    --spacing-md: 1rem;       /* 16px */
+    --spacing-lg: 1.5rem;     /* 24px */
+    --spacing-xl: 2rem;       /* 32px */
+    --spacing-2xl: 3rem;      /* 48px */
+    --spacing-3xl: 4rem;      /* 64px */
+    
+    /* ========== 圆角 ========== */
+    
+    --radius-sm: 0.25rem;     /* 4px */
+    --radius-md: 0.5rem;      /* 8px */
+    --radius-lg: 0.75rem;     /* 12px */
+    --radius-xl: 1rem;        /* 16px */
+    --radius-full: 9999px;    /* 圆形 */
+    
+    /* ========== 阴影 ========== */
+    
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+    --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.25);
+    
+    /* ========== 过渡动画 ========== */
+    
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* ========== 断点 ========== */
+    
+    --breakpoint-xs: 375px;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-2xl: 1400px;
+    
+    /* ========== Z-index层级 ========== */
+    
+    --z-index-dropdown: 1000;
+    --z-index-sticky: 1020;
+    --z-index-fixed: 1030;
+    --z-index-modal-backdrop: 1040;
+    --z-index-modal: 1050;
+    --z-index-popover: 1060;
+    --z-index-tooltip: 1070;
+    
+    /* ========== 其他 ========== */
+    
+    --header-height: 80px;
+    --footer-height: 120px;
+    --container-max-width: 1200px;
+    --container-padding: 1rem;
+}
+
+/* 暗色主题（可选） */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-primary: #e0e0e0;
+        --text-secondary: #b0b0b0;
+        --bg-primary: #1a1a1a;
+        --bg-secondary: #2d2d2d;
+    }
+}
+

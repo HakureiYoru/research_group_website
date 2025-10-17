@@ -1,54 +1,156 @@
-document.addEventListener('DOMContentLoaded', function () {
-    loadNews();
-});
+/**
+ * 新闻页面模块
+ * 负责加载和渲染新闻时间轴
+ */
 
-function loadNews() {
-    fetch('news.json')
-        .then(response => response.json())
-        .then(data => {
-            const timelineContainer = document.querySelector('.timeline');
-            timelineContainer.innerHTML = ''; // 清空内容
+class NewsPage {
+    constructor() {
+        this.container = document.querySelector('.timeline');
+        this.newsData = [];
+        this.init();
+    }
 
-            // 遍历每一年
-            data.forEach(yearData => {
-                // 创建每年的容器
-                const yearContainer = document.createElement('div');
-                yearContainer.classList.add('year-container');
+    /**
+     * 初始化
+     */
+    async init() {
+        if (!this.container) {
+            console.warn('NewsPage: Timeline container not found');
+            return;
+        }
 
-                // 创建年份框
-                const yearBox = document.createElement('div');
-                yearBox.classList.add('year-box');
-                yearBox.textContent = yearData.year;
-                yearContainer.appendChild(yearBox);
+        await this.loadNews();
+    }
 
-                // 遍历每年的事件
-                yearData.items.forEach(item => {
-                    const timelineItem = document.createElement('div');
-                    timelineItem.classList.add('timeline-item');
+    /**
+     * 加载新闻数据
+     */
+    async loadNews() {
+        try {
+            // 显示加载状态
+            this.container.appendChild(Components.createLoader());
 
-                    // 月份
-                    const month = document.createElement('div');
-                    month.classList.add('month');
-                    month.textContent = item.month;
-                    timelineItem.appendChild(month);
+            // 获取新闻数据
+            const data = await Utils.fetchJSON(SITE_CONFIG.dataFiles.news);
+            
+            if (!data || data.length === 0) {
+                this.container.innerHTML = '';
+                this.container.appendChild(Components.createEmptyState('暂无新闻'));
+                return;
+            }
 
-                    // 分类标签
-                    const category = document.createElement('span');
-                    category.classList.add('event-category', item.category);
-                    category.textContent = item.title;
-                    timelineItem.appendChild(category);
+            this.newsData = data;
+            this.render();
+        } catch (error) {
+            console.error('Error loading news:', error);
+            this.container.innerHTML = '';
+            this.container.appendChild(
+                Components.createEmptyState('加载新闻失败，请稍后重试')
+            );
+        }
+    }
 
-                    // 事件描述
-                    const description = document.createElement('p');
-                    description.textContent = item.description;
-                    timelineItem.appendChild(description);
+    /**
+     * 渲染新闻时间轴
+     */
+    render() {
+        this.container.innerHTML = '';
 
-                    yearContainer.appendChild(timelineItem);
+        this.newsData.forEach(yearData => {
+            const yearContainer = this.createYearContainer(yearData);
+            this.container.appendChild(yearContainer);
+        });
+    }
+
+    /**
+     * 创建年份容器
+     * @param {Object} yearData - 年份数据
+     * @returns {Element} 年份容器元素
+     */
+    createYearContainer(yearData) {
+        const yearContainer = Utils.createElement('div', {
+            className: 'year-container'
+        });
+
+        // 创建年份标题
+        const yearBox = Utils.createElement('div', {
+            className: 'year-box'
+        }, yearData.year);
+
+        yearContainer.appendChild(yearBox);
+
+        // 创建该年的新闻条目
+        yearData.items.forEach(item => {
+            const timelineItem = this.createTimelineItem(item);
+            yearContainer.appendChild(timelineItem);
+        });
+
+        return yearContainer;
+    }
+
+    /**
+     * 创建时间轴条目
+     * @param {Object} item - 新闻条目数据
+     * @returns {Element} 时间轴条目元素
+     */
+    createTimelineItem(item) {
+        const timelineItem = Utils.createElement('div', {
+            className: 'timeline-item'
+        });
+
+        // 月份
+        const month = Utils.createElement('div', {
+            className: 'month'
+        }, item.month);
+
+        // 分类标签
+        const category = Utils.createElement('span', {
+            className: `event-category ${item.category}`
+        }, item.title);
+
+        // 描述
+        const description = Utils.createElement('p', {}, item.description);
+
+        timelineItem.appendChild(month);
+        timelineItem.appendChild(category);
+        timelineItem.appendChild(description);
+
+        return timelineItem;
+    }
+
+    /**
+     * 按类别筛选
+     * @param {string} category - 类别
+     */
+    filterByCategory(category) {
+        if (category === 'all') {
+            this.render();
+            return;
+        }
+
+        this.container.innerHTML = '';
+
+        this.newsData.forEach(yearData => {
+            const filteredItems = yearData.items.filter(item => item.category === category);
+            
+            if (filteredItems.length > 0) {
+                const yearContainer = this.createYearContainer({
+                    year: yearData.year,
+                    items: filteredItems
                 });
-
-                // 将年份容器添加到时间轴
-                timelineContainer.appendChild(yearContainer);
-            });
-        })
-        .catch(error => console.error('Error loading news:', error));
+                this.container.appendChild(yearContainer);
+            }
+        });
+    }
 }
+
+// 初始化组件
+document.addEventListener('DOMContentLoaded', () => {
+    // 初始化公共组件
+    Components.init('news');
+    
+    // 初始化新闻页面
+    if (document.querySelector('.timeline')) {
+        window.newsPage = new NewsPage();
+    }
+});

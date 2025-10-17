@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>研究领域 - Publications</title>
-
-    <!-- 引用全局的主 CSS 文件 -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- 引用针对 research.html 的特定 CSS 文件 -->
+    <meta name="description" content="西浦微系统课题组学术发表和研究成果">
+    <meta name="keywords" content="学术论文,研究成果,发表列表">
+    <title>发表 - 西浦微系统课题组</title>
+    
+    <!-- CSS样式 -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/research.css">
 </head>
 
 <body>
-
-    <!-- 导航栏 (Header) -->
+    <!-- 导航栏 -->
     <header>
         <nav>
             <h1>西浦微系统课题组</h1>
@@ -32,11 +32,11 @@
         <!-- 筛选栏 -->
         <div class="filter-bar">
             <div class="filters">
-                <select id="yearFilter" onchange="filterPublications()">
+                <select id="yearFilter">
                     <option value="all">选择年份</option>
                 </select>
         
-                <select id="authorFilter" onchange="filterPublications()">
+                <select id="authorFilter">
                     <option value="all">选择作者</option>
                 </select>
             </div>
@@ -44,24 +44,23 @@
             <!-- 分页器 -->
             <div id="pagination" class="pagination"></div>
         </div>
-        
-        
 
         <!-- 发表条目容器 -->
         <div id="publications"></div>
-
-        
     </div>
 
-    <!-- 引用外部的 JavaScript 文件 -->
-    <script src="js/research.js"></script>
-      <!-- 页脚 (Footer) -->
-      <!-- 页脚 (Footer) -->
+    <!-- 页脚 -->
     <footer>
-        <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:Pengfei.Song@xjtlu.edu.cn">Pengfei.Song@xjtlu.edu.cn</a></p>
+        <div class="footer-content">
+            <p>&copy; 2024 西浦微系统课题组 | 联系我们：<a href="mailto:Pengfei.Song@xjtlu.edu.cn">Pengfei.Song@xjtlu.edu.cn</a></p>
+        </div>
     </footer>
 
-
+    <!-- JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/research.js"></script>
 </body>
 
 </html>
