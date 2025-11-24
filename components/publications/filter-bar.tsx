@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 interface FilterBarProps {
   years: string[];
@@ -94,5 +94,3 @@ export default function FilterBar({
     </div>
   );
 }
-
-

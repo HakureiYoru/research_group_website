@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useEffect, useMemo, useState } from 'react';
-import type { Publication } from '@/types';
-import FilterBar from './filter-bar';
-import PublicationCard from './publication-card';
-import EmptyState from '@/components/ui/empty-state';
-import Pagination from '@/components/ui/pagination';
+import { useEffect, useMemo, useState } from "react";
+import type { Publication } from "@/types";
+import FilterBar from "./filter-bar";
+import PublicationCard from "./publication-card";
+import EmptyState from "@/components/ui/empty-state";
+import Pagination from "@/components/ui/pagination";
 
 interface PublicationsClientProps {
   publications: Publication[];
@@ -22,13 +22,13 @@ export default function PublicationsClient({
   authors,
   initialAuthor,
 }: PublicationsClientProps) {
-  const [selectedYear, setSelectedYear] = useState('all');
-  const [selectedAuthor, setSelectedAuthor] = useState(initialAuthor ?? 'all');
-  const [sortBy, setSortBy] = useState('year-desc');
+  const [selectedYear, setSelectedYear] = useState("all");
+  const [selectedAuthor, setSelectedAuthor] = useState(initialAuthor ?? "all");
+  const [sortBy, setSortBy] = useState("year-desc");
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    setSelectedAuthor(initialAuthor ?? 'all');
+    setSelectedAuthor(initialAuthor ?? "all");
     setCurrentPage(1);
   }, [initialAuthor]);
 
@@ -39,11 +39,11 @@ export default function PublicationsClient({
   const filteredPublications = useMemo(() => {
     let filtered = [...publications];
 
-    if (selectedYear !== 'all') {
+    if (selectedYear !== "all") {
       filtered = filtered.filter((pub) => pub.year === selectedYear);
     }
 
-    if (selectedAuthor !== 'all') {
+    if (selectedAuthor !== "all") {
       const normalizedAuthor = selectedAuthor.toLowerCase();
       filtered = filtered.filter((pub) =>
         pub.authors.some((author) =>
@@ -54,13 +54,13 @@ export default function PublicationsClient({
 
     filtered.sort((a, b) => {
       switch (sortBy) {
-        case 'year-desc':
+        case "year-desc":
           return b.year.localeCompare(a.year);
-        case 'year-asc':
+        case "year-asc":
           return a.year.localeCompare(b.year);
-        case 'title-asc':
+        case "title-asc":
           return a.title.localeCompare(b.title);
-        case 'title-desc':
+        case "title-desc":
           return b.title.localeCompare(a.title);
         default:
           return 0;
@@ -70,7 +70,10 @@ export default function PublicationsClient({
     return filtered;
   }, [publications, selectedAuthor, selectedYear, sortBy]);
 
-  const totalPages = Math.max(1, Math.ceil(filteredPublications.length / ITEMS_PER_PAGE));
+  const totalPages = Math.max(
+    1,
+    Math.ceil(filteredPublications.length / ITEMS_PER_PAGE)
+  );
 
   const currentPublications = useMemo(() => {
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -78,16 +81,17 @@ export default function PublicationsClient({
   }, [currentPage, filteredPublications]);
 
   const handleReset = () => {
-    setSelectedYear('all');
-    setSelectedAuthor('all');
-    setSortBy('year-desc');
+    setSelectedYear("all");
+    setSelectedAuthor("all");
+    setSortBy("year-desc");
     setCurrentPage(1);
   };
 
   return (
     <>
       <p className="text-center text-gray-600 mb-8">
-        共 {publications.length} 篇发表，当前显示 {filteredPublications.length} 篇
+        共 {publications.length} 篇发表，当前显示 {filteredPublications.length}{" "}
+        篇
       </p>
 
       <FilterBar

@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 const navLinks = [
-  { href: '/', label: '首页' },
-  { href: '/publications', label: '发表' },
-  { href: '/people', label: '团队成员' },
+  { href: "/", label: "首页" },
+  { href: "/publications", label: "发表" },
+  { href: "/people", label: "团队成员" },
 ];
 
 export default function Navigation() {
@@ -33,8 +33,8 @@ export default function Navigation() {
                   href={link.href}
                   className={`px-4 py-2 rounded-md transition-colors ${
                     pathname === link.href
-                      ? 'bg-primary text-white'
-                      : 'text-gray-700 hover:bg-gray-100'
+                      ? "bg-primary text-white"
+                      : "text-gray-700 hover:bg-gray-100"
                   }`}
                 >
                   {link.label}
@@ -84,8 +84,8 @@ export default function Navigation() {
                     href={link.href}
                     className={`block px-4 py-2 rounded-md transition-colors ${
                       pathname === link.href
-                        ? 'bg-primary text-white'
-                        : 'text-gray-700 hover:bg-gray-100'
+                        ? "bg-primary text-white"
+                        : "text-gray-700 hover:bg-gray-100"
                     }`}
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -100,5 +100,3 @@ export default function Navigation() {
     </header>
   );
 }
-
-

@@ -1,4 +1,4 @@
-import { Publication } from '@/types';
+import { Publication } from "@/types";
 
 interface PublicationCardProps {
   publication: Publication;
@@ -33,7 +33,7 @@ export default function PublicationCard({ publication }: PublicationCardProps) {
       {/* Authors */}
       <p className="text-sm text-gray-600 mb-3">
         <strong>作者：</strong>
-        {publication.authors.join(', ')}
+        {publication.authors.join(", ")}
       </p>
 
       {/* Description */}
@@ -70,5 +70,3 @@ export default function PublicationCard({ publication }: PublicationCardProps) {
     </div>
   );
 }
-
-

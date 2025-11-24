@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 interface Student {
   name: string;
@@ -11,24 +11,24 @@ interface Student {
 
 const students: Student[] = [
   {
-    name: 'Student A',
-    photo: '/images/default-avatar.svg',
-    research: 'Microfluidic Systems',
+    name: "Student A",
+    photo: "/images/default-avatar.svg",
+    research: "Microfluidic Systems",
   },
   {
-    name: 'Student B',
-    photo: '/images/default-avatar.svg',
-    research: 'Biosensors',
+    name: "Student B",
+    photo: "/images/default-avatar.svg",
+    research: "Biosensors",
   },
   {
-    name: 'Student C',
-    photo: '/images/default-avatar.svg',
-    research: 'Synthetic Biology',
+    name: "Student C",
+    photo: "/images/default-avatar.svg",
+    research: "Synthetic Biology",
   },
   {
-    name: 'Student D',
-    photo: '/images/default-avatar.svg',
-    research: 'Machine Learning in Biological Data',
+    name: "Student D",
+    photo: "/images/default-avatar.svg",
+    research: "Machine Learning in Biological Data",
   },
 ];
 
@@ -51,12 +51,14 @@ export default function StudentGrid() {
                 className="object-cover group-hover:scale-105 transition-transform"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.src = '/images/default-avatar.svg';
+                  target.src = "/images/default-avatar.svg";
                 }}
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2 text-primary">{student.name}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-primary">
+                {student.name}
+              </h3>
               <p className="text-gray-600">研究方向：{student.research}</p>
             </div>
           </Link>
@@ -65,4 +67,3 @@ export default function StudentGrid() {
     </div>
   );
 }
-
