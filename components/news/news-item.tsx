@@ -47,3 +47,4 @@ export default function NewsItem({ item }: NewsItemProps) {
   );
 }
 
+

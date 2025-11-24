@@ -118,3 +118,4 @@ export default function Carousel({ slides, autoPlay = true, interval = 5000 }: C
   );
 }
 
+
