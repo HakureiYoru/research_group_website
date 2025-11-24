@@ -1,52 +1,36 @@
-# 操作系统文件
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-Thumbs.db
-desktop.ini
+*.pem
 
-# 编辑器和IDE
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-*.swp
-*.swo
-*~
-
-# 日志文件
-*.log
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# 临时文件
-*.tmp
-*.temp
-.cache/
+# local env files
+.env*.local
 
-# 备份文件
-*.bak
-*.backup
-*~
+# vercel
+.vercel
 
-# Node.js (如果将来使用)
-node_modules/
-package-lock.json
-yarn.lock
-
-# 构建输出（如果将来使用构建工具）
-dist/
-build/
-out/
-
-# 环境变量文件
-.env
-.env.local
-.env.*.local
-
-# 测试覆盖率
-coverage/
-.nyc_output/
-
-# 其他
-.sass-cache/
-
+# typescript
+*.tsbuildinfo
+next-env.d.ts
