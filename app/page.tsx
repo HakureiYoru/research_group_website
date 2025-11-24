@@ -25,33 +25,6 @@ export default function Home() {
       ),
     },
     {
-      id: 'news',
-      image: '/images/hero-image2.png',
-      title: '最新新闻',
-      content: (
-        <div className="space-y-6">
-          <div className="space-y-2">
-            <p className="text-xl font-semibold">2024年10月</p>
-            <p>我们刚刚在《Advanced Materials》杂志上发表了关于生物材料的最新论文。</p>
-          </div>
-          <div className="space-y-2">
-            <p className="text-xl font-semibold">2024年8月</p>
-            <p>获得国家自然科学基金资助，推动生物微系统的前沿研究。</p>
-          </div>
-          <div className="space-y-2">
-            <p className="text-xl font-semibold">2024年6月</p>
-            <p>课题组组长受邀在国际会议上进行主题演讲。</p>
-          </div>
-          <Link
-            href="/news"
-            className="inline-block mt-4 px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-md transition-colors"
-          >
-            查看更多新闻
-          </Link>
-        </div>
-      ),
-    },
-    {
       id: 'research',
       image: '/images/hero-image3.png',
       title: '我们的研究方向',
@@ -90,14 +63,7 @@ export default function Home() {
       <section className="container-custom mx-auto py-12">
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-8">快速导航</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Link
-              href="/news"
-              className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
-            >
-              <h3 className="text-xl font-semibold mb-2 text-primary">最新动态</h3>
-              <p className="text-gray-600">查看课题组的最新新闻和活动</p>
-            </Link>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Link
               href="/publications"
               className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"

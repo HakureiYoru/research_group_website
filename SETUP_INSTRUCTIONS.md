@@ -6,7 +6,6 @@
 ✅ 全局布局、导航栏和页脚组件
 ✅ 通用 UI 组件（加载器、分页、轮播图等）
 ✅ 首页及轮播图功能
-✅ 新闻页面及时间轴展示
 ✅ 团队成员页面
 ✅ 发表作品页面（筛选、排序、分页）
 ✅ 数据加载逻辑和性能优化
@@ -78,7 +77,6 @@ vercel --prod
 
 - [x] 首页轮播图正常显示
 - [x] 导航栏链接正常工作
-- [x] 新闻页面时间轴展示正常
 - [x] 团队成员页面显示正常
 - [x] 发表作品页面筛选、排序、分页功能正常
 - [x] 移动端响应式布局正常
@@ -89,7 +87,6 @@ vercel --prod
 开发环境已启动，可以访问：
 
 - 首页: http://localhost:3000
-- 新闻: http://localhost:3000/news
 - 团队成员: http://localhost:3000/people
 - 发表作品: http://localhost:3000/publications
 
@@ -110,9 +107,6 @@ vercel --prod
 3. 更新导航栏链接
 
 ## 数据更新
-
-### 新闻数据
-编辑：`public/data/news.json`
 
 ### 发表作品数据
 编辑：`public/data/publications.json`

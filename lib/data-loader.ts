@@ -1,19 +1,22 @@
-import { NewsYear, Publication } from '@/types';
 import { promises as fs } from 'fs';
 import path from 'path';
+import { cache } from 'react';
+import { Publication } from '@/types';
 
-/**
- * 获取新闻数据
- * @returns 新闻数据数组
- */
-export async function getNewsData(): Promise<NewsYear[]> {
+const DATA_DIR = path.join(process.cwd(), 'public', 'data');
+
+const readJsonFile = cache(async <T>(fileName: string): Promise<T> => {
+  const filePath = path.join(DATA_DIR, fileName);
+  const fileContents = await fs.readFile(filePath, 'utf8');
+  return JSON.parse(fileContents) as T;
+});
+
+async function loadData<T>(fileName: string, fallback: T): Promise<T> {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'data', 'news.json');
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    return JSON.parse(fileContents) as NewsYear[];
+    return await readJsonFile<T>(fileName);
   } catch (error) {
-    console.error('Error loading news data:', error);
-    return [];
+    console.error(`Error loading ${fileName}:`, error);
+    return fallback;
   }
 }
 
@@ -22,14 +25,7 @@ export async function getNewsData(): Promise<NewsYear[]> {
  * @returns 发表作品数据数组
  */
 export async function getPublicationsData(): Promise<Publication[]> {
-  try {
-    const filePath = path.join(process.cwd(), 'public', 'data', 'publications.json');
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    return JSON.parse(fileContents) as Publication[];
-  } catch (error) {
-    console.error('Error loading publications data:', error);
-    return [];
-  }
+  return loadData<Publication[]>('publications.json', []);
 }
 
 /**
@@ -39,9 +35,7 @@ export async function getPublicationsData(): Promise<Publication[]> {
  */
 export async function getPublicationsByAuthor(author: string): Promise<Publication[]> {
   const publications = await getPublicationsData();
-  return publications.filter(pub => 
-    pub.authors.some(a => a.toLowerCase().includes(author.toLowerCase()))
-  );
+  return filterByAuthor(publications, author);
 }
 
 /**
@@ -51,7 +45,19 @@ export async function getPublicationsByAuthor(author: string): Promise<Publicati
  */
 export async function getPublicationsByYear(year: string): Promise<Publication[]> {
   const publications = await getPublicationsData();
-  return publications.filter(pub => pub.year === year);
+  return filterByYear(publications, year);
+}
+
+/**
+ * 获取所有年份和作者列表（用于筛选器）
+ * @returns 年份数组（降序）与作者数组（字母顺序）
+ */
+export async function getPublicationFacets(): Promise<{
+  years: string[];
+  authors: string[];
+}> {
+  const publications = await getPublicationsData();
+  return extractPublicationFacets(publications);
 }
 
 /**
@@ -59,9 +65,8 @@ export async function getPublicationsByYear(year: string): Promise<Publication[]
  * @returns 年份数组（降序）
  */
 export async function getYearsList(): Promise<string[]> {
-  const publications = await getPublicationsData();
-  const years = new Set(publications.map(pub => pub.year));
-  return Array.from(years).sort((a, b) => b.localeCompare(a));
+  const { years } = await getPublicationFacets();
+  return years;
 }
 
 /**
@@ -69,11 +74,32 @@ export async function getYearsList(): Promise<string[]> {
  * @returns 作者数组（字母顺序）
  */
 export async function getAuthorsList(): Promise<string[]> {
-  const publications = await getPublicationsData();
-  const authors = new Set<string>();
-  publications.forEach(pub => {
-    pub.authors.forEach(author => authors.add(author.trim()));
-  });
-  return Array.from(authors).sort();
+  const { authors } = await getPublicationFacets();
+  return authors;
 }
 
+export function extractPublicationFacets(publications: Publication[]) {
+  const years = new Set<string>();
+  const authors = new Set<string>();
+
+  publications.forEach((pub) => {
+    years.add(pub.year);
+    pub.authors.forEach((author) => authors.add(author.trim()));
+  });
+
+  return {
+    years: Array.from(years).sort((a, b) => b.localeCompare(a)),
+    authors: Array.from(authors).sort(),
+  };
+}
+
+function filterByAuthor(publications: Publication[], author: string) {
+  const normalized = author.toLowerCase();
+  return publications.filter((pub) =>
+    pub.authors.some((a) => a.toLowerCase().includes(normalized))
+  );
+}
+
+function filterByYear(publications: Publication[], year: string) {
+  return publications.filter((pub) => pub.year === year);
+}

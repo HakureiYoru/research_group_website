@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 const navLinks = [
   { href: '/', label: '首页' },
-  { href: '/news', label: '新闻' },
   { href: '/publications', label: '发表' },
   { href: '/people', label: '团队成员' },
 ];

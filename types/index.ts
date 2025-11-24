@@ -1,15 +1,4 @@
-// 新闻数据类型
-export interface NewsItem {
-  month: string;
-  category: 'research' | 'award' | 'activity';
-  title: string;
-  description: string;
-}
-
-export interface NewsYear {
-  year: string;
-  items: NewsItem[];
-}
+import type { ReactNode } from 'react';
 
 // 发表作品数据类型
 export interface Publication {
@@ -52,7 +41,7 @@ export interface CarouselSlide {
   id: string;
   image: string;
   title: string;
-  content: string | React.ReactNode;
+  content: ReactNode;
 }
 
 
