@@ -34,7 +34,7 @@ export default function FilterBar({
           <select
             value={selectedYear}
             onChange={(e) => onYearChange(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+            className="w-full px-3 py-2 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
           >
             <option value="all">所有年份</option>
             {years.map((year) => (
@@ -53,7 +53,7 @@ export default function FilterBar({
           <select
             value={selectedAuthor}
             onChange={(e) => onAuthorChange(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+            className="w-full px-3 py-2 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
           >
             <option value="all">所有作者</option>
             {authors.map((author) => (
@@ -72,7 +72,7 @@ export default function FilterBar({
           <select
             value={sortBy}
             onChange={(e) => onSortChange(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+            className="w-full px-3 py-2 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
           >
             <option value="year-desc">年份（新到旧）</option>
             <option value="year-asc">年份（旧到新）</option>

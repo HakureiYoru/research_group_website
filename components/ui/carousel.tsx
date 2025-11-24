@@ -64,11 +64,11 @@ export default function Carousel({ slides, autoPlay = true, interval = 5000 }: C
             {/* Content */}
             <div className="relative h-full flex items-center">
               <div className="container-custom mx-auto px-4 md:px-8">
-                <div className="max-w-3xl text-white">
-                  <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
+                <div className="max-w-3xl">
+                  <h2 className="text-3xl md:text-5xl font-bold mb-4 text-blue-300">
                     {slide.title}
                   </h2>
-                  <div className="text-base md:text-lg text-white/90">
+                  <div className="text-base md:text-lg text-white">
                     {slide.content}
                   </div>
                 </div>
