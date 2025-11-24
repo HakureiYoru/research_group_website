@@ -22,7 +22,7 @@ export default function Footer() {
           {/* 底部装饰 */}
           <div className="pt-4">
             <p className="text-xs md:text-sm text-white opacity-70">
-              Xi'an Jiaotong-Liverpool University
+              Xi&apos;an Jiaotong-Liverpool University
             </p>
           </div>
         </div>

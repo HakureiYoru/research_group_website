@@ -10,10 +10,14 @@ export const metadata: Metadata = {
 export default async function PublicationsPage({
   searchParams,
 }: {
-  searchParams?: { author?: string };
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const publications = await getPublicationsData();
   const { years, authors } = extractPublicationFacets(publications);
+  const resolvedSearchParams = (await searchParams) ?? {};
+  const initialAuthor = Array.isArray(resolvedSearchParams.author)
+    ? resolvedSearchParams.author[0]
+    : resolvedSearchParams.author;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-12">
@@ -26,7 +30,7 @@ export default async function PublicationsPage({
           publications={publications}
           years={years}
           authors={authors}
-          initialAuthor={searchParams?.author}
+          initialAuthor={initialAuthor}
         />
       </div>
     </div>
