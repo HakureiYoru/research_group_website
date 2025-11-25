@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import type { Publication } from "@/types";
 import FilterBar from "./filter-bar";
 import PublicationCard from "./publication-card";
@@ -11,7 +12,6 @@ interface PublicationsClientProps {
   publications: Publication[];
   years: string[];
   authors: string[];
-  initialAuthor?: string | null;
 }
 
 const ITEMS_PER_PAGE = 10;
@@ -20,10 +20,13 @@ export default function PublicationsClient({
   publications,
   years,
   authors,
-  initialAuthor,
 }: PublicationsClientProps) {
+  const searchParams = useSearchParams();
+  const initialAuthor = searchParams.get("author");
   const [selectedYear, setSelectedYear] = useState("all");
-  const [selectedAuthor, setSelectedAuthor] = useState(initialAuthor ?? "all");
+  const [selectedAuthor, setSelectedAuthor] = useState(
+    () => initialAuthor ?? "all"
+  );
   const [sortBy, setSortBy] = useState("year-desc");
   const [currentPage, setCurrentPage] = useState(1);
 

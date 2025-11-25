@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export',
   images: {
     remotePatterns: [
       {
@@ -8,11 +9,11 @@ const nextConfig: NextConfig = {
         hostname: '**',
       },
     ],
+    // 静态导出时关闭图片优化以兼容无服务器环境
+    unoptimized: true,
   },
   // 优化构建
   reactStrictMode: true,
-  // 支持静态导出（可选）
-  // output: 'export',
 };
 
 export default nextConfig;
