@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
+  // 便于 OSS 静态网站托管直接访问目录路径
+  trailingSlash: true,
   images: {
     remotePatterns: [
       {
