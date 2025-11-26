@@ -33,7 +33,7 @@ jobs:
 
       # 5. 配置 OSS 工具
       - name: Setup aliyun ossutil
-        uses: manyuanrong/setup-ossutil@v1
+        uses: manyuanrong/setup-ossutil@master
         with:
           endpoint: oss-cn-shanghai.aliyuncs.com  # 改成你实际 Region 的 endpoint
           access-key-id: ${{ secrets.OSS_KEY_ID }}
