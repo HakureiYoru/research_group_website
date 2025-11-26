@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "echo 'Static files exported to out/ directory by build command'"
   },
   "dependencies": {
     "next": "^15.0.3",
