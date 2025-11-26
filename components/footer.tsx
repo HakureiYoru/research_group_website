@@ -10,7 +10,7 @@ export default function Footer() {
 
           {/* 联系方式 */}
           <div className="flex items-center justify-center gap-2 text-sm md:text-base">
-            <span className="text-white opacity-90">联系方式测试action222：</span>
+            <span className="text-white opacity-90">联系方式测试action333：</span>
             <a
               href="mailto:Pengfei.Song@xjtlu.edu.cn"
               className="text-white font-medium hover:text-blue-300 transition-colors duration-300 "
