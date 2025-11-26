@@ -1,0 +1,45 @@
+name: Deploy Next.js site to Aliyun OSS
+
+on:
+  push:
+    branches:
+      - main   # 或者改成你实际用来部署的分支
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 拉代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 安装 Node（注意版本）
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'   # >= 18.17 就行，这里直接 20
+          cache: 'npm'
+
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: npm ci   # 如果你习惯用 npm install 也可以改回去
+
+      # 4. 构建 & 静态导出
+      - name: Build and export
+        run: |
+          npm run build
+          npm run export   # 会输出到 out/ 目录
+
+      # 5. 配置 OSS 工具
+      - name: Setup aliyun ossutil
+        uses: manyuanrong/setup-ossutil@v1
+        with:
+          endpoint: oss-cn-shanghai.aliyuncs.com  # 改成你实际 Region 的 endpoint
+          access-key-id: ${{ secrets.OSS_KEY_ID }}
+          access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
+
+      # 6. 上传到 OSS
+      - name: Upload static files to OSS
+        run: |
+          ossutil cp -r -f out oss://im-xjtlu/
