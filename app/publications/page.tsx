@@ -1,6 +1,9 @@
 import { Metadata } from "next";
 import PublicationList from "@/components/publications/publication-list";
-import { getPublicationsData, groupPublicationsByYear } from "@/lib/data-loader";
+import {
+  getPublicationsData,
+  groupPublicationsByYear,
+} from "@/lib/data-loader";
 
 export const metadata: Metadata = {
   title: "学术成果 / Publications",
@@ -17,13 +20,8 @@ export default async function PublicationsPage() {
     <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white py-12">
       <div className="container mx-auto max-w-5xl px-4">
         <header className="mb-10 text-center space-y-3">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-dark">
-            Data-driven · Static · Edge-first
-          </p>
           <h1 className="text-4xl font-bold text-primary">学术成果</h1>
-          <p className="text-gray-600">
-            数据由构建期脚本对 OpenAlex（主）与 Semantic Scholar（辅）聚合而成，去谷歌化本地化呈现。
-          </p>
+          <p className="text-gray-600">课题组发表的学术论文和研究成果</p>
         </header>
         <PublicationList groups={groups} />
       </div>

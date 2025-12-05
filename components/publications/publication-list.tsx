@@ -13,7 +13,9 @@ interface PublicationListProps {
 
 export default function PublicationList({ groups }: PublicationListProps) {
   if (!groups.length) {
-    return <EmptyState message="暂无可展示的出版物，请先运行 fetcher.py 生成数据。" />;
+    return (
+      <EmptyState message="暂无可展示的出版物，请先运行 fetcher.py 生成数据。" />
+    );
   }
 
   return (

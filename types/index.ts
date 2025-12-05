@@ -60,3 +60,4 @@ export interface CarouselSlide {
   title: string;
   content: ReactNode;
 }
+

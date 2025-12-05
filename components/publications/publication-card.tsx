@@ -8,8 +8,17 @@ const badgeBase =
   "inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-semibold tracking-wide";
 
 export default function PublicationCard({ publication }: PublicationCardProps) {
-  const { title, venue, year, tldr, citationCount, authors, links, openAccess, manualNote } =
-    publication;
+  const {
+    title,
+    venue,
+    year,
+    tldr,
+    citationCount,
+    authors,
+    links,
+    openAccess,
+    manualNote,
+  } = publication;
 
   return (
     <article className="group rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur transition hover:-translate-y-1 hover:shadow-xl">
@@ -84,7 +93,9 @@ export default function PublicationCard({ publication }: PublicationCardProps) {
 
       <div className="mt-4 flex flex-wrap items-center gap-3 text-xs text-slate-600">
         {openAccess && (
-          <span className={`${badgeBase} border-green-200 bg-green-50 text-green-700`}>
+          <span
+            className={`${badgeBase} border-green-200 bg-green-50 text-green-700`}
+          >
             OA PDF 可用
           </span>
         )}
@@ -99,7 +110,10 @@ export default function PublicationCard({ publication }: PublicationCardProps) {
           </span>
         )}
         {manualNote && (
-          <span className="rounded-full bg-amber-50 px-3 py-1 text-amber-700" title={manualNote}>
+          <span
+            className="rounded-full bg-amber-50 px-3 py-1 text-amber-700"
+            title={manualNote}
+          >
             手动补充
           </span>
         )}
