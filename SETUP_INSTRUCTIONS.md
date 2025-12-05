@@ -109,7 +109,7 @@ vercel --prod
 ## 数据更新
 
 ### 发表作品数据
-编辑：`public/data/publications.json`
+编辑：`data/publications.json`（通过 `npm run fetch:publications` 自动生成）
 
 ### 团队成员
 编辑：`components/people/student-grid.tsx` 和 `components/people/mentor-card.tsx`

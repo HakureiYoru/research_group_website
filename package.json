@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "echo 'Static files exported to out/ directory by build command'"
+    "export": "echo 'Static files exported to out/ directory by build command'",
+    "fetch:publications": "python fetcher.py"
   },
   "dependencies": {
     "next": "^15.0.3",

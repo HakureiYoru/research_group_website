@@ -1,0 +1,2777 @@
+[
+  {
+    "id": "https://openalex.org/W4414941096",
+    "title": "Transfer Printing Assisted Fabrication of a Cicada Wing Inspired Nanopaper SERS Platform",
+    "year": 2025,
+    "venue": null,
+    "type": "article",
+    "tldr": null,
+    "citationCount": 0,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yining Shi",
+        "orcid": "https://orcid.org/0000-0002-2930-6164",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1109/icamechs68051.2025.11181032",
+      "openAlexId": "https://openalex.org/W4414941096",
+      "landingUrl": "https://doi.org/10.1109/icamechs68051.2025.11181032",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4413955268",
+    "title": "Rapid Single‐Cell Proteomics Using Nanoconfined Enzyme Reactors on a Microscale Digital Microfluidics Platform",
+    "year": 2025,
+    "venue": "Advanced Functional Materials",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 0,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Menglei Zhao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Li",
+        "orcid": "https://orcid.org/0000-0001-8904-4859",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zongliang Guo",
+        "orcid": "https://orcid.org/0000-0003-4178-7666",
+        "isGroupMember": false
+      },
+      {
+        "name": "Haobing Liu",
+        "orcid": "https://orcid.org/0000-0002-3588-4593",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jiaxi Peng",
+        "orcid": "https://orcid.org/0000-0003-0439-824X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yechen Hu",
+        "orcid": "https://orcid.org/0000-0002-9582-4103",
+        "isGroupMember": false
+      },
+      {
+        "name": "Bin Fu",
+        "orcid": "https://orcid.org/0000-0001-8567-2997",
+        "isGroupMember": false
+      },
+      {
+        "name": "B. Li",
+        "orcid": "https://orcid.org/0000-0002-1974-2229",
+        "isGroupMember": false
+      },
+      {
+        "name": "Liyuan Guo",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Rongxin Fu",
+        "orcid": "https://orcid.org/0000-0002-4547-2269",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yao Lu",
+        "orcid": "https://orcid.org/0000-0003-1745-5880",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "W. L. Xu",
+        "orcid": "https://orcid.org/0000-0002-6499-9103",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ákos Vértes",
+        "orcid": "https://orcid.org/0000-0001-5186-5352",
+        "isGroupMember": false
+      },
+      {
+        "name": "Huikai Xie",
+        "orcid": "https://orcid.org/0000-0002-8393-0021",
+        "isGroupMember": false
+      },
+      {
+        "name": "Shuailong Zhang",
+        "orcid": "https://orcid.org/0000-0003-1004-021X",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1002/adfm.202502142",
+      "openAlexId": "https://openalex.org/W4413955268",
+      "landingUrl": "https://doi.org/10.1002/adfm.202502142",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4413421517",
+    "title": "MOF-Assisted Nanocellulose Paper-Based Platform for Multiple Surface-Enhanced Raman Scattering Detection",
+    "year": 2025,
+    "venue": "Analytical Chemistry",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 0,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Keran Jiao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Shan Cong",
+        "orcid": "https://orcid.org/0000-0002-5305-1237",
+        "isGroupMember": false
+      },
+      {
+        "name": "Fuzhou Niu",
+        "orcid": "https://orcid.org/0000-0002-1847-4920",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jinyu Zhou",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1021/acs.analchem.5c02659",
+      "openAlexId": "https://openalex.org/W4413421517",
+      "landingUrl": "https://doi.org/10.1021/acs.analchem.5c02659",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4405974187",
+    "title": "Facile Laser-Cutting Process for Nanocellulose-Paper-Based Microfluidic Microchannel Fabrication",
+    "year": 2025,
+    "venue": "IEEE Sensors Journal",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 1,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Miao Lü",
+        "orcid": "https://orcid.org/0000-0003-3058-9461",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhenzhen Jiang",
+        "orcid": "https://orcid.org/0000-0003-3306-883X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yucheng Gong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Fuzhou Niu",
+        "orcid": "https://orcid.org/0000-0002-1847-4920",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1109/jsen.2024.3522403",
+      "openAlexId": "https://openalex.org/W4405974187",
+      "landingUrl": "https://doi.org/10.1109/jsen.2024.3522403",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4410588637",
+    "title": "Centrifugation-assisted lateral flow assay platform: enhancing bioassay sensitivity with active flow control",
+    "year": 2025,
+    "venue": "Microsystems & Nanoengineering",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 4,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0003-0172-1371",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Quan Zhang",
+        "orcid": "https://orcid.org/0000-0003-2237-3281",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yongjie Wang",
+        "orcid": "https://orcid.org/0000-0002-9268-837X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Fuzhou Niu",
+        "orcid": "https://orcid.org/0000-0002-1847-4920",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1038/s41378-025-00923-5",
+      "openAlexId": "https://openalex.org/W4410588637",
+      "landingUrl": "https://doi.org/10.1038/s41378-025-00923-5",
+      "pdfUrl": "https://www.nature.com/articles/s41378-025-00923-5.pdf",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4409320744",
+    "title": "A fully automated paper-based smartphone-assisted microfluidic chemiluminescence sample to result immunoassay platform",
+    "year": 2025,
+    "venue": "Analytica Chimica Acta",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 0,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Jihong Sun",
+        "orcid": "https://orcid.org/0000-0001-6106-0806",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Weiqin Xu",
+        "orcid": "https://orcid.org/0000-0002-7072-8158",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenjun He",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Tong Li",
+        "orcid": "https://orcid.org/0000-0001-5729-1839",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sanli Liu",
+        "orcid": "https://orcid.org/0009-0005-3830-6675",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kai F. Hoettges",
+        "orcid": "https://orcid.org/0000-0002-0415-1688",
+        "isGroupMember": false
+      },
+      {
+        "name": "Junhui Zhu",
+        "orcid": "https://orcid.org/0000-0002-3730-5153",
+        "isGroupMember": false
+      },
+      {
+        "name": "Mark Leach",
+        "orcid": "https://orcid.org/0000-0002-7874-2376",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.aca.2025.344013",
+      "openAlexId": "https://openalex.org/W4409320744",
+      "landingUrl": "https://doi.org/10.1016/j.aca.2025.344013",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4399773073",
+    "title": "Navigating the uncertainty: the impact of a student-centered final year project allocation mechanism on student performance",
+    "year": 2024,
+    "venue": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 0,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Keran Jiao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Wei Yan",
+        "orcid": "https://orcid.org/0000-0002-2943-6065",
+        "isGroupMember": false
+      },
+      {
+        "name": "Mark Leach",
+        "orcid": "https://orcid.org/0000-0002-7874-2376",
+        "isGroupMember": false
+      },
+      {
+        "name": "Na Li",
+        "orcid": "https://orcid.org/0000-0003-2395-3499",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xiaojun Zhang",
+        "orcid": "https://orcid.org/0000-0002-6738-7399",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1057/s41599-024-03324-7",
+      "openAlexId": "https://openalex.org/W4399773073",
+      "landingUrl": "https://doi.org/10.1057/s41599-024-03324-7",
+      "pdfUrl": "https://www.nature.com/articles/s41599-024-03324-7.pdf",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4396227749",
+    "title": "Nanodiamond: a promising metal‐free nanoscale material in photocatalysis and electrocatalysis",
+    "year": 2024,
+    "venue": "Rare Metals",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 17,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Xiaowu Gao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ziwei Zhao",
+        "orcid": "https://orcid.org/0009-0005-8519-715X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yang He",
+        "orcid": "https://orcid.org/0000-0001-8280-1343",
+        "isGroupMember": false
+      },
+      {
+        "name": "Saifei Fan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Keran Jiao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Siyu Lou",
+        "orcid": "https://orcid.org/0000-0002-8046-0052",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xin‐Yue Han",
+        "orcid": "https://orcid.org/0000-0001-7719-9845",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Rong Cai",
+        "orcid": "https://orcid.org/0000-0002-2063-8365",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhun Hu",
+        "orcid": "https://orcid.org/0000-0002-3926-6696",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhong‐Jie Jiang",
+        "orcid": "https://orcid.org/0000-0002-5612-3128",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yongjie Wang",
+        "orcid": "https://orcid.org/0000-0002-9268-837X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jiaqi Zhu",
+        "orcid": "https://orcid.org/0000-0002-2142-7260",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1007/s12598-023-02513-8",
+      "openAlexId": "https://openalex.org/W4396227749",
+      "landingUrl": "https://doi.org/10.1007/s12598-023-02513-8",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4396737820",
+    "title": "Metal–Organic Frameworks/Heterojunction Structures for Surface-Enhanced Raman Scattering with Enhanced Sensitivity and Tailorability",
+    "year": 2024,
+    "venue": "ACS Applied Materials & Interfaces",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 10,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Keran Jiao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hongzhao Sun",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Shan Cong",
+        "orcid": "https://orcid.org/0000-0002-5305-1237",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Feifan Li",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1021/acsami.4c01588",
+      "openAlexId": "https://openalex.org/W4396737820",
+      "landingUrl": "https://doi.org/10.1021/acsami.4c01588",
+      "pdfUrl": "https://pubs.acs.org/doi/pdf/10.1021/acsami.4c01588",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4399752535",
+    "title": "Lewis functional nanodiamonds for efficient metal-free photocatalytic CO<sub>2</sub> reduction",
+    "year": 2024,
+    "venue": "Journal of Materials Chemistry A",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 11,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Xiaowu Gao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyue Han",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ziwei Zhao",
+        "orcid": "https://orcid.org/0009-0008-4551-348X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ning‐Yu Huang",
+        "orcid": "https://orcid.org/0000-0003-1038-2260",
+        "isGroupMember": false
+      },
+      {
+        "name": "Keran Jiao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jiaqi Zhu",
+        "orcid": "https://orcid.org/0000-0002-2142-7260",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yongjie Wang",
+        "orcid": "https://orcid.org/0000-0002-9268-837X",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1039/d4ta02877e",
+      "openAlexId": "https://openalex.org/W4399752535",
+      "landingUrl": "https://doi.org/10.1039/d4ta02877e",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4391883122",
+    "title": "Cellulose Nanostructures as Tunable Substrates for Nanocellulose‐Metal Hybrid Flexible Composites",
+    "year": 2024,
+    "venue": "ChemPlusChem",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 7,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Keran Jiao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenxin Cao",
+        "orcid": "https://orcid.org/0000-0003-0953-8686",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jia Zhu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Xiaowu Gao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ziwei Zhao",
+        "orcid": "https://orcid.org/0009-0005-8519-715X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhong‐Jie Jiang",
+        "orcid": "https://orcid.org/0000-0002-5612-3128",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yongjie Wang",
+        "orcid": "https://orcid.org/0000-0002-9268-837X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jiaqi Zhu",
+        "orcid": "https://orcid.org/0000-0002-2142-7260",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1002/cplu.202300704",
+      "openAlexId": "https://openalex.org/W4391883122",
+      "landingUrl": "https://doi.org/10.1002/cplu.202300704",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4394009840",
+    "title": "Automatic offline-capable smartphone paper-based microfluidic device for efficient biomarker detection of Alzheimer's disease",
+    "year": 2024,
+    "venue": "Analytica Chimica Acta",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 18,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Tianyu Cai",
+        "orcid": "https://orcid.org/0000-0002-8825-9118",
+        "isGroupMember": false
+      },
+      {
+        "name": "Fuyuan Liu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Yifan Li",
+        "orcid": "https://orcid.org/0009-0007-9125-5664",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Kaizhu Huang",
+        "orcid": "https://orcid.org/0000-0002-3034-9639",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kai F. Hoettges",
+        "orcid": "https://orcid.org/0000-0002-0415-1688",
+        "isGroupMember": false
+      },
+      {
+        "name": "Min Chen",
+        "orcid": "https://orcid.org/0000-0002-0960-4447",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Chun Zhao",
+        "orcid": "https://orcid.org/0000-0002-4783-960X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.aca.2024.342575",
+      "openAlexId": "https://openalex.org/W4394009840",
+      "landingUrl": "https://doi.org/10.1016/j.aca.2024.342575",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4405489631",
+    "title": "Automated Offline Smartphone-Assisted Microfluidic Paper-Based Analytical Device for Biomarker Detection of Alzheimer’s Disease",
+    "year": 2024,
+    "venue": null,
+    "type": "article",
+    "tldr": null,
+    "citationCount": 0,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Tianyu Cai",
+        "orcid": "https://orcid.org/0000-0002-8825-9118",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kaizhu Huang",
+        "orcid": "https://orcid.org/0000-0002-3034-9639",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kai F. Hoettges",
+        "orcid": "https://orcid.org/0000-0002-0415-1688",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1109/embc53108.2024.10781517",
+      "openAlexId": "https://openalex.org/W4405489631",
+      "landingUrl": "https://doi.org/10.1109/embc53108.2024.10781517",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4405489635",
+    "title": "An Automated Microfluidic Paper-Based Analytical Device for Chemiluminescence Immunoassay",
+    "year": 2024,
+    "venue": null,
+    "type": "article",
+    "tldr": null,
+    "citationCount": 0,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Jihong Sun",
+        "orcid": "https://orcid.org/0000-0001-6106-0806",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sanli Liu",
+        "orcid": "https://orcid.org/0009-0005-3830-6675",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kai F. Hoettges",
+        "orcid": "https://orcid.org/0000-0002-0415-1688",
+        "isGroupMember": false
+      },
+      {
+        "name": "Junhui Zhu",
+        "orcid": "https://orcid.org/0000-0002-3730-5153",
+        "isGroupMember": false
+      },
+      {
+        "name": "Mark Leach",
+        "orcid": "https://orcid.org/0000-0002-7874-2376",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1109/embc53108.2024.10782768",
+      "openAlexId": "https://openalex.org/W4405489635",
+      "landingUrl": "https://doi.org/10.1109/embc53108.2024.10782768",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4392384251",
+    "title": "A SERS nanocellulose-paper-based analytical device for ultrasensitive detection of Alzheimer's disease",
+    "year": 2024,
+    "venue": "Analytica Chimica Acta",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 14,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruibing Li",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.aca.2024.342447",
+      "openAlexId": "https://openalex.org/W4392384251",
+      "landingUrl": "https://doi.org/10.1016/j.aca.2024.342447",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4317438718",
+    "title": "Microfluidic-Assisted <i>Caenorhabditis elegans</i> Sorting: Current Status and Future Prospects",
+    "year": 2023,
+    "venue": "Cyborg and Bionic Systems",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 47,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Keran Jiao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Quan Zhang",
+        "orcid": "https://orcid.org/0000-0002-2716-0747",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Min Chen",
+        "orcid": "https://orcid.org/0000-0002-3122-6788",
+        "isGroupMember": false
+      },
+      {
+        "name": "Chun Zhao",
+        "orcid": "https://orcid.org/0000-0002-4783-960X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Peng Pan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0009-0000-3558-8367",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.34133/cbsystems.0011",
+      "openAlexId": "https://openalex.org/W4317438718",
+      "landingUrl": "https://doi.org/10.34133/cbsystems.0011",
+      "pdfUrl": "https://doi.org/10.34133/cbsystems.0011",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4387394476",
+    "title": "Microembossing: A Convenient Process for Fabricating Microchannels on Nanocellulose Paper-Based Microfluidics",
+    "year": 2023,
+    "venue": "Journal of Visualized Experiments",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 3,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Jia Zhu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.3791/65965",
+      "openAlexId": "https://openalex.org/W4387394476",
+      "landingUrl": "https://doi.org/10.3791/65965",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4382786876",
+    "title": "Dynamic residual deep learning with photoelectrically regulated neurons for immunological classification",
+    "year": 2023,
+    "venue": "Cell Reports Physical Science",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 5,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Qinan Wang",
+        "orcid": "https://orcid.org/0000-0002-7058-2689",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jiahao Qin",
+        "orcid": "https://orcid.org/0000-0002-0551-4647",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yi Sun",
+        "orcid": "https://orcid.org/0000-0002-2203-0839",
+        "isGroupMember": false
+      },
+      {
+        "name": "Shihang Wei",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wen Liu",
+        "orcid": "https://orcid.org/0000-0002-2212-1861",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jiangmin Gu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Li Yang",
+        "orcid": "https://orcid.org/0000-0002-1040-4223",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xin Tu",
+        "orcid": "https://orcid.org/0000-0002-6376-0897",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hao Gao",
+        "orcid": "https://orcid.org/0000-0002-7420-8213",
+        "isGroupMember": false
+      },
+      {
+        "name": "Chun Zhao",
+        "orcid": "https://orcid.org/0000-0002-4783-960X",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.xcrp.2023.101481",
+      "openAlexId": "https://openalex.org/W4382786876",
+      "landingUrl": "https://doi.org/10.1016/j.xcrp.2023.101481",
+      "pdfUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S2666386423002606-fx1_lrg.jpg",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "manual-entry-example",
+    "title": "Demo Publication for Manual Merge",
+    "year": 2023,
+    "venue": "Journal of Local Research",
+    "tldr": "One-line summary for manual entries.",
+    "citationCount": 12,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Peng Song",
+        "orcid": null,
+        "isGroupMember": true
+      },
+      {
+        "name": "Teammate A",
+        "orcid": null,
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "10.0000/demo.doi",
+      "openAlexId": null,
+      "landingUrl": "https://doi.org/10.0000/demo.doi",
+      "pdfUrl": "https://example.com/demo.pdf",
+      "codeUrl": "https://github.com/example/demo"
+    },
+    "source": "manual",
+    "manualNote": "Remove this example after you hook up the automated fetch."
+  },
+  {
+    "id": "https://openalex.org/W4318615266",
+    "title": "Deep learning-assisted ultra-accurate smartphone testing of paper-based colorimetric ELISA assays",
+    "year": 2023,
+    "venue": "Analytica Chimica Acta",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 31,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Tianyu Cai",
+        "orcid": "https://orcid.org/0009-0009-9599-7248",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jia Zhu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Xi Yang",
+        "orcid": "https://orcid.org/0000-0002-8600-2570",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kaizhu Huang",
+        "orcid": "https://orcid.org/0000-0002-3034-9639",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kai F. Hoettges",
+        "orcid": "https://orcid.org/0000-0002-0415-1688",
+        "isGroupMember": false
+      },
+      {
+        "name": "Quan Zhang",
+        "orcid": "https://orcid.org/0000-0003-2237-3281",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hao Fu",
+        "orcid": "https://orcid.org/0000-0003-4963-6029",
+        "isGroupMember": false
+      },
+      {
+        "name": "Qiang Guo",
+        "orcid": "https://orcid.org/0000-0002-8366-7163",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zuming Yang",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.aca.2023.340868",
+      "openAlexId": "https://openalex.org/W4318615266",
+      "landingUrl": "https://doi.org/10.1016/j.aca.2023.340868",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4382789837",
+    "title": "Deep Learning for Microfluidic-Assisted Caenorhabditis elegans Multi-Parameter Identification Using YOLOv7",
+    "year": 2023,
+    "venue": "Micromachines",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 12,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Jie Zhang",
+        "orcid": "https://orcid.org/0000-0003-0242-8812",
+        "isGroupMember": false
+      },
+      {
+        "name": "Shuhe Liu",
+        "orcid": "https://orcid.org/0009-0005-7843-8429",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruiqi Yong",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yifan Li",
+        "orcid": "https://orcid.org/0000-0002-3895-1974",
+        "isGroupMember": false
+      },
+      {
+        "name": "J. W. Spencer",
+        "orcid": "https://orcid.org/0000-0001-6573-5428",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Limin Yu",
+        "orcid": "https://orcid.org/0000-0002-6891-0604",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.3390/mi14071339",
+      "openAlexId": "https://openalex.org/W4382789837",
+      "landingUrl": "https://doi.org/10.3390/mi14071339",
+      "pdfUrl": "https://www.mdpi.com/2072-666X/14/7/1339/pdf?version=1688102664",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4388975807",
+    "title": "Correction: A spiral microfluidic device for rapid sorting, trapping, and long-term live imaging of Caenorhabditis elegans embryos",
+    "year": 2023,
+    "venue": "Microsystems & Nanoengineering",
+    "type": "erratum",
+    "tldr": null,
+    "citationCount": 1,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Peng Pan",
+        "orcid": "https://orcid.org/0000-0003-0096-6801",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhen Qin",
+        "orcid": "https://orcid.org/0000-0002-4370-2374",
+        "isGroupMember": false
+      },
+      {
+        "name": "William Sun",
+        "orcid": "https://orcid.org/0000-0003-3279-7408",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yuxiao Zhou",
+        "orcid": "https://orcid.org/0000-0001-5143-8967",
+        "isGroupMember": false
+      },
+      {
+        "name": "Shaojia Wang",
+        "orcid": "https://orcid.org/0000-0001-9347-9695",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yong Wang",
+        "orcid": "https://orcid.org/0000-0003-0448-9619",
+        "isGroupMember": false
+      },
+      {
+        "name": "Changhai Ru",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Xin Wang",
+        "orcid": "https://orcid.org/0000-0003-4535-1261",
+        "isGroupMember": false
+      },
+      {
+        "name": "John A. Calarco",
+        "orcid": "https://orcid.org/0000-0002-2197-7801",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1038/s41378-023-00626-9",
+      "openAlexId": "https://openalex.org/W4388975807",
+      "landingUrl": "https://doi.org/10.1038/s41378-023-00626-9",
+      "pdfUrl": "https://www.nature.com/articles/s41378-023-00626-9.pdf",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4389339751",
+    "title": "Application of MXene‐Based Materials for Cathode in Lithium‐Sulfur Batteries",
+    "year": 2023,
+    "venue": "Chemistry - A European Journal",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 17,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Xianwei Geng",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Li Yang",
+        "orcid": "https://orcid.org/0000-0002-1040-4223",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1002/chem.202303451",
+      "openAlexId": "https://openalex.org/W4389339751",
+      "landingUrl": "https://doi.org/10.1002/chem.202303451",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4323035662",
+    "title": "An ultrasensitive FET biosensor based on vertically aligned MoS2 nanolayers with abundant surface active sites",
+    "year": 2023,
+    "venue": "Analytica Chimica Acta",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 15,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Ou",
+        "orcid": "https://orcid.org/0000-0002-3630-0385",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yongjie Wang",
+        "orcid": "https://orcid.org/0000-0002-9268-837X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Longyan Chen",
+        "orcid": "https://orcid.org/0000-0002-6873-8621",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hao Fu",
+        "orcid": "https://orcid.org/0000-0003-4963-6029",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jun Song",
+        "orcid": "https://orcid.org/0000-0003-3675-574X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.aca.2023.341036",
+      "openAlexId": "https://openalex.org/W4323035662",
+      "landingUrl": "https://doi.org/10.1016/j.aca.2023.341036",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4321457547",
+    "title": "A spiral microfluidic device for rapid sorting, trapping, and long-term live imaging of Caenorhabditis elegans embryos",
+    "year": 2023,
+    "venue": "Microsystems & Nanoengineering",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 11,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Peng Pan",
+        "orcid": "https://orcid.org/0000-0003-0096-6801",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhen Qin",
+        "orcid": "https://orcid.org/0000-0002-4370-2374",
+        "isGroupMember": false
+      },
+      {
+        "name": "William Sun",
+        "orcid": "https://orcid.org/0000-0003-3279-7408",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yuxiao Zhou",
+        "orcid": "https://orcid.org/0000-0001-5143-8967",
+        "isGroupMember": false
+      },
+      {
+        "name": "Shaojia Wang",
+        "orcid": "https://orcid.org/0000-0001-9347-9695",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yong Wang",
+        "orcid": "https://orcid.org/0000-0003-0448-9619",
+        "isGroupMember": false
+      },
+      {
+        "name": "Changhai Ru",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Xin Wang",
+        "orcid": "https://orcid.org/0000-0003-4535-1261",
+        "isGroupMember": false
+      },
+      {
+        "name": "John A. Calarco",
+        "orcid": "https://orcid.org/0000-0002-2197-7801",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1038/s41378-023-00485-4",
+      "openAlexId": "https://openalex.org/W4321457547",
+      "landingUrl": "https://doi.org/10.1038/s41378-023-00485-4",
+      "pdfUrl": "https://www.nature.com/articles/s41378-023-00485-4.pdf",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4296654913",
+    "title": "The impact of short videos on student performance in an online-flipped college engineering course",
+    "year": 2022,
+    "venue": "Humanities and Social Sciences Communications",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 53,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Jia Zhu",
+        "orcid": "https://orcid.org/0000-0002-2871-4369",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Quan Zhang",
+        "orcid": "https://orcid.org/0000-0001-7778-4243",
+        "isGroupMember": false
+      },
+      {
+        "name": "Po‐Hsun Huang",
+        "orcid": "https://orcid.org/0000-0001-9600-0141",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yongjie Wang",
+        "orcid": "https://orcid.org/0000-0002-9268-837X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ming Lei",
+        "orcid": "https://orcid.org/0000-0003-4696-9346",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1057/s41599-022-01355-6",
+      "openAlexId": "https://openalex.org/W4296654913",
+      "landingUrl": "https://doi.org/10.1057/s41599-022-01355-6",
+      "pdfUrl": "https://www.nature.com/articles/s41599-022-01355-6.pdf",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4309767993",
+    "title": "Reduced graphene oxide grafted on p-Si photocathode as a multifunctional interlayer for enhanced solar hydrogen production",
+    "year": 2022,
+    "venue": "Applied Physics Letters",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 5,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Junxia Shen",
+        "orcid": "https://orcid.org/0009-0003-9554-1108",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yongjie Wang",
+        "orcid": "https://orcid.org/0000-0002-9268-837X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Cong Chen",
+        "orcid": "https://orcid.org/0000-0002-0602-3225",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhihe Wei",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Shuai Zou",
+        "orcid": "https://orcid.org/0000-0003-0630-6687",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wen Dong",
+        "orcid": "https://orcid.org/0000-0001-5734-5622",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xiaodong Su",
+        "orcid": "https://orcid.org/0000-0002-0293-1365",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yang Peng",
+        "orcid": "https://orcid.org/0000-0002-6780-2468",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ronglei Fan",
+        "orcid": "https://orcid.org/0000-0003-1823-5345",
+        "isGroupMember": false
+      },
+      {
+        "name": "Mingrong Shen",
+        "orcid": "https://orcid.org/0000-0001-7741-746X",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1063/5.0121678",
+      "openAlexId": "https://openalex.org/W4309767993",
+      "landingUrl": "https://doi.org/10.1063/5.0121678",
+      "pdfUrl": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/5.0121678/16488521/213901_1_online.pdf",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4291034329",
+    "title": "Hybrid mixed-dimensional perovskite/metal-oxide heterojunction for all-in-one opto-electric artificial synapse and retinal-neuromorphic system",
+    "year": 2022,
+    "venue": "Nano Energy",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 73,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Qihan Liu",
+        "orcid": "https://orcid.org/0000-0001-6806-2900",
+        "isGroupMember": false
+      },
+      {
+        "name": "Li Yin",
+        "orcid": "https://orcid.org/0009-0007-3937-5116",
+        "isGroupMember": false
+      },
+      {
+        "name": "Chun Zhao",
+        "orcid": "https://orcid.org/0000-0002-4783-960X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jingyi Wang",
+        "orcid": "https://orcid.org/0000-0002-8583-237X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ziang Wu",
+        "orcid": "https://orcid.org/0009-0005-6203-4550",
+        "isGroupMember": false
+      },
+      {
+        "name": "Lei Hao",
+        "orcid": "https://orcid.org/0000-0001-5919-9331",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yina Liu",
+        "orcid": "https://orcid.org/0000-0002-3485-7542",
+        "isGroupMember": false
+      },
+      {
+        "name": "Bowen Tian",
+        "orcid": "https://orcid.org/0000-0001-8311-641X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhiyuan Zhang",
+        "orcid": "https://orcid.org/0000-0003-0501-4324",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zishen Zhao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruofu Liu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Changzeng Ding",
+        "orcid": "https://orcid.org/0000-0003-1203-6206",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yunfei Han",
+        "orcid": "https://orcid.org/0000-0003-1889-4535",
+        "isGroupMember": false
+      },
+      {
+        "name": "Chang‐Qi Ma",
+        "orcid": "https://orcid.org/0000-0002-9293-5027",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zhen Wen",
+        "orcid": "https://orcid.org/0000-0001-9780-6876",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.nanoen.2022.107686",
+      "openAlexId": "https://openalex.org/W4291034329",
+      "landingUrl": "https://doi.org/10.1016/j.nanoen.2022.107686",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4288783241",
+    "title": "Deep Learning-Assisted Ultra-Accurate Smartphone Testing of Paper-Based Colorimetric ELISA Assays",
+    "year": 2022,
+    "venue": "SSRN Electronic Journal",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 1,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Tianyu Cai",
+        "orcid": "https://orcid.org/0000-0002-8825-9118",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jia Zhu",
+        "orcid": "https://orcid.org/0000-0002-2871-4369",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xi Yang",
+        "orcid": "https://orcid.org/0000-0002-8600-2570",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kaizhu Huang",
+        "orcid": "https://orcid.org/0000-0002-3034-9639",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kai F. Hoettges",
+        "orcid": "https://orcid.org/0000-0002-0415-1688",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.2139/ssrn.4167983",
+      "openAlexId": "https://openalex.org/W4288783241",
+      "landingUrl": "https://doi.org/10.2139/ssrn.4167983",
+      "pdfUrl": "https://doi.org/10.2139/ssrn.4167983",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4288926396",
+    "title": "Biochar-derived material decorated by MXene/reduced graphene oxide using one-step hydrothermal treatment as high-performance supercapacitor electrodes",
+    "year": 2022,
+    "venue": "Carbon",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 29,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Yi Sun",
+        "orcid": "https://orcid.org/0000-0002-2203-0839",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yudan Yuan",
+        "orcid": "https://orcid.org/0000-0001-8259-2342",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xianwei Geng",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Chi Han",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Shenkai Lu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Li Yang",
+        "orcid": "https://orcid.org/0000-0002-1040-4223",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Cezhou Zhao",
+        "orcid": "https://orcid.org/0000-0002-4933-9692",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.carbon.2022.07.058",
+      "openAlexId": "https://openalex.org/W4288926396",
+      "landingUrl": "https://doi.org/10.1016/j.carbon.2022.07.058",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4285114476",
+    "title": "Biochar-Derived Material Decorated by Mxene/Reduced Graphene Oxide Using One-Step Hydrothermal Treatment as High-Performance Supercapacitor Electrodes",
+    "year": 2022,
+    "venue": "SSRN Electronic Journal",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 2,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Yi Sun",
+        "orcid": "https://orcid.org/0000-0002-2203-0839",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yudan Yuan",
+        "orcid": "https://orcid.org/0000-0001-8259-2342",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xianwei Geng",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Chi Han",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Shenkai Lu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Li Yang",
+        "orcid": "https://orcid.org/0000-0002-1040-4223",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Cezhou Zhao",
+        "orcid": "https://orcid.org/0000-0002-4933-9692",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.2139/ssrn.4105288",
+      "openAlexId": "https://openalex.org/W4285114476",
+      "landingUrl": "https://doi.org/10.2139/ssrn.4105288",
+      "pdfUrl": "https://doi.org/10.2139/ssrn.4105288",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4210526504",
+    "title": "Advanced artificial synaptic thin-film transistor based on doped potassium ions for neuromorphic computing <i>via</i> third-generation neural network",
+    "year": 2022,
+    "venue": "Journal of Materials Chemistry C",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 31,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Yixin Cao",
+        "orcid": "https://orcid.org/0000-0002-6927-438X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Tianshi Zhao",
+        "orcid": "https://orcid.org/0000-0002-9303-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Chun Zhao",
+        "orcid": "https://orcid.org/0000-0002-4783-960X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yina Liu",
+        "orcid": "https://orcid.org/0000-0002-3485-7542",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hao Gao",
+        "orcid": "https://orcid.org/0000-0002-7420-8213",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ce Zhao",
+        "orcid": null,
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1039/d1tc04827a",
+      "openAlexId": "https://openalex.org/W4210526504",
+      "landingUrl": "https://doi.org/10.1039/d1tc04827a",
+      "pdfUrl": "https://pubs.rsc.org/en/content/articlepdf/2022/tc/d1tc04827a",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4211200059",
+    "title": "A Paper-Based Microfluidic Analytical Device with A Highly Integrated On-Chip Valve For Autonomous ELISA",
+    "year": 2022,
+    "venue": "2022 IEEE 35th International Conference on Micro Electro Mechanical Systems Conference (MEMS)",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 11,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Tianyu Cai",
+        "orcid": "https://orcid.org/0009-0009-9599-7248",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hao Fu",
+        "orcid": "https://orcid.org/0000-0003-4963-6029",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jia Zhu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kaizhu Huang",
+        "orcid": "https://orcid.org/0000-0002-3034-9639",
+        "isGroupMember": false
+      },
+      {
+        "name": "Kai F. Hoettges",
+        "orcid": "https://orcid.org/0000-0002-0415-1688",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1109/mems51670.2022.9699652",
+      "openAlexId": "https://openalex.org/W4211200059",
+      "landingUrl": "https://doi.org/10.1109/mems51670.2022.9699652",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W3195104445",
+    "title": "Microfluidic devices for immobilization and micromanipulation of single cells and small organisms",
+    "year": 2021,
+    "venue": "Elsevier eBooks",
+    "type": "book-chapter",
+    "tldr": null,
+    "citationCount": 1,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Peng Pan",
+        "orcid": "https://orcid.org/0000-0003-0096-6801",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xianke Dong",
+        "orcid": "https://orcid.org/0000-0003-4386-9518",
+        "isGroupMember": false
+      },
+      {
+        "name": "Weize Zhang",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Yu Sun",
+        "orcid": "https://orcid.org/0000-0001-7895-0741",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/b978-0-12-819971-8.00016-0",
+      "openAlexId": "https://openalex.org/W3195104445",
+      "landingUrl": "https://doi.org/10.1016/b978-0-12-819971-8.00016-0",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W3157294063",
+    "title": "A microfluidic field-effect transistor biosensor with rolled-up indium nitride microtubes",
+    "year": 2021,
+    "venue": "Biosensors and Bioelectronics",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 37,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Hao Fu",
+        "orcid": "https://orcid.org/0000-0003-4963-6029",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yongjie Wang",
+        "orcid": "https://orcid.org/0000-0002-9268-837X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Cheng Chen",
+        "orcid": "https://orcid.org/0000-0003-3062-9048",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Ou",
+        "orcid": "https://orcid.org/0000-0002-3630-0385",
+        "isGroupMember": false
+      },
+      {
+        "name": "Roksana Tonny Rashid",
+        "orcid": "https://orcid.org/0000-0002-0170-0442",
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jun Song",
+        "orcid": "https://orcid.org/0000-0003-3675-574X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Zetian Mi",
+        "orcid": "https://orcid.org/0000-0001-9494-7390",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.bios.2021.113264",
+      "openAlexId": "https://openalex.org/W3157294063",
+      "landingUrl": "https://doi.org/10.1016/j.bios.2021.113264",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W3212765706",
+    "title": "A Ti3C2Tx MXene - carbon nanocage - sulfur cathode with high conductivity for improving the performance of Li-S batteries",
+    "year": 2021,
+    "venue": "Journal of Alloys and Compounds",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 32,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Xianwei Geng",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Chenguang Liu",
+        "orcid": "https://orcid.org/0000-0003-0173-0788",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yi Sun",
+        "orcid": "https://orcid.org/0000-0002-2203-0839",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ying‐Chao Zhao",
+        "orcid": "https://orcid.org/0009-0004-9284-6405",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ruowei Yi",
+        "orcid": "https://orcid.org/0000-0001-9783-5650",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Chun Zhao",
+        "orcid": "https://orcid.org/0000-0002-4783-960X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ivona Z. Mitrović",
+        "orcid": "https://orcid.org/0000-0003-4816-8905",
+        "isGroupMember": false
+      },
+      {
+        "name": "Li Yang",
+        "orcid": "https://orcid.org/0000-0002-1040-4223",
+        "isGroupMember": false
+      },
+      {
+        "name": "Cezhou Zhao",
+        "orcid": "https://orcid.org/0000-0002-4933-9692",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.jallcom.2021.162586",
+      "openAlexId": "https://openalex.org/W3212765706",
+      "landingUrl": "https://doi.org/10.1016/j.jallcom.2021.162586",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W3011479031",
+    "title": "Synthesis of praseodymium-and molybdenum- sulfide nanoparticles for dye-photodegradation and near-infrared deep-tissue imaging",
+    "year": 2020,
+    "venue": "Materials Research Express",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 5,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Ye Wu",
+        "orcid": "https://orcid.org/0000-0002-4831-9729",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Ou",
+        "orcid": "https://orcid.org/0000-0002-3630-0385",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jun Song",
+        "orcid": "https://orcid.org/0000-0003-3675-574X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ling Zhang",
+        "orcid": "https://orcid.org/0000-0002-1672-9715",
+        "isGroupMember": false
+      },
+      {
+        "name": "Yingcheng Lin",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jian Xu",
+        "orcid": "https://orcid.org/0000-0002-6595-8602",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1088/2053-1591/ab8160",
+      "openAlexId": "https://openalex.org/W3011479031",
+      "landingUrl": "https://doi.org/10.1088/2053-1591/ab8160",
+      "pdfUrl": "https://iopscience.iop.org/article/10.1088/2053-1591/ab8160/pdf",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W3087847574",
+    "title": "Robotic Prototyping of Paper-Based Field-Effect Transistors with Rolled-Up Semiconductor Microtubes",
+    "year": 2020,
+    "venue": "IEEE/ASME Transactions on Mechatronics",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 7,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Xianke Dong",
+        "orcid": "https://orcid.org/0000-0003-4386-9518",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xin Wang",
+        "orcid": "https://orcid.org/0000-0002-5854-1470",
+        "isGroupMember": false
+      },
+      {
+        "name": "Qigao Fan",
+        "orcid": "https://orcid.org/0000-0001-7504-1155",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1109/tmech.2020.3024996",
+      "openAlexId": "https://openalex.org/W3087847574",
+      "landingUrl": "https://doi.org/10.1109/tmech.2020.3024996",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W3039997151",
+    "title": "Automated Robotic Microinjection of the Nematode Worm Caenorhabditis elegans",
+    "year": 2020,
+    "venue": "IEEE Transactions on Automation Science and Engineering",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 20,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Xianke Dong",
+        "orcid": "https://orcid.org/0000-0003-4386-9518",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1109/tase.2020.2990995",
+      "openAlexId": "https://openalex.org/W3039997151",
+      "landingUrl": "https://doi.org/10.1109/tase.2020.2990995",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W2995438734",
+    "title": "Nanopaper: A Nanocellulose‐Paper‐Based SERS Multiwell Plate with High Sensitivity and High Signal Homogeneity (Adv. Mater. Interfaces 24/2019)",
+    "year": 2019,
+    "venue": "Advanced Materials Interfaces",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 0,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Longyan Chen",
+        "orcid": "https://orcid.org/0000-0002-6873-8621",
+        "isGroupMember": false
+      },
+      {
+        "name": "Binbin Ying",
+        "orcid": "https://orcid.org/0000-0001-8529-5036",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1002/admi.201970155",
+      "openAlexId": "https://openalex.org/W2995438734",
+      "landingUrl": "https://doi.org/10.1002/admi.201970155",
+      "pdfUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admi.201970155",
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W2994146784",
+    "title": "Enhanced Protein Adsorption in Fibrous Substrates Treated with Zeolitic Imidazolate Framework-8 (ZIF-8) Nanoparticles",
+    "year": 2019,
+    "venue": "ACS Applied Nano Materials",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 53,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Hao Fu",
+        "orcid": "https://orcid.org/0000-0003-4963-6029",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Ou",
+        "orcid": "https://orcid.org/0000-0002-3630-0385",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jia Zhu",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jiquan Yang",
+        "orcid": "https://orcid.org/0000-0002-0205-9749",
+        "isGroupMember": false
+      },
+      {
+        "name": "Ye Wu",
+        "orcid": "https://orcid.org/0000-0002-4831-9729",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1021/acsanm.9b01717",
+      "openAlexId": "https://openalex.org/W2994146784",
+      "landingUrl": "https://doi.org/10.1021/acsanm.9b01717",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W2924469606",
+    "title": "Effects of material heterogeneity on self-rolling of strained membranes",
+    "year": 2019,
+    "venue": "Extreme Mechanics Letters",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 1,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Cheng Chen",
+        "orcid": "https://orcid.org/0000-0002-2226-9102",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Fanchao Meng",
+        "orcid": "https://orcid.org/0000-0001-7091-472X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Ou",
+        "orcid": "https://orcid.org/0000-0002-3630-0385",
+        "isGroupMember": false
+      },
+      {
+        "name": "Guoqiang Lan",
+        "orcid": "https://orcid.org/0000-0003-1124-2120",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      },
+      {
+        "name": "Jun Song",
+        "orcid": "https://orcid.org/0000-0003-3675-574X",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.eml.2019.100451",
+      "openAlexId": "https://openalex.org/W2924469606",
+      "landingUrl": "https://doi.org/10.1016/j.eml.2019.100451",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W2984258888",
+    "title": "A Nanocellulose‐Paper‐Based SERS Multiwell Plate with High Sensitivity and High Signal Homogeneity",
+    "year": 2019,
+    "venue": "Advanced Materials Interfaces",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 52,
+    "openAccess": false,
+    "authors": [
+      {
+        "name": "Longyan Chen",
+        "orcid": "https://orcid.org/0000-0002-6873-8621",
+        "isGroupMember": false
+      },
+      {
+        "name": "Binbin Ying",
+        "orcid": "https://orcid.org/0000-0001-8529-5036",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0000-0001-5705-9765",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1002/admi.201901346",
+      "openAlexId": "https://openalex.org/W2984258888",
+      "landingUrl": "https://doi.org/10.1002/admi.201901346",
+      "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  }
+]

@@ -1,0 +1,18 @@
+# Use this file to add publications that cannot be fetched automatically
+# or to override metadata (tldr, code links, etc.). Fields are optional.
+
+- id: manual-entry-example
+  title: "Demo Publication for Manual Merge"
+  year: 2023
+  venue: "Journal of Local Research"
+  doi: 10.0000/demo.doi
+  landing_url: https://doi.org/10.0000/demo.doi
+  pdf_url: https://example.com/demo.pdf
+  code_url: https://github.com/example/demo
+  tldr: "One-line summary for manual entries."
+  citation_count: 12
+  authors:
+    - name: Peng Song
+      is_group_member: true
+    - name: Teammate A
+  notes: "Remove this example after you hook up the automated fetch."
