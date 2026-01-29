@@ -1270,36 +1270,6 @@
     "source": "openalex"
   },
   {
-    "id": "manual-entry-example",
-    "title": "Demo Publication for Manual Merge",
-    "year": 2023,
-    "venue": "Journal of Local Research",
-    "tldr": "One-line summary for manual entries.",
-    "citationCount": 12,
-    "openAccess": true,
-    "authors": [
-      {
-        "name": "Peng Song",
-        "orcid": null,
-        "isGroupMember": true
-      },
-      {
-        "name": "Teammate A",
-        "orcid": null,
-        "isGroupMember": false
-      }
-    ],
-    "links": {
-      "doi": "10.0000/demo.doi",
-      "openAlexId": null,
-      "landingUrl": "https://doi.org/10.0000/demo.doi",
-      "pdfUrl": "https://example.com/demo.pdf",
-      "codeUrl": "https://github.com/example/demo"
-    },
-    "source": "manual",
-    "manualNote": "Remove this example after you hook up the automated fetch."
-  },
-  {
     "id": "https://openalex.org/W4318615266",
     "title": "Deep learning-assisted ultra-accurate smartphone testing of paper-based colorimetric ELISA assays",
     "year": 2023,

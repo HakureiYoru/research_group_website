@@ -7,7 +7,7 @@ import {
 
 export const metadata: Metadata = {
   title: "学术成果 / Publications",
-  description: "课题组通过 OpenAlex 与 Semantic Scholar 聚合的开放出版物列表。",
+  description: "课题组开放出版物列表。",
 };
 
 export const dynamic = "force-static";
