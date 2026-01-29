@@ -4,6 +4,7 @@ import { cache } from "react";
 import { Publication } from "@/types";
 
 const DATA_PATH = path.join(process.cwd(), "data", "publications.json");
+const MEMBERS_PATH = path.join(process.cwd(), "data", "members.json");
 
 const readPublications = cache(async (): Promise<Publication[]> => {
   const fileContents = await fs.readFile(DATA_PATH, "utf8");
@@ -12,6 +13,17 @@ const readPublications = cache(async (): Promise<Publication[]> => {
     ...pub,
     year: typeof pub.year === "string" ? parseInt(pub.year, 10) : pub.year,
   }));
+});
+
+const readMembers = cache(async (): Promise<string[]> => {
+  try {
+    const fileContents = await fs.readFile(MEMBERS_PATH, "utf8");
+    const parsed = JSON.parse(fileContents) as { students: string[] };
+    return parsed.students || [];
+  } catch (error) {
+    console.error(`Error loading members.json:`, error);
+    return [];
+  }
 });
 
 async function loadPublications(fallback: Publication[] = []): Promise<Publication[]> {
@@ -24,7 +36,27 @@ async function loadPublications(fallback: Publication[] = []): Promise<Publicati
 }
 
 export async function getPublicationsData(): Promise<Publication[]> {
-  return loadPublications([]);
+  const publications = await loadPublications([]);
+  const members = await readMembers();
+  
+  // 过滤：只展示同时包含 Pengfei Song 和至少一个成员的论文
+  return publications.filter((pub) => {
+    const authorNames = pub.authors.map(a => a.name.toLowerCase());
+    
+    // 检查是否包含 Pengfei Song
+    const hasPengfei = authorNames.some(name => 
+      name.includes('pengfei') && name.includes('song')
+    );
+    
+    if (!hasPengfei) return false;
+    
+    // 检查是否包含至少一个成员
+    const hasMember = members.some(member => 
+      authorNames.some(name => name.includes(member.toLowerCase()))
+    );
+    
+    return hasMember;
+  });
 }
 
 export async function getPublicationsByAuthor(author: string): Promise<Publication[]> {
