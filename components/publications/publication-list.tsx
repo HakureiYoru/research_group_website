@@ -124,7 +124,7 @@ export default function PublicationList({ groups }: PublicationListProps) {
               />
             </svg>
           </div>
-          <p className="text-slate-500 text-lg">没有找到匹配 "{searchTerm}" 的结果</p>
+          <p className="text-slate-500 text-lg">没有找到匹配 &ldquo;{searchTerm}&rdquo; 的结果</p>
           <button
             onClick={() => setSearchTerm("")}
             className="mt-4 text-primary font-medium hover:underline"
