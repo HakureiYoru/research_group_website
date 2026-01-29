@@ -23,7 +23,6 @@ ROOT_DIR = Path(__file__).resolve().parent
 DATA_DIR = ROOT_DIR / "data"
 OUTPUT_PATH = DATA_DIR / "publications.json"
 MANUAL_FILE = Path(os.getenv("MANUAL_PUBS_FILE", DATA_DIR / "manual_pubs.yaml"))
-MEMBERS_FILE = Path(os.getenv("MEMBERS_FILE", DATA_DIR / "members.json"))
 QUERIES_FILE = Path(os.getenv("OPENALEX_QUERIES_FILE", DATA_DIR / "openalex_queries.json"))
 
 OPENALEX_BASE = "https://api.openalex.org"
@@ -45,18 +44,6 @@ def normalize_doi(doi: str) -> str:
             doi = doi[len(prefix) :]
             break
     return doi
-
-
-def load_members(path: Path) -> List[Dict[str, Any]]:
-    if os.getenv("MEMBERS_JSON"):
-        return json.loads(os.getenv("MEMBERS_JSON", "[]"))
-
-    if not path.exists():
-        logging.warning("Member file %s not found; no author anchoring will be applied.", path)
-        return []
-
-    with path.open("r", encoding="utf-8") as handle:
-        return json.load(handle)
 
 
 def load_manual_entries(path: Path) -> List[Dict[str, Any]]:
@@ -83,16 +70,6 @@ def load_openalex_queries(path: Path) -> List[str]:
     return []
 
 
-def build_member_lookup(members: List[Dict[str, Any]]) -> Set[str]:
-    lookup: Set[str] = set()
-    for member in members:
-        if "name" in member:
-            lookup.add(normalize_name(member["name"]))
-        for alias in member.get("aliases", []):
-            lookup.add(normalize_name(alias))
-    return lookup
-
-
 def best_pdf_url(work: Dict[str, Any]) -> Optional[str]:
     oa = work.get("best_oa_location") or {}
     return oa.get("url_for_pdf") or oa.get("url")
@@ -102,71 +79,6 @@ def resolve_venue(work: Dict[str, Any]) -> Optional[str]:
     primary = (work.get("primary_location") or {}).get("source") or {}
     host_venue = work.get("host_venue") or {}
     return primary.get("display_name") or host_venue.get("display_name")
-
-
-def is_placeholder(value: Optional[str]) -> bool:
-    if not value:
-        return True
-    v = value.lower()
-    return any(
-        marker in v
-        for marker in [
-            "0000-0000-0000-0000",
-            "a000000000",
-            "i000000000",
-            "placeholder",
-        ]
-    )
-
-
-def author_filter(member: Dict[str, Any]) -> Optional[str]:
-    parts = []
-    if member.get("orcid") and not is_placeholder(member.get("orcid")):
-        orcid = member["orcid"]
-        if not orcid.startswith("http"):
-            orcid = f"https://orcid.org/{orcid}"
-        parts.append(f"author.orcid:{orcid}")
-    if member.get("openalex_id") and not is_placeholder(member.get("openalex_id")):
-        parts.append(f"authorships.author.id:{member['openalex_id']}")
-    if member.get("institution_id") and not is_placeholder(member.get("institution_id")):
-        parts.append(f"authorships.institutions.lineage:{member['institution_id']}")
-    if (
-        member.get("institution_id")
-        and not is_placeholder(member.get("institution_id"))
-        and member.get("name")
-    ):
-        parts.append(f"authorships.author.display_name.search:{member['name']}")
-
-    if not parts:
-        return None
-    return ",".join(parts)
-
-
-
-def fetch_openalex_works(member: Dict[str, Any], mailto: str) -> Iterable[Dict[str, Any]]:
-    anchor = author_filter(member)
-    if not anchor:
-        logging.info("Skipping member %s: no ORCID/openalex_id/institution anchor.", member.get("name"))
-        return []
-
-    params = {
-        "filter": anchor,
-        "per_page": 200,
-        "cursor": "*",
-        "mailto": mailto,
-        "sort": "cited_by_count:desc",
-    }
-    headers = {"User-Agent": f"research-group-fetcher (mailto:{mailto})"}
-    url = f"{OPENALEX_BASE}/works"
-
-    logging.info("Fetching OpenAlex works for %s with filter %s", member.get("name"), anchor)
-    while params["cursor"]:
-        response = requests.get(url, params=params, headers=headers, timeout=30)
-        response.raise_for_status()
-        payload = response.json()
-        for work in payload.get("results", []):
-            yield work
-        params["cursor"] = payload.get("meta", {}).get("next_cursor")
 
 
 def fetch_openalex_query(raw_url: str, mailto: str) -> Iterable[Dict[str, Any]]:
@@ -185,16 +97,28 @@ def fetch_openalex_query(raw_url: str, mailto: str) -> Iterable[Dict[str, Any]]:
 
     headers = {"User-Agent": f"research-group-fetcher (mailto:{query_params['mailto']})"}
 
+    page_count = 0
+    total_fetched = 0
     while query_params.get("cursor"):
         response = requests.get(base_url, params=query_params, headers=headers, timeout=30)
         response.raise_for_status()
         payload = response.json()
-        for work in payload.get("results", []):
+        results = payload.get("results", [])
+        page_count += 1
+        total_fetched += len(results)
+        
+        if results:
+            logging.info("  📄 Page %d: fetched %d works (total: %d)", page_count, len(results), total_fetched)
+        
+        for work in results:
             yield work
+        
         query_params["cursor"] = payload.get("meta", {}).get("next_cursor")
+    
+    logging.info("  ✓ Completed: fetched %d works total from this query", total_fetched)
 
 
-def extract_publication(work: Dict[str, Any], member_lookup: Set[str]) -> Dict[str, Any]:
+def extract_publication(work: Dict[str, Any]) -> Dict[str, Any]:
     doi = work.get("doi")
     links: Dict[str, Optional[str]] = {
         "doi": doi,
@@ -209,12 +133,11 @@ def extract_publication(work: Dict[str, Any], member_lookup: Set[str]) -> Dict[s
         name = authorship.get("author", {}).get("display_name") or authorship.get("display_name")
         if not name:
             continue
-        is_group = normalize_name(name) in member_lookup
         authors.append(
             {
                 "name": name,
                 "orcid": authorship.get("author", {}).get("orcid"),
-                "isGroupMember": is_group,
+                "isGroupMember": False,
             }
         )
 
@@ -254,8 +177,7 @@ def merge_links(target: Dict[str, Any], incoming: Dict[str, Any], prefer_incomin
 
 
 class PublicationStore:
-    def __init__(self, member_lookup: Set[str]) -> None:
-        self.member_lookup = member_lookup
+    def __init__(self) -> None:
         self._by_key: Dict[str, Dict[str, Any]] = {}
 
     def _keys_for(self, publication: Dict[str, Any]) -> List[str]:
@@ -336,6 +258,10 @@ def fetch_semantic_scholar(doi: str) -> Optional[Dict[str, Any]]:
 
 def apply_semantic_scholar(store: PublicationStore) -> None:
     seen = set()
+    total_pubs = len(store.publications)
+    processed = 0
+    enriched_count = 0
+    
     for publication in store.publications:
         doi = publication.get("links", {}).get("doi")
         if not doi:
@@ -344,16 +270,21 @@ def apply_semantic_scholar(store: PublicationStore) -> None:
         if normalized in seen:
             continue
         seen.add(normalized)
+        processed += 1
+
+        if processed % 10 == 0 or processed == len(seen):
+            logging.info("  📊 Progress: %d/%d publications checked", processed, len(seen))
 
         try:
             enriched = fetch_semantic_scholar(doi)
         except requests.RequestException as exc:
-            logging.warning("Semantic Scholar request failed for %s: %s", doi, exc)
+            logging.warning("  ⚠️  Semantic Scholar request failed for %s: %s", doi, exc)
             continue
 
         if not enriched:
             continue
 
+        enriched_count += 1
         incoming = {
             "id": publication.get("id"),
             "title": publication.get("title"),
@@ -365,6 +296,8 @@ def apply_semantic_scholar(store: PublicationStore) -> None:
             "source": "semantic-scholar",
         }
         store.add_or_merge(incoming, prefer_incoming=True)
+    
+    logging.info("  ✓ Enriched %d publications with Semantic Scholar data", enriched_count)
 
 
 def fetch_unpaywall_pdf(doi: str) -> Optional[str]:
@@ -383,6 +316,16 @@ def fetch_unpaywall_pdf(doi: str) -> Optional[str]:
 
 
 def apply_unpaywall(store: PublicationStore) -> None:
+    processed = 0
+    found_pdfs = 0
+    total_without_pdf = sum(1 for p in store.publications if not p.get("links", {}).get("pdfUrl") and p.get("links", {}).get("doi"))
+    
+    if total_without_pdf == 0:
+        logging.info("  ℹ️  All publications already have PDF URLs, skipping Unpaywall")
+        return
+    
+    logging.info("  🔍 Checking %d publications without PDFs", total_without_pdf)
+    
     for publication in store.publications:
         links = publication.get("links", {})
         if links.get("pdfUrl"):
@@ -390,20 +333,34 @@ def apply_unpaywall(store: PublicationStore) -> None:
         doi = links.get("doi")
         if not doi:
             continue
+        
+        processed += 1
+        if processed % 10 == 0 or processed == total_without_pdf:
+            logging.info("  📊 Progress: %d/%d checked, %d PDFs found", processed, total_without_pdf, found_pdfs)
+        
         try:
             pdf_url = fetch_unpaywall_pdf(doi)
         except requests.RequestException as exc:
-            logging.warning("Unpaywall request failed for %s: %s", doi, exc)
+            logging.warning("  ⚠️  Unpaywall request failed for %s: %s", doi, exc)
             continue
         if pdf_url:
+            found_pdfs += 1
             links["pdfUrl"] = pdf_url
             publication["links"] = links
             publication["openAccess"] = True
             if not publication.get("source"):
                 publication["source"] = "unpaywall"
+    
+    logging.info("  ✓ Found %d PDF URLs via Unpaywall", found_pdfs)
 
 
 def apply_manual_entries(store: PublicationStore, manual_entries: List[Dict[str, Any]]) -> None:
+    if not manual_entries:
+        logging.info("  ℹ️  No manual entries to merge")
+        return
+    
+    logging.info("  📝 Merging %d manual entr%s", len(manual_entries), "y" if len(manual_entries) == 1 else "ies")
+    
     for entry in manual_entries:
         links = {
             "doi": entry.get("doi"),
@@ -435,44 +392,65 @@ def apply_manual_entries(store: PublicationStore, manual_entries: List[Dict[str,
             "manualNote": entry.get("notes"),
         }
         store.add_or_merge(publication, prefer_incoming=True)
+    
+    logging.info("  ✓ Successfully merged %d manual entr%s", len(manual_entries), "y" if len(manual_entries) == 1 else "ies")
 
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    members = load_members(MEMBERS_FILE)
+    logging.info("=" * 60)
+    logging.info("🚀 Starting publication fetcher")
+    logging.info("=" * 60)
+
     queries = load_openalex_queries(QUERIES_FILE)
     manual_entries = load_manual_entries(MANUAL_FILE)
-    member_lookup = build_member_lookup(members)
 
-    store = PublicationStore(member_lookup)
+    logging.info("📋 Found %d OpenAlex quer%s to process", len(queries), "y" if len(queries) == 1 else "ies")
+    if manual_entries:
+        logging.info("📋 Found %d manual entr%s to merge", len(manual_entries), "y" if len(manual_entries) == 1 else "ies")
 
-    # 1) Explicit OpenAlex queries (URL list) take priority
-    for raw_url in queries:
-        logging.info("Fetching OpenAlex works via query URL: %s", raw_url)
+    store = PublicationStore()
+
+    # Fetch publications from OpenAlex queries
+    logging.info("")
+    logging.info("📥 Stage 1/4: Fetching from OpenAlex queries")
+    for idx, raw_url in enumerate(queries, 1):
+        logging.info("🔍 Query %d/%d: %s", idx, len(queries), raw_url[:100] + "..." if len(raw_url) > 100 else raw_url)
         try:
+            query_count = 0
             for work in fetch_openalex_query(raw_url, DEFAULT_MAILTO):
-                store.add_or_merge(extract_publication(work, member_lookup))
+                store.add_or_merge(extract_publication(work))
+                query_count += 1
         except requests.RequestException as exc:
-            logging.warning("OpenAlex fetch failed for query %s: %s", raw_url, exc)
+            logging.warning("❌ OpenAlex fetch failed for query %d: %s", idx, exc)
+    
+    logging.info("✅ Stage 1 complete: %d unique publications in store", len(store.publications))
 
-    # 2) Member-based anchors (fallback/augment)
-    for member in members:
-        try:
-            for work in fetch_openalex_works(member, DEFAULT_MAILTO):
-                store.add_or_merge(extract_publication(work, member_lookup))
-        except requests.RequestException as exc:
-            logging.warning("OpenAlex fetch failed for %s: %s", member.get("name"), exc)
-
+    logging.info("")
+    logging.info("🔬 Stage 2/4: Enriching with Semantic Scholar")
     apply_semantic_scholar(store)
+    logging.info("✅ Stage 2 complete")
+
+    logging.info("")
+    logging.info("🔓 Stage 3/4: Finding PDFs via Unpaywall")
     apply_unpaywall(store)
+    logging.info("✅ Stage 3 complete")
+
+    logging.info("")
+    logging.info("📝 Stage 4/4: Merging manual entries")
     apply_manual_entries(store, manual_entries)
+    logging.info("✅ Stage 4 complete")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_PATH.open("w", encoding="utf-8") as handle:
         json.dump(store.publications, handle, ensure_ascii=False, indent=2)
-    logging.info("Wrote %d publications to %s", len(store.publications), OUTPUT_PATH)
+    
+    logging.info("")
+    logging.info("=" * 60)
+    logging.info("✨ Success! Wrote %d publications to %s", len(store.publications), OUTPUT_PATH)
+    logging.info("=" * 60)
 
 
 if __name__ == "__main__":
