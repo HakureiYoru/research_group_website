@@ -101,7 +101,7 @@
     "venue": "Analytical Chemistry",
     "type": "article",
     "tldr": null,
-    "citationCount": 6,
+    "citationCount": 7,
     "openAccess": false,
     "authors": [
       {
@@ -161,7 +161,7 @@
     "venue": "Advanced Functional Materials",
     "type": "article",
     "tldr": null,
-    "citationCount": 1,
+    "citationCount": 3,
     "openAccess": false,
     "authors": [
       {
@@ -261,7 +261,7 @@
     "venue": "Optics Express",
     "type": "article",
     "tldr": null,
-    "citationCount": 0,
+    "citationCount": 2,
     "openAccess": true,
     "authors": [
       {
@@ -366,7 +366,7 @@
     "venue": "Analytical Chemistry",
     "type": "article",
     "tldr": null,
-    "citationCount": 2,
+    "citationCount": 3,
     "openAccess": false,
     "authors": [
       {
@@ -436,7 +436,7 @@
     "venue": "IEEE Sensors Journal",
     "type": "article",
     "tldr": null,
-    "citationCount": 1,
+    "citationCount": 2,
     "openAccess": false,
     "authors": [
       {
@@ -496,7 +496,7 @@
     "venue": "Microsystems & Nanoengineering",
     "type": "article",
     "tldr": null,
-    "citationCount": 7,
+    "citationCount": 11,
     "openAccess": true,
     "authors": [
       {
@@ -556,7 +556,7 @@
     "venue": "Lab on a Chip",
     "type": "article",
     "tldr": null,
-    "citationCount": 7,
+    "citationCount": 8,
     "openAccess": false,
     "authors": [
       {
@@ -626,7 +626,7 @@
     "venue": "Microsystems & Nanoengineering",
     "type": "article",
     "tldr": null,
-    "citationCount": 0,
+    "citationCount": 1,
     "openAccess": true,
     "authors": [
       {
@@ -696,7 +696,7 @@
     "venue": "Analytica Chimica Acta",
     "type": "article",
     "tldr": null,
-    "citationCount": 1,
+    "citationCount": 3,
     "openAccess": false,
     "authors": [
       {
@@ -816,7 +816,7 @@
     "venue": "Solar RRL",
     "type": "article",
     "tldr": null,
-    "citationCount": 1,
+    "citationCount": 2,
     "openAccess": true,
     "authors": [
       {
@@ -881,7 +881,7 @@
     "venue": "Humanities and Social Sciences Communications",
     "type": "article",
     "tldr": null,
-    "citationCount": 0,
+    "citationCount": 1,
     "openAccess": true,
     "authors": [
       {
@@ -956,7 +956,7 @@
     "venue": "Rare Metals",
     "type": "article",
     "tldr": null,
-    "citationCount": 17,
+    "citationCount": 21,
     "openAccess": false,
     "authors": [
       {
@@ -1041,7 +1041,7 @@
     "venue": "Electron",
     "type": "article",
     "tldr": null,
-    "citationCount": 6,
+    "citationCount": 8,
     "openAccess": true,
     "authors": [
       {
@@ -1101,7 +1101,7 @@
     "venue": "ACS Applied Materials & Interfaces",
     "type": "article",
     "tldr": null,
-    "citationCount": 15,
+    "citationCount": 16,
     "openAccess": true,
     "authors": [
       {
@@ -1176,7 +1176,7 @@
     "venue": "Journal of Materials Chemistry A",
     "type": "article",
     "tldr": null,
-    "citationCount": 11,
+    "citationCount": 14,
     "openAccess": false,
     "authors": [
       {
@@ -1236,7 +1236,7 @@
     "venue": "ChemPlusChem",
     "type": "article",
     "tldr": null,
-    "citationCount": 8,
+    "citationCount": 10,
     "openAccess": false,
     "authors": [
       {
@@ -1321,7 +1321,7 @@
     "venue": "Analytica Chimica Acta",
     "type": "article",
     "tldr": null,
-    "citationCount": 23,
+    "citationCount": 24,
     "openAccess": false,
     "authors": [
       {
@@ -1526,7 +1526,7 @@
     "venue": "Analytica Chimica Acta",
     "type": "article",
     "tldr": null,
-    "citationCount": 17,
+    "citationCount": 18,
     "openAccess": false,
     "authors": [
       {
@@ -1706,7 +1706,7 @@
     "venue": "ACS Sensors",
     "type": "article",
     "tldr": null,
-    "citationCount": 32,
+    "citationCount": 35,
     "openAccess": false,
     "authors": [
       {
@@ -1755,6 +1755,81 @@
       "openAlexId": "https://openalex.org/W4386726428",
       "landingUrl": "https://doi.org/10.1021/acssensors.3c01221",
       "pdfUrl": null,
+      "codeUrl": null
+    },
+    "source": "openalex"
+  },
+  {
+    "id": "https://openalex.org/W4317438718",
+    "title": "Microfluidic-Assisted <i>Caenorhabditis elegans</i> Sorting: Current Status and Future Prospects",
+    "year": 2023,
+    "venue": "Cyborg and Bionic Systems",
+    "type": "article",
+    "tldr": null,
+    "citationCount": 51,
+    "openAccess": true,
+    "authors": [
+      {
+        "name": "Hang Yuan",
+        "orcid": "https://orcid.org/0000-0002-8079-7413",
+        "isGroupMember": false
+      },
+      {
+        "name": "Wenwen Yuan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Sixuan Duan",
+        "orcid": "https://orcid.org/0000-0002-3533-257X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Keran Jiao",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Quan Zhang",
+        "orcid": "https://orcid.org/0000-0002-2716-0747",
+        "isGroupMember": false
+      },
+      {
+        "name": "Eng Gee Lim",
+        "orcid": "https://orcid.org/0000-0003-0199-7386",
+        "isGroupMember": false
+      },
+      {
+        "name": "Min Chen",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Chun Zhao",
+        "orcid": "https://orcid.org/0000-0002-4783-960X",
+        "isGroupMember": false
+      },
+      {
+        "name": "Peng Pan",
+        "orcid": null,
+        "isGroupMember": false
+      },
+      {
+        "name": "Xinyu Liu",
+        "orcid": "https://orcid.org/0009-0000-3558-8367",
+        "isGroupMember": false
+      },
+      {
+        "name": "Pengfei Song",
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
+        "isGroupMember": false
+      }
+    ],
+    "links": {
+      "doi": "https://doi.org/10.34133/cbsystems.0011",
+      "openAlexId": "https://openalex.org/W4317438718",
+      "landingUrl": "https://doi.org/10.34133/cbsystems.0011",
+      "pdfUrl": "https://doi.org/10.34133/cbsystems.0011",
       "codeUrl": null
     },
     "source": "openalex"
@@ -1826,7 +1901,7 @@
     "venue": "ACS Applied Materials & Interfaces",
     "type": "article",
     "tldr": null,
-    "citationCount": 19,
+    "citationCount": 20,
     "openAccess": false,
     "authors": [
       {
@@ -1991,7 +2066,7 @@
     "venue": "Analytica Chimica Acta",
     "type": "article",
     "tldr": null,
-    "citationCount": 33,
+    "citationCount": 35,
     "openAccess": false,
     "authors": [
       {
@@ -2076,7 +2151,7 @@
     "venue": "Micromachines",
     "type": "article",
     "tldr": null,
-    "citationCount": 13,
+    "citationCount": 14,
     "openAccess": true,
     "authors": [
       {
@@ -2222,7 +2297,7 @@
     "type": "article",
     "tldr": null,
     "citationCount": 17,
-    "openAccess": false,
+    "openAccess": true,
     "authors": [
       {
         "name": "Xianwei Geng",
@@ -2244,7 +2319,7 @@
       "doi": "https://doi.org/10.1002/chem.202303451",
       "openAlexId": "https://openalex.org/W4389339751",
       "landingUrl": "https://doi.org/10.1002/chem.202303451",
-      "pdfUrl": null,
+      "pdfUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.202303451",
       "codeUrl": null
     },
     "source": "openalex"
@@ -2396,7 +2471,7 @@
     "venue": "C – Journal of Carbon Research",
     "type": "review",
     "tldr": null,
-    "citationCount": 27,
+    "citationCount": 31,
     "openAccess": true,
     "authors": [
       {
@@ -2436,7 +2511,7 @@
     "venue": "Humanities and Social Sciences Communications",
     "type": "article",
     "tldr": null,
-    "citationCount": 56,
+    "citationCount": 61,
     "openAccess": true,
     "authors": [
       {
@@ -2546,7 +2621,7 @@
     "venue": "Applied Physics Letters",
     "type": "article",
     "tldr": null,
-    "citationCount": 5,
+    "citationCount": 7,
     "openAccess": true,
     "authors": [
       {
@@ -2621,7 +2696,7 @@
     "venue": "Nano Energy",
     "type": "article",
     "tldr": null,
-    "citationCount": 77,
+    "citationCount": 80,
     "openAccess": false,
     "authors": [
       {
@@ -2791,7 +2866,7 @@
     "venue": "Carbon",
     "type": "article",
     "tldr": null,
-    "citationCount": 30,
+    "citationCount": 32,
     "openAccess": false,
     "authors": [
       {
@@ -2926,32 +3001,32 @@
     "authors": [
       {
         "name": "Yixin Cao",
-        "orcid": null,
+        "orcid": "https://orcid.org/0000-0002-6927-438X",
         "isGroupMember": false
       },
       {
         "name": "Tianshi Zhao",
-        "orcid": null,
+        "orcid": "https://orcid.org/0000-0002-9303-7413",
         "isGroupMember": false
       },
       {
         "name": "Chun Zhao",
-        "orcid": null,
+        "orcid": "https://orcid.org/0000-0002-4783-960X",
         "isGroupMember": false
       },
       {
         "name": "Yina Liu",
-        "orcid": null,
+        "orcid": "https://orcid.org/0000-0002-3485-7542",
         "isGroupMember": false
       },
       {
         "name": "Pengfei Song",
-        "orcid": null,
+        "orcid": "https://orcid.org/0000-0001-6337-7292",
         "isGroupMember": false
       },
       {
         "name": "Hao Gao",
-        "orcid": null,
+        "orcid": "https://orcid.org/0000-0002-7420-8213",
         "isGroupMember": false
       },
       {
@@ -3171,7 +3246,7 @@
     "venue": "Journal of Alloys and Compounds",
     "type": "article",
     "tldr": null,
-    "citationCount": 34,
+    "citationCount": 35,
     "openAccess": false,
     "authors": [
       {
@@ -3531,7 +3606,7 @@
     "venue": "Advanced Materials Interfaces",
     "type": "article",
     "tldr": null,
-    "citationCount": 53,
+    "citationCount": 54,
     "openAccess": false,
     "authors": [
       {
